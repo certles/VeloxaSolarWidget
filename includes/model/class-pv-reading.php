@@ -71,13 +71,19 @@ final class PV_Reading {
 	/**
 	 * Kopia odczytu z oszacowanym zużyciem domu — tryb awaryjny, wyłączony
 	 * domyślnie i włączany w połączeniu (docs/etap-1.md, 1.5). Źródło, które
-	 * samo podaje home_power, zostaje bez zmian. Ujemny wynik (niespójne
-	 * czasy pomiarów pól) przycięty do 0 — home_power jest zawsze ≥ 0.
+	 * samo podaje home_power, zostaje bez zmian — chyba że $replace_measured
+	 * (opcja połączenia „licz zużycie domu z bilansu”, 0.7.12): wtedy pomiar
+	 * jest zastępowany bilansem, żeby przepływ energii się sumował (liczniki
+	 * domu zwykle nie obejmują części odbiorów i strat). Ujemny wynik
+	 * (niespójne czasy pomiarów pól) przycięty do 0 — home_power jest zawsze ≥ 0.
 	 *
+	 * @param bool $replace_measured Zastąp też zmierzone zużycie domu.
 	 * @return PV_Reading
 	 */
-	public function with_estimated_home_power(): PV_Reading {
-		if ( $this->has( 'home_power' ) || ! self::can_estimate_home_power( $this->fields() ) ) {
+	public function with_estimated_home_power( bool $replace_measured = false ): PV_Reading {
+		$fields = array_values( array_diff( $this->fields(), array( 'home_power' ) ) );
+
+		if ( ( $this->has( 'home_power' ) && ! $replace_measured ) || ! self::can_estimate_home_power( $fields ) ) {
 			return $this;
 		}
 

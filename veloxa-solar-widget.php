@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       Veloxa Solar Widget – Solar Production Display
  * Description:       Displays current solar production data (power, energy today/total) on your WordPress site via shortcode and Gutenberg block — a presentation layer for PV data you already monitor elsewhere.
- * Version:           0.7.11
+ * Version:           0.7.12
  * Requires at least: 6.0
  * Requires PHP:      8.1
  * Author:            WPVeloxa
@@ -106,7 +106,7 @@ if ( function_exists( 'veloxa_solar_fs' ) ) {
          */
         do_action( 'veloxa_solar_fs_loaded' );
     }
-    define( 'VELOXA_SOLAR_VERSION', '0.7.11' );
+    define( 'VELOXA_SOLAR_VERSION', '0.7.12' );
     define( 'VELOXA_SOLAR_PLUGIN_FILE', __FILE__ );
     define( 'VELOXA_SOLAR_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
     define( 'VELOXA_SOLAR_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

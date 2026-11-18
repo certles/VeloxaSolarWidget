@@ -109,13 +109,30 @@ abstract class Abstract_Source extends Abstract_Connector {
 	}
 
 	/**
+	 * Czy zużycie domu ma być zawsze liczone z bilansu (panele + sieć −
+	 * bateria), także gdy źródło je mierzy (0.7.12, domyślnie wyłączone).
+	 * Liczniki domu zwykle pomijają część odbiorów i straty, więc pomiary nie
+	 * sumują się w widgecie przepływu energii; bilans sumuje się z definicji
+	 * i jest oznaczany jako szacunek.
+	 *
+	 * @return bool
+	 */
+	public function home_from_balance(): bool {
+		return ! empty( $this->config['home_from_balance'] );
+	}
+
+	/**
 	 * Odczyt gotowy do zapisu: z szacunkiem zużycia domu tylko wtedy, gdy
-	 * połączenie go włącza.
+	 * połączenie go włącza (brakujący pomiar albo zawsze z bilansu).
 	 *
 	 * @param PV_Reading $reading Odczyt ze źródła.
 	 * @return PV_Reading
 	 */
 	public function finalize_reading( PV_Reading $reading ): PV_Reading {
+		if ( $this->home_from_balance() ) {
+			return $reading->with_estimated_home_power( true );
+		}
+
 		return $this->estimates_home_power() ? $reading->with_estimated_home_power() : $reading;
 	}
 
@@ -228,7 +245,7 @@ abstract class Abstract_Source extends Abstract_Connector {
 
 		// Szacunek zużycia domu (jeśli włączony i możliwy) — widget przepływu
 		// energii może go wtedy użyć, z oznaczeniem szacunku.
-		if ( ! isset( $mapped['home_power'] ) && $this->estimates_home_power() && PV_Reading::can_estimate_home_power( array_keys( $mapped ) ) ) {
+		if ( ! isset( $mapped['home_power'] ) && ( $this->estimates_home_power() || $this->home_from_balance() ) && PV_Reading::can_estimate_home_power( array_keys( $mapped ) ) ) {
 			$mapped['home_power'] = array();
 		}
 

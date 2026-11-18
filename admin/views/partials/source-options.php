@@ -32,6 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			echo esc_html( sprintf( __( 'Fallback only, off by default: %s (grid positive when taking power from the grid, battery positive when charging). It ignores inverter losses, so it reads higher than a measured value. Estimated values are marked "≈".', 'veloxa-solar-widget' ), 'solar + grid − battery' ) );
 			?>
 		</p>
+		<?php require __DIR__ . '/home-from-balance-option.php'; ?>
 	</td>
 </tr>
 <tr>

@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Veloxa Solar Widget – Solar Production Display 0.7.10\n"
+"Project-Id-Version: Veloxa Solar Widget – Solar Production Display 0.7.12\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/veloxa-solar-widget\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-04T20:42:43+00:00\n"
+"POT-Creation-Date: 2026-11-15T19:58:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: veloxa-solar-widget\n"
@@ -61,11 +61,11 @@ msgid "Connect a SolarEdge installation using an API key from the monitoring por
 msgstr ""
 
 #: admin/class-connections-page.php:217
-#: admin/class-connections-page.php:781
-#: admin/class-connections-page.php:1071
+#: admin/class-connections-page.php:782
+#: admin/class-connections-page.php:1072
 #: admin/class-diagnostics-page.php:120
-#: includes/premium/solaredge/class-solaredge-admin.php:262
-#: includes/premium/solarman/class-solarman-admin.php:471
+#: includes/premium/solaredge/class-solaredge-admin.php:273
+#: includes/premium/solarman/class-solarman-admin.php:482
 msgid "Connection not found."
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 
 #: admin/class-connections-page.php:463
 #: admin/views/connections-page.php:36
-#: includes/class-plugin.php:242
+#: includes/class-plugin.php:245
 msgid "Home Assistant"
 msgstr ""
 
@@ -129,36 +129,36 @@ msgid "SolaX Cloud"
 msgstr ""
 
 #: admin/class-connections-page.php:528
-#: admin/class-connections-page.php:612
-#: admin/class-connections-page.php:672
-#: admin/class-connections-page.php:750
-#: admin/class-connections-page.php:806
-#: admin/class-connections-page.php:839
-#: admin/class-connections-page.php:931
-#: admin/class-connections-page.php:981
-#: admin/class-connections-page.php:1036
-#: admin/class-connections-page.php:1063
-#: admin/class-connections-page.php:1090
+#: admin/class-connections-page.php:613
+#: admin/class-connections-page.php:673
+#: admin/class-connections-page.php:751
+#: admin/class-connections-page.php:807
+#: admin/class-connections-page.php:840
+#: admin/class-connections-page.php:932
+#: admin/class-connections-page.php:982
+#: admin/class-connections-page.php:1037
+#: admin/class-connections-page.php:1064
+#: admin/class-connections-page.php:1091
 #: admin/class-diagnostics-page.php:110
-#: includes/premium/solaredge/class-solaredge-admin.php:238
-#: includes/premium/solarman/class-solarman-admin.php:442
+#: includes/premium/solaredge/class-solaredge-admin.php:248
+#: includes/premium/solarman/class-solarman-admin.php:452
 msgid "Insufficient permissions."
 msgstr ""
 
-#: admin/class-connections-page.php:622
-#: admin/class-connections-page.php:699
-#: admin/class-connections-page.php:948
-#: admin/class-connections-page.php:995
-#: includes/premium/solaredge/class-solaredge-admin.php:271
-#: includes/premium/solarman/class-solarman-admin.php:480
+#: admin/class-connections-page.php:623
+#: admin/class-connections-page.php:700
+#: admin/class-connections-page.php:949
+#: admin/class-connections-page.php:996
+#: includes/premium/solaredge/class-solaredge-admin.php:282
+#: includes/premium/solarman/class-solarman-admin.php:491
 msgid "Name is required."
 msgstr ""
 
-#: admin/class-connections-page.php:999
+#: admin/class-connections-page.php:1000
 msgid "Enter the token ID from SolaxCloud (Service → API)."
 msgstr ""
 
-#: admin/class-connections-page.php:1003
+#: admin/class-connections-page.php:1004
 msgid "Enter the registration number (SN) of the Wi-Fi/LAN dongle."
 msgstr ""
 
@@ -1087,9 +1087,17 @@ msgstr ""
 #: admin/views/partials/ha-form.php:74
 #: admin/views/partials/push-form.php:87
 #: admin/views/partials/rest-form.php:125
-#: includes/premium/solaredge/class-solaredge-admin.php:228
-#: includes/premium/solarman/class-solarman-admin.php:342
+#: includes/premium/solaredge/class-solaredge-admin.php:238
+#: includes/premium/solarman/class-solarman-admin.php:352
 msgid "Save changes"
+msgstr ""
+
+#: admin/views/partials/home-from-balance-option.php:23
+msgid "Always calculate it from the energy balance"
+msgstr ""
+
+#: admin/views/partials/home-from-balance-option.php:27
+msgid "Uses solar + grid − battery even when the source measures home consumption, so the energy flow always adds up. Use it when the measured value leaves out some loads and the flow does not balance. Values are marked \"≈\"."
 msgstr ""
 
 #: admin/views/partials/push-form.php:26
@@ -1231,7 +1239,9 @@ msgid "Connect to SolaX Cloud"
 msgstr ""
 
 #: admin/views/partials/source-options.php:23
-#: includes/sources/abstract-source.php:154
+#: includes/premium/solaredge/class-solaredge-admin.php:228
+#: includes/premium/solarman/class-solarman-admin.php:342
+#: includes/sources/abstract-source.php:171
 msgid "Home consumption"
 msgstr ""
 
@@ -1245,11 +1255,11 @@ msgstr ""
 msgid "Fallback only, off by default: %s (grid positive when taking power from the grid, battery positive when charging). It ignores inverter losses, so it reads higher than a measured value. Estimated values are marked \"≈\"."
 msgstr ""
 
-#: admin/views/partials/source-options.php:38
+#: admin/views/partials/source-options.php:39
 msgid "Idle below (W)"
 msgstr ""
 
-#: admin/views/partials/source-options.php:41
+#: admin/views/partials/source-options.php:42
 msgid "Battery or grid power below this value (either direction) counts as no flow — the battery is shown as \"Idle\"."
 msgstr ""
 
@@ -1347,11 +1357,11 @@ msgstr ""
 msgid "Generate a new token"
 msgstr ""
 
-#: includes/class-plugin.php:232
+#: includes/class-plugin.php:235
 msgid "Push (device sends data to your site)"
 msgstr ""
 
-#: includes/class-plugin.php:237
+#: includes/class-plugin.php:240
 msgid "Generic REST / JSON API"
 msgstr ""
 
@@ -1587,7 +1597,7 @@ msgid "Peak power"
 msgstr ""
 
 #: includes/premium/class-flow-widget.php:119
-#: includes/premium/class-flow-widget.php:406
+#: includes/premium/class-flow-widget.php:407
 #: includes/widgets/class-widget-renderer.php:53
 msgid "Energy flow"
 msgstr ""
@@ -1596,78 +1606,82 @@ msgstr ""
 msgid "The energy balance does not add up — check the battery or grid sign in the connection settings."
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:336
+#: includes/premium/class-flow-widget.php:337
 msgid "Solar"
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:337
+#: includes/premium/class-flow-widget.php:338
 msgid "Grid"
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:338
+#: includes/premium/class-flow-widget.php:339
 msgid "Home"
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:339
+#: includes/premium/class-flow-widget.php:340
 #: includes/widgets/class-widget-renderer.php:236
 msgid "Battery"
 msgstr ""
 
 #. translators: %s: battery charge in percent
-#: includes/premium/class-flow-widget.php:400
+#: includes/premium/class-flow-widget.php:401
 #, php-format
 msgid "Battery charge: %s %%."
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:412
+#: includes/premium/class-flow-widget.php:414
+msgid "≈ Home consumption calculated from the energy balance: solar + grid − battery."
+msgstr ""
+
+#: includes/premium/class-flow-widget.php:415
 msgid "≈ Home consumption estimated: solar + grid − battery (the source does not report it)."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:460
+#: includes/premium/class-flow-widget.php:464
 msgid "Solar: no production."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:460
+#: includes/premium/class-flow-widget.php:464
 #, php-format
 msgid "Solar produces %s."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:463
+#: includes/premium/class-flow-widget.php:467
 #, php-format
 msgid "Home uses %s."
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:466
+#: includes/premium/class-flow-widget.php:470
 msgid "Grid: no exchange."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:470
+#: includes/premium/class-flow-widget.php:474
 #, php-format
 msgid "Taking %s from the grid."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:470
+#: includes/premium/class-flow-widget.php:474
 #, php-format
 msgid "Sending %s to the grid."
 msgstr ""
 
-#: includes/premium/class-flow-widget.php:473
+#: includes/premium/class-flow-widget.php:477
 msgid "Battery idle."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:477
+#: includes/premium/class-flow-widget.php:481
 #, php-format
 msgid "Battery charging at %s."
 msgstr ""
 
 #. translators: %s: power
-#: includes/premium/class-flow-widget.php:477
+#: includes/premium/class-flow-widget.php:481
 #, php-format
 msgid "Battery discharging at %s."
 msgstr ""
@@ -1782,21 +1796,21 @@ msgid "Show"
 msgstr ""
 
 #: includes/premium/class-portfolio-widget.php:94
-#: includes/sources/abstract-source.php:148
+#: includes/sources/abstract-source.php:165
 #: includes/widgets/class-widget-renderer.php:232
 msgid "Current power"
 msgstr ""
 
 #: includes/premium/class-portfolio-widget.php:95
 #: includes/premium/class-portfolio-widget.php:292
-#: includes/sources/abstract-source.php:149
+#: includes/sources/abstract-source.php:166
 #: includes/widgets/class-widget-renderer.php:233
 msgid "Energy today"
 msgstr ""
 
 #: includes/premium/class-portfolio-widget.php:96
 #: includes/premium/class-portfolio-widget.php:293
-#: includes/sources/abstract-source.php:150
+#: includes/sources/abstract-source.php:167
 #: includes/widgets/class-widget-renderer.php:234
 msgid "Total energy"
 msgstr ""
@@ -1996,7 +2010,7 @@ msgid "Readings cover %d%% of the time"
 msgstr ""
 
 #: includes/premium/rce/class-export-widget.php:290
-msgid "Estimate calculated by the plugin: energy exported in each 15 minutes (from your readings) × the RCE price of those 15 minutes. Price source: PSE S.A. (raporty.pse.pl). Net-billing settles with the monthly price (RCEm), so this is not the amount on your bill."
+msgid "Estimate calculated by the plugin: energy exported in each 15 minutes (from your readings) × the RCE price of those 15 minutes. Price source: PSE S.A. (raporty.pse.pl). Depending on your contract, net-billing settles with RCE prices or with the monthly price (RCEm), so this is not the amount on your bill."
 msgstr ""
 
 #: includes/premium/rce/class-pse-client.php:43
@@ -2248,16 +2262,16 @@ msgstr ""
 msgid "Adding every site of an installer account at once is available in the Agency plan."
 msgstr ""
 
-#: includes/premium/solaredge/class-solaredge-admin.php:228
+#: includes/premium/solaredge/class-solaredge-admin.php:238
 msgid "Connect to SolarEdge"
 msgstr ""
 
-#: includes/premium/solaredge/class-solaredge-admin.php:283
+#: includes/premium/solaredge/class-solaredge-admin.php:294
 msgid "No site was found for this API key."
 msgstr ""
 
 #. translators: %s: comma-separated site names with IDs
-#: includes/premium/solaredge/class-solaredge-admin.php:296
+#: includes/premium/solaredge/class-solaredge-admin.php:307
 #, php-format
 msgid "Enter the site ID. Sites of this key: %s."
 msgstr ""
@@ -2372,32 +2386,32 @@ msgstr ""
 msgid "Requests are counted per site. If the same APP ID is also used on another website, set longer intervals on both so that together they stay within your Solarman plan (free plan: 200,000 requests a year, about 548 a day)."
 msgstr ""
 
-#: includes/premium/solarman/class-solarman-admin.php:342
+#: includes/premium/solarman/class-solarman-admin.php:352
 msgid "Connect to Solarman"
 msgstr ""
 
 #. translators: 1: number of plants added, 2: number of plants skipped, 3: refresh interval in minutes
-#: includes/premium/solarman/class-solarman-admin.php:395
+#: includes/premium/solarman/class-solarman-admin.php:405
 #, php-format
 msgid "Solarman: %1$d plant(s) added, %2$d already connected. New plants refresh every %3$d minutes so that all plants on this APP ID stay within the daily request limit."
 msgstr ""
 
-#: includes/premium/solarman/class-solarman-admin.php:419
+#: includes/premium/solarman/class-solarman-admin.php:429
 msgid "Last data received from Solarman"
 msgstr ""
 
 #. translators: %s: date and time
-#: includes/premium/solarman/class-solarman-admin.php:423
+#: includes/premium/solarman/class-solarman-admin.php:433
 #, php-format
 msgid "Received %s. Raw values as Solarman sends them — used to verify units and signs against the Solarman app."
 msgstr ""
 
-#: includes/premium/solarman/class-solarman-admin.php:493
+#: includes/premium/solarman/class-solarman-admin.php:504
 msgid "This Solarman account has no plants."
 msgstr ""
 
 #. translators: %s: comma-separated plant names with IDs
-#: includes/premium/solarman/class-solarman-admin.php:506
+#: includes/premium/solarman/class-solarman-admin.php:517
 #, php-format
 msgid "Enter the plant ID. Plants in this account: %s."
 msgstr ""
@@ -2471,31 +2485,31 @@ msgstr ""
 msgid "Solarman did not return: %s."
 msgstr ""
 
-#: includes/sources/abstract-source.php:151
+#: includes/sources/abstract-source.php:168
 #: includes/widgets/class-widget-renderer.php:521
 msgid "Battery charge"
 msgstr ""
 
-#: includes/sources/abstract-source.php:152
+#: includes/sources/abstract-source.php:169
 msgid "Battery power"
 msgstr ""
 
-#: includes/sources/abstract-source.php:153
+#: includes/sources/abstract-source.php:170
 msgid "Grid power"
 msgstr ""
 
 #. translators: %d: minutes
-#: includes/sources/abstract-source.php:178
+#: includes/sources/abstract-source.php:195
 #, php-format
 msgid "The source measurement time is %d minutes in the future — check the timezone setting of the source. Using the fetch time instead."
 msgstr ""
 
-#: includes/sources/abstract-source.php:199
+#: includes/sources/abstract-source.php:216
 msgid "No data yet — the first reading has not arrived."
 msgstr ""
 
 #. translators: %s: field label
-#: includes/sources/abstract-source.php:204
+#: includes/sources/abstract-source.php:221
 #, php-format
 msgid "This data source does not provide \"%s\"."
 msgstr ""
@@ -2634,25 +2648,25 @@ msgstr ""
 msgid "%1$s: the value at \"%2$s\" is not a number."
 msgstr ""
 
-#: includes/widgets/class-block.php:67
+#: includes/widgets/class-block.php:69
 msgid "Solar production"
 msgstr ""
 
-#: includes/widgets/class-block.php:168
+#: includes/widgets/class-block.php:170
 #: includes/widgets/class-widget-renderer.php:334
 msgid "This widget is available in the Pro version."
 msgstr ""
 
-#: includes/widgets/class-block.php:170
+#: includes/widgets/class-block.php:172
 #: includes/widgets/class-widget-renderer.php:344
 msgid "This widget is available in the Agency plan."
 msgstr ""
 
-#: includes/widgets/class-block.php:175
+#: includes/widgets/class-block.php:177
 msgid "Card"
 msgstr ""
 
-#: includes/widgets/class-block.php:176
+#: includes/widgets/class-block.php:178
 msgid "Minimal"
 msgstr ""
 

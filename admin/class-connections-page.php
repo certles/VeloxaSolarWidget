@@ -548,6 +548,7 @@ class Connections_Page {
 	public static function source_options_from_post( array $post ): array {
 		$options = array(
 			'estimate_home_power' => ! empty( $post['estimate_home_power'] ),
+			'home_from_balance'   => ! empty( $post['home_from_balance'] ),
 			'battery_idle_watts'  => isset( $post['battery_idle_watts'] ) && '' !== (string) $post['battery_idle_watts'] ? absint( $post['battery_idle_watts'] ) : Abstract_Source::DEFAULT_BATTERY_IDLE_WATTS,
 		);
 

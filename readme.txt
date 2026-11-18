@@ -4,7 +4,7 @@ Tags: solar, photovoltaic, solar energy, home assistant, energy
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 8.1
-Stable tag: 0.7.11
+Stable tag: 0.7.12
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,7 +66,7 @@ You can edit every data source later — for example, replace an API key or a Ho
 * Full-screen display at an address such as /solar-display/your-connection-id/ for a TV or tablet in your reception area — large type, refreshing automatically, without the theme's navigation. Three layouts (summary; energy flow with battery; flow with today's chart and statistics), dark or light, for landscape TVs and portrait tablets. When data stops arriving or the screen loses its network connection, it says so and resumes by itself.
 * Energy flow — solar panels, home, battery and grid on one diagram, with the direction of each flow. Shown when your source reports the solar power and the home consumption; parts your source does not report (for example no battery) are left out.
 * Electricity prices (RCE) — the Polish wholesale electricity price published by PSE for today and, after about 14:00, for tomorrow: a bar chart of every 15-minute interval, the cheapest and the most expensive hour (or any window from 15 minutes to 4 hours), and a table, in PLN/kWh or PLN/MWh. Prices are downloaded once an hour after you switch them on in the settings; this is the wholesale price, not the price on an electricity bill.
-* Exported energy value (RCE) — an estimate of what the energy your installation exports to the grid is worth at RCE prices: the export in every 15 minutes (from the grid power your source reports) × the RCE price of those 15 minutes, for today, this month and since the calculation started. Gaps in the readings are not guessed — the widget shows how much of the time the readings cover. Net-billing settles with the monthly price (RCEm), so this is not the amount on your bill. Needs a source that reports grid power.
+* Exported energy value (RCE) — an estimate of what the energy your installation exports to the grid is worth at RCE prices: the export in every 15 minutes (from the grid power your source reports) × the RCE price of those 15 minutes, for today, this month and since the calculation started. Gaps in the readings are not guessed — the widget shows how much of the time the readings cover. Depending on your contract, net-billing settles with RCE prices or with the monthly price (RCEm), so this is not the amount on your bill. Needs a source that reports grid power.
 * SolarEdge cloud data source (beta) — reads solar power, energy today and total, and — with a meter — home consumption, grid and battery, using the site API key from the SolarEdge monitoring portal (or an installer's account key; Agency: add every site at once). Refreshes every 15 minutes by default to stay within SolarEdge's 300 requests a day.
 * Solarman cloud data source — reads solar power, home consumption, battery and grid directly from the Solarman cloud, without Home Assistant or a custom API mapping. Requires your own Solarman API access (APP ID and APP SECRET, requested from Solarman support) and your Solarman account login. Energy today is calculated from the inverter's total energy counter. When your site has few visitors and data is refreshed rarely, the plugin fills the gaps from Solarman's own history: exact daily totals, energy today and the 5-minute readings for the daily chart and peak power.
 
@@ -83,6 +83,8 @@ SolaX Cloud, SolarEdge and the name-based Home Assistant suggestions are built f
 **Home consumption**
 
 Use your source's own home consumption value when it has one. If it does not, the plugin estimates it as solar power + power taken from the grid − battery charging power (grid: positive when taking power from the grid; battery: positive when charging), and marks the value with "≈" and this formula wherever it is shown.
+
+Some home meters leave out part of the loads or the inverter losses, so solar, grid, battery and home do not add up in the energy flow. For such a connection, switch on "Always calculate it from the energy balance": the plugin then uses the same formula instead of the measured value, so the flow always adds up, and marks the value with "≈".
 
 **Privacy by default**
 
@@ -173,6 +175,10 @@ Yes. Click "Edit" next to the data source and enter the new key or token; fields
 
 Nothing is removed unless you tick "Remove all plugin data when the plugin is deleted" in the plugin settings.
 
+= Where can I see the source code? =
+
+The free version is mirrored on GitHub: [github.com/certles/VeloxaSolarWidget](https://github.com/certles/VeloxaSolarWidget). Each release there is the same code as on WordPress.org. Please report problems on the WordPress.org support forum.
+
 == Screenshots ==
 
 1. The Connections screen — every data source with its last reading, the time of the update, whether visitors can see it, and its ID for shortcodes.
@@ -187,6 +193,11 @@ Nothing is removed unless you tick "Remove all plugin data when the plugin is de
 10. Pro: production history for the last 30 days and statistics.
 
 == Changelog ==
+
+= 0.7.12 =
+* New: connection option "Always calculate it from the energy balance" for home consumption. Use it when the measured home consumption leaves out some loads and the energy flow does not add up: the plugin calculates it as solar + grid − battery and marks it with "≈". Off by default; existing connections do not change.
+* Fixed (Pro): when the WordPress time zone differs from the plant's, the five-minute readings filled in from Solarman history no longer leave a gap every day (for example 00:00–01:00 at a plant in Poland when WordPress uses UTC).
+* Improved (Pro): the exported energy value widget no longer says that net-billing always uses the monthly price (RCEm) — depending on the contract, it uses RCE prices or RCEm.
 
 = 0.7.11 =
 * Fixed: the free version includes its Polish translation again, so the admin screens, the block editor and the widgets are shown in Polish before a language pack from translate.wordpress.org is available.

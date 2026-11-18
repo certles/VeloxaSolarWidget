@@ -30,7 +30,7 @@ class Form_Input {
 	/**
 	 * Pola wyboru (true/false).
 	 */
-	const FLAG_KEYS = array( 'estimate_home_power', 'clear_token' );
+	const FLAG_KEYS = array( 'estimate_home_power', 'home_from_balance', 'clear_token' );
 
 	/**
 	 * Dozwolone podklucze fields[pole][…].
