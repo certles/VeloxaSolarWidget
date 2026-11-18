@@ -1,0 +1,3265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Veloxa Solar Widget 0.7.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/veloxa-solar-"
+"widget\n"
+"POT-Creation-Date: 2026-10-30T07:28:22+00:00\n"
+"PO-Revision-Date: 2026-10-10 12:00+0200\n"
+"Last-Translator: WPVeloxa\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: veloxa-solar-widget\n"
+
+#. Plugin Name of the plugin
+#: veloxa-solar-widget.php
+msgid "Veloxa Solar Widget – Solar Production Display"
+msgstr "Veloxa Solar Widget – wyświetlanie produkcji fotowoltaiki"
+
+#. Description of the plugin
+#: veloxa-solar-widget.php
+msgid ""
+"Displays current solar production data (power, energy today/total) on your "
+"WordPress site via shortcode and Gutenberg block — a presentation layer for "
+"PV data you already monitor elsewhere."
+msgstr ""
+"Wyświetla bieżące dane produkcji fotowoltaicznej (moc, energia dziś i "
+"łącznie) w witrynie WordPress za pomocą shortcode'u i bloku Gutenberga. "
+"Wtyczka prezentuje dane PV, które są już monitorowane w innym miejscu."
+
+#. Author of the plugin
+#: veloxa-solar-widget.php
+msgid "WPVeloxa"
+msgstr "WPVeloxa"
+
+#. Author URI of the plugin
+#: veloxa-solar-widget.php
+msgid "https://wpveloxa.com/"
+msgstr "https://wpveloxa.com/"
+
+#: admin/class-connections-page.php:136 admin/class-connections-page.php:659
+#: admin/class-connections-page.php:949 admin/class-diagnostics-page.php:120
+#: includes/premium/solaredge/class-solaredge-admin.php:242
+#: includes/premium/solarman/class-solarman-admin.php:451
+msgid "Connection not found."
+msgstr "Nie znaleziono połączenia."
+
+#: admin/class-connections-page.php:257
+msgid "Listening… send data from your device now."
+msgstr "Wtyczka czeka na dane. Wyślij je teraz z urządzenia."
+
+#: admin/class-connections-page.php:258
+msgid "Received! The data reaches this site."
+msgstr "Dane zostały odebrane i docierają do tej witryny."
+
+#: admin/class-connections-page.php:259
+msgid ""
+"Nothing arrived within 2 minutes. Check the URL, the token and the entity "
+"names in your device."
+msgstr ""
+"W ciągu 2 minut nie dotarły żadne dane. Sprawdź w urządzeniu adres, token i "
+"nazwy encji."
+
+#: admin/class-connections-page.php:260
+msgid "Could not check the status — reload the page and try again."
+msgstr "Nie udało się sprawdzić stanu. Odśwież stronę i spróbuj ponownie."
+
+#: admin/class-connections-page.php:261 admin/views/push-channel.php:120
+msgid "— no data yet —"
+msgstr "— jeszcze brak danych —"
+
+#: admin/class-connections-page.php:275 admin/class-connections-page.php:287
+#: includes/class-pro-notice.php:106 includes/class-review-notice.php:390
+msgid "Veloxa Solar Widget"
+msgstr "Veloxa Solar Widget"
+
+#: admin/class-connections-page.php:276 admin/class-site-health.php:102
+#: admin/class-site-health.php:143
+msgid "Solar Widget"
+msgstr "Solar Widget"
+
+#: admin/class-connections-page.php:288 admin/views/diagnostics.php:79
+msgid "Connections"
+msgstr "Połączenia"
+
+#: admin/class-connections-page.php:406 admin/class-connections-page.php:490
+#: admin/class-connections-page.php:550 admin/class-connections-page.php:628
+#: admin/class-connections-page.php:684 admin/class-connections-page.php:717
+#: admin/class-connections-page.php:809 admin/class-connections-page.php:859
+#: admin/class-connections-page.php:914 admin/class-connections-page.php:941
+#: admin/class-connections-page.php:968 admin/class-diagnostics-page.php:110
+#: includes/premium/solaredge/class-solaredge-admin.php:218
+#: includes/premium/solarman/class-solarman-admin.php:422
+msgid "Insufficient permissions."
+msgstr "Nie masz wystarczających uprawnień."
+
+#: admin/class-connections-page.php:500 admin/class-connections-page.php:577
+#: admin/class-connections-page.php:826 admin/class-connections-page.php:873
+#: includes/premium/solaredge/class-solaredge-admin.php:251
+#: includes/premium/solarman/class-solarman-admin.php:460
+msgid "Name is required."
+msgstr "Nazwa jest wymagana."
+
+#: admin/class-connections-page.php:877
+msgid "Enter the token ID from SolaxCloud (Service → API)."
+msgstr "Wpisz token ID z SolaxCloud (Service → API)."
+
+#: admin/class-connections-page.php:881
+msgid "Enter the registration number (SN) of the Wi-Fi/LAN dongle."
+msgstr "Wpisz numer rejestracyjny (SN) modułu Wi-Fi/LAN."
+
+#: admin/class-diagnostics-page.php:147 admin/views/diagnostics.php:36
+msgid "Veloxa Solar Widget — Diagnostics"
+msgstr "Veloxa Solar Widget — Diagnostyka"
+
+#: admin/class-diagnostics-page.php:148
+msgid "Diagnostics"
+msgstr "Diagnostyka"
+
+#: admin/class-diagnostics-page.php:170
+msgid "Copied!"
+msgstr "Skopiowano!"
+
+#: admin/class-diagnostics-page.php:171
+msgid "Could not copy — select the text below and copy it manually."
+msgstr "Nie udało się skopiować. Zaznacz tekst poniżej i skopiuj go ręcznie."
+
+#: admin/class-diagnostics-page.php:269
+msgid "Refresh data sources"
+msgstr "Odświeżanie źródeł danych"
+
+#: admin/class-diagnostics-page.php:270
+msgid "Remove old history and error log entries"
+msgstr "Usuwanie starej historii i wpisów dziennika błędów"
+
+#: admin/class-diagnostics-page.php:371
+#: includes/premium/class-history-widget.php:100
+#: includes/widgets/class-widget-renderer.php:54
+msgid "Production history"
+msgstr "Historia produkcji"
+
+#: admin/class-diagnostics-page.php:375
+msgid "Push channel entities"
+msgstr "Encje kanałów push"
+
+#: admin/class-diagnostics-page.php:379
+msgid "Daily production totals"
+msgstr "Dzienne sumy produkcji"
+
+#: admin/class-diagnostics-page.php:383
+msgid "Error log"
+msgstr "Dziennik błędów"
+
+#: admin/class-diagnostics-page.php:398
+msgid "OK"
+msgstr "OK"
+
+#: admin/class-diagnostics-page.php:399
+msgid "Data out of date"
+msgstr "Dane nieaktualne"
+
+#: admin/class-diagnostics-page.php:400
+msgid "Error"
+msgstr "Błąd"
+
+#: admin/class-diagnostics-page.php:401
+msgid "No data yet"
+msgstr "Brak danych"
+
+#: admin/class-diagnostics-page.php:402
+msgid "Sensors not chosen"
+msgstr "Nie wybrano czujników"
+
+#: admin/class-diagnostics-page.php:403
+msgid "Unknown connection type"
+msgstr "Nieznany typ połączenia"
+
+#: admin/class-diagnostics-page.php:428
+msgid "yes"
+msgstr "tak"
+
+#: admin/class-diagnostics-page.php:429
+msgid "no"
+msgstr "nie"
+
+#: admin/class-diagnostics-page.php:431
+msgid "Veloxa Solar Widget — Diagnostic report"
+msgstr "Veloxa Solar Widget — Raport diagnostyczny"
+
+#. translators: %s: date and time in UTC
+#: admin/class-diagnostics-page.php:433
+#, php-format
+msgid "Generated: %s"
+msgstr "Wygenerowano: %s"
+
+#: admin/class-diagnostics-page.php:435
+msgid "== Environment =="
+msgstr "== Środowisko =="
+
+#. translators: %s: version number
+#: admin/class-diagnostics-page.php:437
+#, php-format
+msgid "Plugin version: %s"
+msgstr "Wersja wtyczki: %s"
+
+#. translators: %s: yes or no
+#: admin/class-diagnostics-page.php:439
+#, php-format
+msgid "Pro features installed: %s"
+msgstr "Funkcje Pro zainstalowane: %s"
+
+#. translators: %s: version number
+#: admin/class-diagnostics-page.php:441
+#, php-format
+msgid "WordPress version: %s"
+msgstr "Wersja WordPressa: %s"
+
+#. translators: %s: version number
+#: admin/class-diagnostics-page.php:443
+#, php-format
+msgid "PHP version: %s"
+msgstr "Wersja PHP: %s"
+
+#. translators: %s: yes or no
+#: admin/class-diagnostics-page.php:445
+#, php-format
+msgid "Multisite: %s"
+msgstr "Multisite: %s"
+
+#. translators: %s: timezone name or UTC offset
+#: admin/class-diagnostics-page.php:447
+#, php-format
+msgid "Site timezone: %s"
+msgstr "Strefa czasowa strony: %s"
+
+#. translators: %s: theme name and version
+#: admin/class-diagnostics-page.php:449
+#, php-format
+msgid "Active theme: %s"
+msgstr "Aktywny motyw: %s"
+
+#. translators: %s: PHP memory limit, e.g. 256M
+#: admin/class-diagnostics-page.php:451
+#, php-format
+msgid "Memory limit: %s"
+msgstr "Limit pamięci: %s"
+
+#. translators: %s: seconds
+#: admin/class-diagnostics-page.php:453
+#, php-format
+msgid "Max execution time: %ss"
+msgstr "Maksymalny czas wykonania: %ss"
+
+#. translators: %s: yes or no
+#: admin/class-diagnostics-page.php:455
+#, php-format
+msgid "WP-Cron disabled (DISABLE_WP_CRON): %s"
+msgstr "WP-Cron wyłączony (DISABLE_WP_CRON): %s"
+
+#. translators: %s: yes or no
+#: admin/class-diagnostics-page.php:457
+#, php-format
+msgid "Local network addresses allowed: %s"
+msgstr "Adresy sieci lokalnej dozwolone: %s"
+
+#. translators: %s: comma-separated plugin names
+#: admin/class-diagnostics-page.php:459
+#, php-format
+msgid "Other active plugins: %s"
+msgstr "Inne aktywne wtyczki: %s"
+
+#. translators: %s: comma-separated plugin names
+#: admin/class-diagnostics-page.php:459
+msgid "none"
+msgstr "brak"
+
+#: admin/class-diagnostics-page.php:461
+msgid "== Scheduled tasks =="
+msgstr "== Zaplanowane zadania =="
+
+#. translators: 1: task name, 2: status, 3: next run, 4: last run
+#: admin/class-diagnostics-page.php:467
+#, php-format
+msgid "%1$s: %2$s (next: %3$s, last: %4$s)"
+msgstr "%1$s: %2$s (następne: %3$s, ostatnie: %4$s)"
+
+#: admin/class-diagnostics-page.php:480
+msgid "== Connections =="
+msgstr "== Połączenia =="
+
+#: admin/class-diagnostics-page.php:483
+msgid "None configured."
+msgstr "Nie skonfigurowano żadnego połączenia."
+
+#. translators: 1: connection name, 2: connection ID, 3: connection type, 4: status
+#: admin/class-diagnostics-page.php:489
+#, php-format
+msgid "%1$s [%2$s] (%3$s): %4$s"
+msgstr "%1$s [%2$s] (%3$s): %4$s"
+
+#. translators: 1: measured at, 2: last attempt, 3: refresh interval in minutes, 4: consecutive errors, 5: yes or no
+#: admin/class-diagnostics-page.php:497
+#, php-format
+msgid ""
+"  Measured: %1$s, last attempt: %2$s, every %3$d min, consecutive errors: "
+"%4$d, public: %5$s"
+msgstr ""
+"  Pomiar: %1$s, ostatnia próba: %2$s, co %3$d min, kolejne błędy: %4$d, "
+"publiczne: %5$s"
+
+#: admin/class-diagnostics-page.php:498
+msgid "(approximate)"
+msgstr "(przybliżony)"
+
+#. translators: 1: number of refresh attempts, 2: expected number
+#: admin/class-diagnostics-page.php:507
+#, php-format
+msgid "  Refreshes in the last 24 h: %1$d (expected about %2$d)"
+msgstr "  Odświeżenia w ostatnich 24 h: %1$d (oczekiwano ok. %2$d)"
+
+#. translators: %s: comma-separated field names
+#: admin/class-diagnostics-page.php:512
+#, php-format
+msgid "  Fields: %s"
+msgstr "  Pola: %s"
+
+#. translators: %s: date and time in UTC
+#: admin/class-diagnostics-page.php:517
+#, php-format
+msgid "  Last push received: %s"
+msgstr "  Ostatni push: %s"
+
+#. translators: %s: error message
+#: admin/class-diagnostics-page.php:522
+#, php-format
+msgid "  Last error: %s"
+msgstr "  Ostatni błąd: %s"
+
+#: admin/class-diagnostics-page.php:527
+msgid "== Recent errors =="
+msgstr "== Ostatnie błędy =="
+
+#: admin/class-diagnostics-page.php:530
+msgid "None recorded."
+msgstr "Nie zapisano żadnych błędów."
+
+#: admin/class-diagnostics-page.php:538
+msgid "== Data size =="
+msgstr "== Rozmiar danych =="
+
+#: admin/class-diagnostics-page.php:555
+msgid "Not scheduled"
+msgstr "Niezaplanowane"
+
+#: admin/class-diagnostics-page.php:559
+msgid "Scheduled, not run yet"
+msgstr "Zaplanowane, jeszcze nie uruchomione"
+
+#: admin/class-diagnostics-page.php:562
+msgid "Running"
+msgstr "W toku"
+
+#: admin/class-diagnostics-page.php:562
+msgid "Last run failed"
+msgstr "Ostatnie uruchomienie nieudane"
+
+#: admin/class-site-health.php:59 admin/class-site-health.php:99
+msgid "Solar data sources are up to date"
+msgstr "Źródła danych PV są aktualne"
+
+#: admin/class-site-health.php:63 admin/class-site-health.php:140
+msgid "Solar data is refreshed in the background"
+msgstr "Dane PV odświeżają się w tle"
+
+#. translators: 1: connection name, 2: status, e.g. "Data out of date"
+#: admin/class-site-health.php:83
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#. translators: 1: connection name, 2: refreshes in the last 24 hours, 3: expected refreshes
+#: admin/class-site-health.php:90
+#, php-format
+msgid "%1$s: refreshed %2$d times in the last 24 hours (expected about %3$d)"
+msgstr "%1$s: odświeżenia w ostatnich 24 h: %2$d (oczekiwano ok. %3$d)"
+
+#: admin/class-site-health.php:105
+msgid "Every data source of Veloxa Solar Widget delivers current readings."
+msgstr ""
+"Wszystkie źródła danych Veloxa Solar Widget dostarczają aktualne odczyty."
+
+#: admin/class-site-health.php:111
+msgid "No data source is set up yet."
+msgstr "Nie ma jeszcze żadnego źródła danych."
+
+#: admin/class-site-health.php:112 admin/views/connections-page.php:64
+msgid "Add a data source"
+msgstr "Dodaj źródło danych"
+
+#: admin/class-site-health.php:122
+msgid "Some solar data sources need attention"
+msgstr "Niektóre źródła danych PV wymagają uwagi"
+
+#: admin/class-site-health.php:123
+msgid "Widgets of these data sources show old data or none:"
+msgstr ""
+"Widżety tych źródeł danych pokazują nieaktualne dane albo nie pokazują "
+"żadnych danych:"
+
+#: admin/class-site-health.php:124 admin/class-site-health.php:169
+msgid "Open the Solar Widget diagnostics"
+msgstr "Otwórz diagnostykę Solar Widget"
+
+#: admin/class-site-health.php:146
+msgid ""
+"The background task that refreshes solar data is scheduled and runs "
+"regularly."
+msgstr ""
+"Zadanie odświeżające dane PV jest zaplanowane i uruchamia się regularnie."
+
+#: admin/class-site-health.php:153
+msgid "Solar data is not refreshed — the background task is missing"
+msgstr "Dane PV nie są odświeżane, ponieważ brakuje zadania w tle"
+
+#: admin/class-site-health.php:154
+msgid ""
+"The background task of Veloxa Solar Widget is not scheduled, so widgets stop "
+"updating. Deactivate and activate the plugin to schedule it again."
+msgstr ""
+"Zadanie w tle wtyczki Veloxa Solar Widget nie jest zaplanowane, dlatego "
+"widżety przestały się aktualizować. Wyłącz wtyczkę i włącz ją ponownie — "
+"zadanie zostanie wtedy zaplanowane od nowa."
+
+#: admin/class-site-health.php:161
+msgid "Solar data is refreshed late"
+msgstr "Dane PV odświeżają się z opóźnieniem"
+
+#. translators: %s: how long ago, e.g. "3 hours"
+#: admin/class-site-health.php:165
+#, php-format
+msgid ""
+"The background task last ran %s ago. WP-Cron runs only when someone visits "
+"the site; on a site with few visitors set up a real cron job that calls wp-"
+"cron.php every 5 minutes."
+msgstr ""
+"Zadanie w tle uruchomiło się ostatnio %s temu. WP-Cron działa tylko wtedy, "
+"gdy ktoś odwiedza witrynę. Jeśli witrynę odwiedza niewiele osób, ustaw "
+"prawdziwe zadanie cron, które co 5 minut wywołuje plik wp-cron.php."
+
+#: admin/views/connections-page.php:27
+msgid "Connection saved."
+msgstr "Połączenie zostało zapisane."
+
+#: admin/views/connections-page.php:28
+msgid "Connection deleted."
+msgstr "Połączenie zostało usunięte."
+
+#: admin/views/connections-page.php:29
+msgid "Refresh finished — see the result in the list below."
+msgstr "Odświeżanie zostało zakończone. Wynik jest widoczny na liście poniżej."
+
+#: admin/views/connections-page.php:30
+msgid "Settings saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: admin/views/connections-page.php:33
+msgid "Push"
+msgstr "Push"
+
+#: admin/views/connections-page.php:34
+msgid "Generic REST"
+msgstr "Generic REST"
+
+#: admin/views/connections-page.php:35 includes/class-plugin.php:242
+msgid "Home Assistant"
+msgstr "Home Assistant"
+
+#: admin/views/connections-page.php:55
+msgid "Veloxa Solar Widget — Connections"
+msgstr "Veloxa Solar Widget — Połączenia"
+
+#: admin/views/connections-page.php:64
+msgid ""
+"Home Assistant, a push channel for your device or any JSON API — the forms "
+"are below."
+msgstr ""
+"Źródłem danych może być Home Assistant, kanał push dla urządzenia albo "
+"dowolne API JSON. Formularze znajdują się poniżej."
+
+#: admin/views/connections-page.php:65
+msgid "Show it on public pages"
+msgstr "Pokaż je na stronach publicznych"
+
+#: admin/views/connections-page.php:65
+msgid ""
+"Click \"Show on public pages\" next to the data source — until then only "
+"logged-in editors see its widgets."
+msgstr ""
+"Kliknij „Pokazuj na stronach publicznych” przy źródle danych. Do tego czasu "
+"widżety tego źródła widzą tylko zalogowani redaktorzy."
+
+#: admin/views/connections-page.php:66
+msgid "Add the widget to a page"
+msgstr "Dodaj widget do strony"
+
+#: admin/views/connections-page.php:66
+msgid ""
+"Insert the \"Solar production\" block in the editor, or the [veloxa_solar] "
+"shortcode."
+msgstr ""
+"Wstaw w edytorze blok „Produkcja fotowoltaiki” albo shortcode [veloxa_solar]."
+
+#: admin/views/connections-page.php:70
+msgid "Getting started"
+msgstr "Pierwsze kroki"
+
+#: admin/views/connections-page.php:75
+msgid "(done)"
+msgstr "(zrobione)"
+
+#: admin/views/connections-page.php:82
+msgid "Hide this list"
+msgstr "Ukryj tę listę"
+
+#: admin/views/connections-page.php:86
+msgid "Saved connections"
+msgstr "Zapisane połączenia"
+
+#: admin/views/connections-page.php:91 admin/views/partials/ha-form.php:41
+#: admin/views/partials/push-form.php:42 admin/views/partials/rest-form.php:39
+#: admin/views/partials/solax-form.php:30
+#: includes/premium/solaredge/class-solaredge-admin.php:172
+#: includes/premium/solarman/class-solarman-admin.php:244
+msgid "Name"
+msgstr "Nazwa"
+
+#: admin/views/connections-page.php:92
+msgid "Type"
+msgstr "Typ"
+
+#: admin/views/connections-page.php:93
+msgid "Last reading"
+msgstr "Ostatni odczyt"
+
+#: admin/views/connections-page.php:94
+msgid "Public pages"
+msgstr "Strony publiczne"
+
+#: admin/views/connections-page.php:100 admin/views/diagnostics.php:93
+msgid "No connections yet."
+msgstr "Nie dodano jeszcze żadnych połączeń."
+
+#: admin/views/connections-page.php:111
+msgid "ID for shortcodes:"
+msgstr "Identyfikator do użycia w shortcode'ach:"
+
+#: admin/views/connections-page.php:116 admin/views/partials/solax-form.php:22
+#: includes/premium/solaredge/class-solaredge-admin.php:150
+msgid "beta"
+msgstr "beta"
+
+#. translators: %s: date and time in the site timezone
+#: admin/views/connections-page.php:128
+#, php-format
+msgid "Updated: %s"
+msgstr "Zaktualizowano: %s"
+
+#: admin/views/connections-page.php:130
+msgid "(approximate — time received, the source gave no usable timestamp)"
+msgstr ""
+"(czas przybliżony: jest to czas odbioru, ponieważ źródło nie podało "
+"poprawnego znacznika czasu)"
+
+#: admin/views/connections-page.php:139
+msgid "Choose sensors to finish the setup."
+msgstr "Wybierz czujniki, aby dokończyć konfigurację."
+
+#: admin/views/connections-page.php:141
+msgid "No reading yet."
+msgstr "Nie ma jeszcze żadnego odczytu."
+
+#: admin/views/connections-page.php:150
+msgid "Shown to visitors"
+msgstr "Widoczne dla odwiedzających"
+
+#: admin/views/connections-page.php:151
+msgid "Hide from visitors"
+msgstr "Ukryj przed odwiedzającymi"
+
+#: admin/views/connections-page.php:153
+msgid "Hidden"
+msgstr "Ukryte"
+
+#: admin/views/connections-page.php:154
+msgid "Show on public pages"
+msgstr "Pokazuj na stronach publicznych"
+
+#: admin/views/connections-page.php:159
+msgid "Edit"
+msgstr "Edytuj"
+
+#: admin/views/connections-page.php:161
+msgid "Setup & check"
+msgstr "Konfiguracja i sprawdzenie"
+
+#: admin/views/connections-page.php:164 admin/views/edit-connection.php:87
+msgid "Choose sensors"
+msgstr "Wybierz czujniki"
+
+#: admin/views/connections-page.php:180
+msgid "Refresh now"
+msgstr "Odśwież teraz"
+
+#: admin/views/connections-page.php:188
+msgid "Delete"
+msgstr "Usuń"
+
+#: admin/views/connections-page.php:219
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: admin/views/connections-page.php:225
+msgid "Local network"
+msgstr "Sieć lokalna"
+
+#: admin/views/connections-page.php:229
+msgid "Allow local network addresses"
+msgstr "Zezwalaj na adresy sieci lokalnej"
+
+#: admin/views/connections-page.php:231
+msgid ""
+"Turn this on only when this WordPress site runs in the same network as your "
+"Home Assistant or device — for example on a Raspberry Pi at home — and you "
+"want to use an address such as http://homeassistant.local:8123 or http://"
+"192.168.1.10:8123. On regular web hosting leave it off: your home network "
+"cannot be reached from there anyway."
+msgstr ""
+"Włącz tę opcję tylko wtedy, gdy ta witryna WordPress działa w tej samej "
+"sieci co Home Assistant lub urządzenie (na przykład na Raspberry Pi w domu) "
+"i chcesz użyć adresu takiego jak http://homeassistant.local:8123 albo http://"
+"192.168.1.10:8123. Na zwykłym hostingu pozostaw ją wyłączoną — z serwera "
+"hostingu nie da się połączyć z siecią domową."
+
+#: admin/views/connections-page.php:232
+msgid ""
+"Link-local addresses (169.254.x.x, used by cloud metadata services) stay "
+"blocked even with this option on."
+msgstr ""
+"Adresy link-local (169.254.x.x, używane przez usługi metadanych w chmurze) "
+"są blokowane także wtedy, gdy ta opcja jest włączona."
+
+#: admin/views/connections-page.php:234
+msgid "Only a network administrator can change this setting."
+msgstr "To ustawienie może zmienić tylko administrator sieci."
+
+#: admin/views/connections-page.php:239
+msgid "Avoided CO₂ (kg per kWh)"
+msgstr "Uniknięta emisja CO₂ (kg na kWh)"
+
+#: admin/views/connections-page.php:242
+msgid ""
+"How much CO₂ one kWh of grid electricity causes where the installation is. "
+"The \"Avoided CO₂\" widget multiplies the energy produced by this number. "
+"The default 0.7 is about the Polish grid (KOBiZE); use the factor for your "
+"country or your energy supplier."
+msgstr ""
+"Ile CO₂ powoduje jedna kWh energii z sieci tam, gdzie jest instalacja. "
+"Widżet „Uniknięta emisja CO₂” mnoży wyprodukowaną energię przez tę liczbę. "
+"Domyślna wartość 0,7 odpowiada w przybliżeniu polskiej sieci (KOBiZE). Wpisz "
+"współczynnik dla danego kraju albo sprzedawcy energii."
+
+#: admin/views/connections-page.php:254
+msgid "Uninstall"
+msgstr "Odinstalowanie"
+
+#: admin/views/connections-page.php:258
+msgid "Remove all plugin data when the plugin is deleted"
+msgstr "Usuń wszystkie dane wtyczki przy jej usuwaniu"
+
+#: admin/views/connections-page.php:260
+msgid ""
+"Connections, push channel tokens, received values, history, diagnostics and "
+"cached data will be permanently removed. Leave unchecked to keep your data "
+"if you reinstall later."
+msgstr ""
+"Połączenia, tokeny kanałów push, odebrane wartości, historia, diagnostyka i "
+"dane w pamięci podręcznej zostaną trwale usunięte. Zostaw odznaczone, aby "
+"zachować dane na wypadek ponownej instalacji."
+
+#: admin/views/connections-page.php:264
+msgid "Save settings"
+msgstr "Zapisz ustawienia"
+
+#: admin/views/diagnostics.php:37
+msgid ""
+"The state of your data sources and of the background tasks that refresh them "
+"— useful when a widget shows old data or none at all."
+msgstr ""
+"Stan źródeł danych i zadań w tle, które je odświeżają. Ta strona przydaje "
+"się, gdy widżet pokazuje nieaktualne dane albo nie pokazuje nic."
+
+#: admin/views/diagnostics.php:40
+msgid "Copy diagnostic report"
+msgstr "Kopiuj raport diagnostyczny"
+
+#: admin/views/diagnostics.php:42
+msgid ""
+"Copies this page as plain text, ready to paste into a support request. "
+"Addresses, tokens and API keys are never included."
+msgstr ""
+"Kopiuje zawartość tej strony jako zwykły tekst, który można wkleić do "
+"zgłoszenia do pomocy technicznej. Adresy, tokeny i klucze API nie są "
+"kopiowane."
+
+#: admin/views/diagnostics.php:47
+msgid ""
+"WP-Cron is disabled on this site (DISABLE_WP_CRON). Data sources are "
+"refreshed only if a real cron job calls wp-cron.php — ask your host to set "
+"one up, every 5 minutes."
+msgstr ""
+"WP-Cron jest wyłączony w tej witrynie (DISABLE_WP_CRON). Źródła danych są "
+"odświeżane tylko wtedy, gdy zadanie cron na serwerze wywołuje plik wp-"
+"cron.php. Poproś firmę hostingową o ustawienie takiego zadania co 5 minut."
+
+#. translators: %s: comma-separated connection names
+#: admin/views/diagnostics.php:58
+#, php-format
+msgid ""
+"Data was refreshed much less often than set in the last 24 hours: %s. WP-"
+"Cron runs only when someone visits your site, so on a site with few visitors "
+"data arrives late or with gaps. Set up a real cron job that runs wp-cron.php "
+"every 5 minutes — see \"My site gets few visitors\" in the plugin FAQ, or "
+"ask your host."
+msgstr ""
+"W ostatniej dobie dane odświeżały się znacznie rzadziej, niż ustawiono: %s. "
+"WP-Cron działa tylko wtedy, gdy ktoś odwiedza witrynę. Dlatego przy małym "
+"ruchu dane przychodzą z opóźnieniem albo z lukami. Ustaw prawdziwe zadanie "
+"cron, które co 5 minut wywołuje plik wp-cron.php. Opis jest w FAQ wtyczki, w "
+"punkcie „My site gets few visitors”. Możesz też poprosić o to firmę "
+"hostingową."
+
+#. translators: 1: connection name, 2: refreshes in the last 24 hours, 3: expected refreshes
+#: admin/views/diagnostics.php:64
+#, php-format
+msgid "%1$s (%2$d of about %3$d)"
+msgstr "%1$s (%2$d z ok. %3$d)"
+
+#: admin/views/diagnostics.php:83
+msgid "Connection"
+msgstr "Połączenie"
+
+#: admin/views/diagnostics.php:84 admin/views/diagnostics.php:164
+msgid "Status"
+msgstr "Stan"
+
+#: admin/views/diagnostics.php:85
+msgid "Measured at"
+msgstr "Czas pomiaru"
+
+#: admin/views/diagnostics.php:86
+msgid "Last attempt"
+msgstr "Ostatnia próba"
+
+#: admin/views/diagnostics.php:87
+msgid "Consecutive errors"
+msgstr "Kolejne błędy"
+
+#: admin/views/diagnostics.php:88
+msgid "Last error"
+msgstr "Ostatni błąd"
+
+#: admin/views/diagnostics.php:93
+msgid "Add one"
+msgstr "Dodaj"
+
+#: admin/views/diagnostics.php:110
+msgid "approximate — time received"
+msgstr "czas przybliżony (czas odbioru)"
+
+#. translators: %d: minutes
+#: admin/views/diagnostics.php:118
+#, php-format
+msgid "every %d min"
+msgstr "co %d min"
+
+#. translators: %s: date and time
+#: admin/views/diagnostics.php:125
+#, php-format
+msgid "last push: %s"
+msgstr "ostatni push: %s"
+
+#: admin/views/diagnostics.php:145
+msgid "Home Assistant sensors"
+msgstr "Czujniki Home Assistanta"
+
+#: admin/views/diagnostics.php:146
+msgid ""
+"Is your inverter not recognised when choosing sensors? Download the list of "
+"your power, energy and battery sensors and send it to support — we use it to "
+"add your inverter. The file contains sensor names and current values only, "
+"not your Home Assistant address or token. Look through it before sending and "
+"remove anything you consider private."
+msgstr ""
+"Falownik nie jest rozpoznawany przy wyborze czujników? Pobierz listę "
+"czujników mocy, energii i baterii i wyślij ją do pomocy technicznej. Na jej "
+"podstawie dodamy obsługę tego falownika. Plik zawiera tylko nazwy czujników "
+"i bieżące wartości. Nie zawiera adresu Home Assistanta ani tokenu. Przejrzyj "
+"go przed wysłaniem i usuń to, co uważasz za prywatne."
+
+#. translators: %s: connection name
+#: admin/views/diagnostics.php:152
+#, php-format
+msgid "Download sensor list: %s"
+msgstr "Pobierz listę czujników: %s"
+
+#: admin/views/diagnostics.php:159
+msgid "Scheduled tasks"
+msgstr "Zaplanowane zadania"
+
+#: admin/views/diagnostics.php:163
+msgid "Task"
+msgstr "Zadanie"
+
+#: admin/views/diagnostics.php:165
+msgid "Next run"
+msgstr "Następne uruchomienie"
+
+#: admin/views/diagnostics.php:166
+msgid "Last run"
+msgstr "Ostatnie uruchomienie"
+
+#: admin/views/diagnostics.php:187
+msgid "Recent errors"
+msgstr "Ostatnie błędy"
+
+#: admin/views/diagnostics.php:191
+msgid "When"
+msgstr "Kiedy"
+
+#: admin/views/diagnostics.php:192
+msgid "Source"
+msgstr "Źródło"
+
+#: admin/views/diagnostics.php:193
+msgid "Message"
+msgstr "Komunikat"
+
+#: admin/views/diagnostics.php:198
+msgid "No errors recorded — everything is working."
+msgstr "Nie zapisano żadnych błędów. Wszystko działa poprawnie."
+
+#: admin/views/diagnostics.php:210
+msgid "Environment"
+msgstr "Środowisko"
+
+#: admin/views/diagnostics.php:214
+msgid "Yes"
+msgstr "Tak"
+
+#: admin/views/diagnostics.php:215
+msgid "No"
+msgstr "Nie"
+
+#: admin/views/diagnostics.php:217
+msgid "Plugin version"
+msgstr "Wersja wtyczki"
+
+#: admin/views/diagnostics.php:218
+msgid "Pro features installed"
+msgstr "Funkcje Pro zainstalowane"
+
+#: admin/views/diagnostics.php:219
+msgid "WordPress version"
+msgstr "Wersja WordPressa"
+
+#: admin/views/diagnostics.php:220
+msgid "PHP version"
+msgstr "Wersja PHP"
+
+#: admin/views/diagnostics.php:221
+msgid "Multisite"
+msgstr "Multisite"
+
+#: admin/views/diagnostics.php:222
+msgid "Site timezone"
+msgstr "Strefa czasowa strony"
+
+#: admin/views/diagnostics.php:223
+msgid "Active theme"
+msgstr "Aktywny motyw"
+
+#: admin/views/diagnostics.php:224
+msgid "Memory limit"
+msgstr "Limit pamięci"
+
+#. translators: %s: seconds
+#: admin/views/diagnostics.php:226
+msgid "Max execution time"
+msgstr "Maksymalny czas wykonania"
+
+#. translators: %s: seconds
+#: admin/views/diagnostics.php:226
+#, php-format
+msgid "%ss"
+msgstr "%ss"
+
+#: admin/views/diagnostics.php:227
+msgid "WP-Cron disabled"
+msgstr "WP-Cron wyłączony"
+
+#: admin/views/diagnostics.php:228
+msgid "Local network addresses allowed"
+msgstr "Adresy sieci lokalnej dozwolone"
+
+#: admin/views/diagnostics.php:229
+msgid "Other active plugins"
+msgstr "Inne aktywne wtyczki"
+
+#: admin/views/diagnostics.php:229
+msgid "None"
+msgstr "Brak"
+
+#: admin/views/diagnostics.php:241
+msgid "Data size"
+msgstr "Rozmiar danych"
+
+#. translators: %s: number of rows
+#: admin/views/diagnostics.php:250
+#, php-format
+msgid "%s row"
+msgid_plural "%s rows"
+msgstr[0] "%s wiersz"
+msgstr[1] "%s wiersze"
+msgstr[2] "%s wierszy"
+
+#: admin/views/edit-connection.php:36 admin/views/ha-mapping.php:42
+#: admin/views/push-channel.php:59
+msgid "All connections"
+msgstr "Wszystkie połączenia"
+
+#. translators: %s: connection name
+#: admin/views/edit-connection.php:40
+#, php-format
+msgid "Edit connection: %s"
+msgstr "Edycja połączenia: %s"
+
+#: admin/views/edit-connection.php:51
+msgid "Address, examples and a new token"
+msgstr "Adres, przykłady i nowy token"
+
+#: admin/views/edit-connection.php:64
+msgid "Last data received (beta source)"
+msgstr "Ostatnie odebrane dane (źródło beta)"
+
+#. translators: %s: date and time
+#: admin/views/edit-connection.php:68
+#, php-format
+msgid ""
+"Received %s. Raw values exactly as the source sends them — compare them with "
+"the manufacturer's app. If a value is wrong (unit, sign, or a different "
+"field), copy this table into your support request."
+msgstr ""
+"Odebrano %s. Poniżej są surowe wartości w takiej postaci, w jakiej wysyła je "
+"źródło. Porównaj je z aplikacją producenta. Jeśli któraś wartość się nie "
+"zgadza (jednostka, znak albo inne pole), skopiuj tę tabelę do zgłoszenia do "
+"pomocy technicznej."
+
+#: admin/views/edit-connection.php:105
+msgid "This connection type cannot be edited."
+msgstr "Tego typu połączenia nie można edytować."
+
+#. translators: %s: connection name
+#: admin/views/ha-mapping.php:46
+#, php-format
+msgid "Home Assistant: %s — choose sensors"
+msgstr "Home Assistant: %s — wybór czujników"
+
+#: admin/views/ha-mapping.php:55
+msgid ""
+"Only sensors that match each value by type and unit are listed. The unit is "
+"taken from Home Assistant, so there is nothing to convert by hand."
+msgstr ""
+"Na liście są tylko czujniki, które pasują do danej wartości typem i "
+"jednostką. Jednostka pochodzi z Home Assistanta, więc nie trzeba niczego "
+"przeliczać ręcznie."
+
+#: admin/views/ha-mapping.php:59
+msgid ""
+"Beta: sensors were pre-selected by their names (Huawei Solar, Fronius, "
+"GoodWe, SMA, Enphase, SolarEdge and similar integrations). Check each one, "
+"and the signs of grid and battery power — the energy flow widget warns you "
+"if they do not add up. Nothing is saved until you do."
+msgstr ""
+"Wersja beta: czujniki zostały wstępnie wybrane na podstawie nazw (Huawei "
+"Solar, Fronius, GoodWe, SMA, Enphase, SolarEdge i podobne integracje). "
+"Sprawdź każdy z nich. Sprawdź też znaki mocy sieci i baterii. Widżet "
+"przepływu energii ostrzeże, jeśli bilans się nie zgadza. Nic nie zostanie "
+"zapisane, dopóki nie klikniesz „Zapisz czujniki”."
+
+#. translators: %s: integration name, e.g. "Solarman / Sofar"
+#: admin/views/ha-mapping.php:63
+#, php-format
+msgid ""
+"Sensors of a %s inverter were recognised and pre-selected. Check them and "
+"save — nothing is saved until you do."
+msgstr ""
+"Rozpoznano czujniki falownika %s i wstępnie je wybrano. Sprawdź je i kliknij "
+"„Zapisz czujniki”. Do tego czasu nic nie zostanie zapisane."
+
+#: admin/views/ha-mapping.php:86 admin/views/partials/rest-form.php:75
+msgid "(optional)"
+msgstr "(opcjonalnie)"
+
+#: admin/views/ha-mapping.php:91
+msgid "No matching sensor found in Home Assistant. This value is required."
+msgstr ""
+"W Home Assistancie nie znaleziono pasującego czujnika. Ta wartość jest "
+"wymagana."
+
+#: admin/views/ha-mapping.php:94 blocks/widget/editor.js:39
+msgid "— choose —"
+msgstr "— wybierz —"
+
+#: admin/views/ha-mapping.php:94
+msgid "— not used —"
+msgstr "— nieużywane —"
+
+#: admin/views/ha-mapping.php:102 admin/views/partials/push-form.php:69
+#: admin/views/partials/rest-form.php:86
+msgid "Invert sign"
+msgstr "Odwróć znak"
+
+#: admin/views/ha-mapping.php:114
+msgid "Save sensors"
+msgstr "Zapisz czujniki"
+
+#: admin/views/partials/form-errors.php:23
+#: includes/premium/solaredge/class-solaredge-admin.php:158
+#: includes/premium/solarman/class-solarman-admin.php:230
+msgid "Not saved:"
+msgstr "Nie zapisano:"
+
+#: admin/views/partials/ha-form.php:23
+msgid "Enter the access token again — it is not kept after a failed attempt."
+msgstr ""
+"Wpisz ponownie token dostępu — po nieudanej próbie nie jest zapamiętywany."
+
+#: admin/views/partials/ha-form.php:24
+msgid "Nothing was changed. A token left empty keeps the current one."
+msgstr ""
+"Nic nie zostało zmienione. Jeśli pole tokenu jest puste, token pozostaje bez "
+"zmian."
+
+#: admin/views/partials/ha-form.php:27
+msgid "Add Home Assistant"
+msgstr "Dodaj Home Assistant"
+
+#: admin/views/partials/ha-form.php:31
+msgid ""
+"Home Assistant must be reachable from your web server — usually through Home "
+"Assistant Cloud (Nabu Casa) or your own reverse proxy. Local addresses "
+"(192.168.x.x, homeassistant.local) are blocked unless \"Allow local network "
+"addresses\" is on in the settings at the bottom of the Connections screen — "
+"use it only when this site runs in the same network as Home Assistant. If "
+"your site cannot reach Home Assistant, use a push channel with a Home "
+"Assistant automation instead."
+msgstr ""
+"Home Assistant musi być osiągalny z serwera WWW. Zwykle umożliwia to Home "
+"Assistant Cloud (Nabu Casa) albo własny reverse proxy. Adresy lokalne "
+"(192.168.x.x, homeassistant.local) są blokowane, chyba że w ustawieniach na "
+"dole ekranu Połączenia jest włączona opcja „Zezwalaj na adresy sieci "
+"lokalnej”. Włączaj ją tylko wtedy, gdy ta witryna działa w tej samej sieci "
+"co Home Assistant. Jeśli witryna nie może połączyć się z Home Assistantem, "
+"użyj kanału push z automatyzacją Home Assistanta."
+
+#: admin/views/partials/ha-form.php:48
+msgid "Home Assistant address"
+msgstr "Adres Home Assistanta"
+
+#: admin/views/partials/ha-form.php:52
+msgid "Long-lived access token"
+msgstr "Token dostępu długoterminowego"
+
+#: admin/views/partials/ha-form.php:56
+msgid ""
+"Leave empty to keep the current token. Paste a new one to replace it — the "
+"sensor choices are kept."
+msgstr ""
+"Zostaw puste, aby zachować obecny token. Wklej nowy token, aby go zastąpić. "
+"Wybrane czujniki pozostaną bez zmian."
+
+#. translators: %s: link to Home Assistant's user management docs
+#: admin/views/partials/ha-form.php:62
+#, php-format
+msgid ""
+"This token inherits the full permissions of the account that created it — "
+"Home Assistant has no way to limit it to read-only. We recommend creating a "
+"separate, non-administrator account just for this token: %s"
+msgstr ""
+"Ten token ma pełne uprawnienia konta, na którym został utworzony — Home "
+"Assistant nie pozwala ograniczyć go tylko do odczytu. Zalecamy utworzenie "
+"osobnego konta bez uprawnień administratora, przeznaczonego wyłącznie dla "
+"tego tokenu: %s"
+
+#: admin/views/partials/ha-form.php:63
+msgid "Home Assistant user management docs"
+msgstr "Dokumentacja zarządzania użytkownikami Home Assistanta"
+
+#: admin/views/partials/ha-form.php:70 admin/views/partials/rest-form.php:116
+#: includes/premium/solaredge/class-solaredge-admin.php:204
+#: includes/premium/solarman/class-solarman-admin.php:295
+msgid "Refresh every (minutes)"
+msgstr "Odświeżaj co (minuty)"
+
+#: admin/views/partials/ha-form.php:74
+msgid "Connect and choose sensors"
+msgstr "Połącz i wybierz czujniki"
+
+#: admin/views/partials/ha-form.php:74 admin/views/partials/push-form.php:87
+#: admin/views/partials/rest-form.php:125
+#: includes/premium/solaredge/class-solaredge-admin.php:208
+#: includes/premium/solarman/class-solarman-admin.php:322
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: admin/views/partials/push-form.php:26 admin/views/partials/push-form.php:87
+msgid "Add push channel"
+msgstr "Dodaj kanał push"
+
+#: admin/views/partials/push-form.php:27
+msgid ""
+"Your device, Home Assistant automation or script sends readings to this "
+"site. Choose what it will send and in which units — the next screen shows "
+"the address, the token and a ready-to-use example."
+msgstr ""
+"Urządzenie, automatyzacja Home Assistanta albo skrypt wysyła odczyty do tej "
+"witryny. Wybierz, co będzie wysyłane i w jakich jednostkach. Na następnym "
+"ekranie zobaczysz adres, token i gotowy przykład."
+
+#: admin/views/partials/push-form.php:29
+msgid ""
+"Tick the optional values (battery, grid, home) that the device sends — "
+"values that are not ticked are not accepted."
+msgstr ""
+"Zaznacz wartości dodatkowe (bateria, sieć, dom), które wysyła urządzenie. "
+"Wartości niezaznaczone nie są przyjmowane."
+
+#: admin/views/partials/push-form.php:31
+msgid ""
+"The token and the address stay the same. Values that are no longer selected "
+"stop being accepted from the device."
+msgstr ""
+"Token i adres pozostają bez zmian. Wartości, które nie są już zaznaczone, "
+"przestają być przyjmowane z urządzenia."
+
+#: admin/views/partials/push-form.php:63 admin/views/partials/rest-form.php:80
+#: includes/premium/rce/class-rce-widget.php:121
+msgid "Unit"
+msgstr "Jednostka"
+
+#: admin/views/partials/push-form.php:75
+msgid "Device sends every (minutes)"
+msgstr "Urządzenie wysyła co (minuty)"
+
+#: admin/views/partials/push-form.php:78
+msgid "Widgets mark data as outdated after 3× this time without new readings."
+msgstr ""
+"Jeśli przez trzykrotność tego czasu nie pojawią się nowe odczyty, widżety "
+"oznaczą dane jako nieaktualne."
+
+#. translators: %s: connection ID
+#: admin/views/partials/rename-note.php:25
+#, php-format
+msgid ""
+"You can rename freely: blocks, shortcodes and the full-screen display use "
+"the ID, which never changes: %s"
+msgstr ""
+"Nazwę można dowolnie zmieniać. Bloki, shortcode'y i tryb pełnoekranowy "
+"korzystają z identyfikatora, który się nie zmienia: %s"
+
+#: admin/views/partials/rest-form.php:21
+msgid ""
+"Enter the URL and auth header again — they are not kept, because they may "
+"contain secrets."
+msgstr ""
+"Wpisz ponownie adres URL i nagłówek autoryzacji. Nie są one zapamiętywane, "
+"ponieważ mogą zawierać dane poufne."
+
+#: admin/views/partials/rest-form.php:22
+msgid ""
+"Nothing was changed. The URL and auth header left empty keep their current "
+"values."
+msgstr ""
+"Nic nie zostało zmienione. Jeśli pola adresu URL i nagłówka autoryzacji są "
+"puste, zachowują dotychczasowe wartości."
+
+#: admin/views/partials/rest-form.php:25
+msgid "Add Generic REST / JSON source"
+msgstr "Dodaj źródło Generic REST / JSON"
+
+#: admin/views/partials/rest-form.php:29
+msgid ""
+"Any cloud API that returns JSON. Point each value at its place in the "
+"response with a dot path (e.g. result.acpower) and pick the unit the API "
+"uses. Data is fetched in the background, never while a visitor loads a page."
+msgstr ""
+"Dowolne API w chmurze, które zwraca JSON. Wskaż miejsce każdej wartości w "
+"odpowiedzi ścieżką z kropkami (np. result.acpower) i wybierz jednostkę "
+"używaną przez API. Dane są pobierane w tle, nigdy podczas ładowania strony "
+"przez odwiedzającego."
+
+#: admin/views/partials/rest-form.php:45
+msgid "URL"
+msgstr "URL"
+
+#: admin/views/partials/rest-form.php:49
+msgid ""
+"Leave empty to keep the current URL. Enter a new one to replace it, e.g. "
+"with a new API key — the mapping below is kept."
+msgstr ""
+"Zostaw puste, aby zachować obecny URL. Wpisz nowy adres, aby go zastąpić, "
+"np. z nowym kluczem API. Mapowanie poniżej pozostanie bez zmian."
+
+#: admin/views/partials/rest-form.php:51
+msgid "Stored encrypted — it may contain an API key."
+msgstr ""
+"Wartość jest przechowywana w postaci zaszyfrowanej, ponieważ może zawierać "
+"klucz API."
+
+#: admin/views/partials/rest-form.php:55
+msgid "Auth header (optional)"
+msgstr "Nagłówek autoryzacji (opcjonalnie)"
+
+#: admin/views/partials/rest-form.php:59
+msgid "Leave empty to keep the current header."
+msgstr "Zostaw puste, aby zachować obecny nagłówek."
+
+#: admin/views/partials/rest-form.php:61
+msgid "Remove the auth header"
+msgstr "Usuń nagłówek autoryzacji"
+
+#: admin/views/partials/rest-form.php:79 admin/views/partials/rest-form.php:104
+msgid "JSON path"
+msgstr "Ścieżka JSON"
+
+#: admin/views/partials/rest-form.php:90
+msgid ""
+"Expected: positive = charging, negative = discharging. Tick \"Invert sign\" "
+"if your API uses the opposite."
+msgstr ""
+"Wartość dodatnia oznacza ładowanie, a ujemna — rozładowanie. Zaznacz „Odwróć "
+"znak”, jeśli API używa odwrotnej konwencji."
+
+#: admin/views/partials/rest-form.php:91
+msgid ""
+"Expected: positive = drawing from the grid, negative = exporting. Tick "
+"\"Invert sign\" if your API uses the opposite."
+msgstr ""
+"Wartość dodatnia oznacza pobór z sieci, a ujemna — oddawanie energii do "
+"sieci. Zaznacz „Odwróć znak”, jeśli API używa odwrotnej konwencji."
+
+#: admin/views/partials/rest-form.php:92
+msgid ""
+"Expected: positive = power used by the home. Tick \"Invert sign\" if your "
+"API sends it as a negative number."
+msgstr ""
+"Wartość dodatnia oznacza moc zużywaną przez dom. Zaznacz „Odwróć znak”, "
+"jeśli API podaje ją jako liczbę ujemną."
+
+#: admin/views/partials/rest-form.php:102
+msgid "Measurement time (optional)"
+msgstr "Czas pomiaru (opcjonalnie)"
+
+#: admin/views/partials/rest-form.php:105
+msgid ""
+"Unix timestamp or date. Without it, the fetch time is shown and marked as "
+"approximate."
+msgstr ""
+"Znacznik czasu Unix albo data. Jeśli to pole jest puste, pokazywany jest "
+"czas pobrania danych, oznaczony jako przybliżony."
+
+#: admin/views/partials/rest-form.php:109
+msgid "Source timezone (optional)"
+msgstr "Strefa czasowa źródła (opcjonalnie)"
+
+#: admin/views/partials/rest-form.php:112
+msgid "Only for dates without a UTC offset. Empty = the site timezone."
+msgstr ""
+"Dotyczy tylko dat bez przesunięcia względem UTC. Jeśli pole jest puste, "
+"używana jest strefa czasowa witryny."
+
+#: admin/views/partials/rest-form.php:125
+msgid "Add REST source"
+msgstr "Dodaj źródło REST"
+
+#: admin/views/partials/solax-form.php:20
+msgid "Enter the token ID again — it is not kept after a failed attempt."
+msgstr "Wpisz ponownie Token ID — po nieudanej próbie nie jest zapamiętywany."
+
+#: admin/views/partials/solax-form.php:22
+msgid "Add SolaX Cloud"
+msgstr "Dodaj SolaX Cloud"
+
+#: admin/views/partials/solax-form.php:23
+msgid ""
+"For SolaX inverters monitored in SolaxCloud. Your token ID is in SolaxCloud "
+"under Service → API (free for every user); the registration number is "
+"printed on the Wi-Fi/LAN dongle and shown in SolaxCloud next to the "
+"inverter. Beta: set up from the SolaX documentation and not yet confirmed on "
+"a real installation — compare the values with the SolaX app and, if "
+"something differs, send us the diagnostic report."
+msgstr ""
+"Dla falowników SolaX monitorowanych w SolaxCloud. Token ID znajdziesz w "
+"SolaxCloud w menu Service → API. Jest bezpłatny dla każdego użytkownika. "
+"Numer rejestracyjny jest wydrukowany na module Wi-Fi/LAN i widoczny w "
+"SolaxCloud przy falowniku. Wersja beta: to źródło skonfigurowano według "
+"dokumentacji SolaX i nie zostało jeszcze sprawdzone na prawdziwej "
+"instalacji. Porównaj wartości z aplikacją SolaX. Jeśli coś się różni, wyślij "
+"nam raport diagnostyczny."
+
+#: admin/views/partials/solax-form.php:34
+msgid "Token ID"
+msgstr "Token ID"
+
+#: admin/views/partials/solax-form.php:38
+msgid "Registration number (SN)"
+msgstr "Numer rejestracyjny (SN)"
+
+#: admin/views/partials/solax-form.php:42
+msgid "Connect to SolaX Cloud"
+msgstr "Połącz z SolaX Cloud"
+
+#: admin/views/partials/source-options.php:23
+#: includes/sources/abstract-source.php:154
+msgid "Home consumption"
+msgstr "Zużycie domu"
+
+#: admin/views/partials/source-options.php:27
+msgid "Estimate it when the source does not report it"
+msgstr "Szacuj, gdy źródło go nie podaje"
+
+#. translators: %s: formula
+#: admin/views/partials/source-options.php:32
+#, php-format
+msgid ""
+"Fallback only, off by default: %s (grid positive when taking power from the "
+"grid, battery positive when charging). It ignores inverter losses, so it "
+"reads higher than a measured value. Estimated values are marked \"≈\"."
+msgstr ""
+"Opcja awaryjna, domyślnie wyłączona: %s (sieć dodatnia przy poborze z sieci, "
+"bateria dodatnia przy ładowaniu). Wzór pomija straty falownika, więc wynik "
+"jest wyższy niż wartość zmierzona. Wartości szacunkowe są oznaczone znakiem "
+"„≈”."
+
+#: admin/views/partials/source-options.php:38
+msgid "Idle below (W)"
+msgstr "Bezczynność poniżej (W)"
+
+#: admin/views/partials/source-options.php:41
+msgid ""
+"Battery or grid power below this value (either direction) counts as no flow "
+"— the battery is shown as \"Idle\"."
+msgstr ""
+"Jeśli moc baterii lub sieci (w dowolnym kierunku) jest mniejsza niż ta "
+"wartość, przepływ jest traktowany jako zerowy, a bateria jest oznaczana jako "
+"„Bezczynna”."
+
+#: admin/views/push-channel.php:60
+msgid "Edit channel"
+msgstr "Edytuj kanał"
+
+#. translators: %s: channel name
+#: admin/views/push-channel.php:65
+#, php-format
+msgid "Push channel: %s"
+msgstr "Kanał push: %s"
+
+#: admin/views/push-channel.php:72
+msgid "Copy this token now — it will not be shown again:"
+msgstr "Skopiuj ten token teraz — później nie będzie można go już wyświetlić:"
+
+#: admin/views/push-channel.php:75
+msgid "It is already filled in the examples below."
+msgstr "Jest już wpisany w przykładach poniżej."
+
+#: admin/views/push-channel.php:78
+msgid ""
+"The token is shown only once, when it is created. The examples use "
+"YOUR_TOKEN as a placeholder — replace it with your token. Lost it? Generate "
+"a new one at the bottom of this page."
+msgstr ""
+"Token jest pokazywany tylko raz, przy tworzeniu. W przykładach zamiast "
+"tokenu jest tekst YOUR_TOKEN. Wstaw w to miejsce token. Jeśli token zaginął, "
+"wygeneruj nowy na dole tej strony."
+
+#: admin/views/push-channel.php:81
+msgid "1. Where to send"
+msgstr "1. Dokąd wysyłać"
+
+#: admin/views/push-channel.php:84
+msgid "Address (POST)"
+msgstr "Adres (POST)"
+
+#: admin/views/push-channel.php:88
+msgid "Token header"
+msgstr "Nagłówek tokenu"
+
+#: admin/views/push-channel.php:89
+msgid "(or Authorization: Bearer …)"
+msgstr "(albo Authorization: Bearer …)"
+
+#: admin/views/push-channel.php:93
+msgid "2. What to send"
+msgstr "2. Co wysyłać"
+
+#: admin/views/push-channel.php:94
+msgid ""
+"Entity names must be exactly as below. You can send all values in one "
+"request or each separately. A \"unit\" in the request overrides the unit "
+"chosen for the channel. Accepted units: power W, kW, MW (also w, kw, KW); "
+"energy Wh, kWh, MWh (also wh, kwh, KWH); battery %. A request with any other "
+"unit is rejected with an error and nothing from it is stored."
+msgstr ""
+"Nazwy encji muszą być dokładnie takie jak poniżej. Możesz wysłać wszystkie "
+"wartości w jednym żądaniu albo każdą osobno. „unit” w żądaniu ma "
+"pierwszeństwo przed jednostką wybraną dla kanału. Akceptowane jednostki: moc "
+"W, kW, MW (także w, kw, KW); energia Wh, kWh, MWh (także wh, kwh, KWH); "
+"bateria %. Żądanie z inną jednostką jest odrzucane z błędem i nic z niego "
+"nie jest zapisywane."
+
+#: admin/views/push-channel.php:95
+msgid "Test from a terminal:"
+msgstr "Test z terminala:"
+
+#: admin/views/push-channel.php:97
+msgid ""
+"Home Assistant (configuration.yaml) — then call the "
+"\"rest_command.solar_push\" action from an automation, e.g. every 5 minutes:"
+msgstr ""
+"Home Assistant (configuration.yaml). Następnie wywołuj akcję "
+"„rest_command.solar_push” z automatyzacji, np. co 5 minut:"
+
+#: admin/views/push-channel.php:100
+msgid "3. Check that the data arrives"
+msgstr "3. Sprawdź, czy dane docierają"
+
+#: admin/views/push-channel.php:102
+msgid "Check if data arrives"
+msgstr "Sprawdź, czy dane docierają"
+
+#: admin/views/push-channel.php:108
+msgid "Entity"
+msgstr "Encja"
+
+#: admin/views/push-channel.php:109
+msgid "Last value"
+msgstr "Ostatnia wartość"
+
+#: admin/views/push-channel.php:110
+msgid "Received (UTC)"
+msgstr "Odebrano (UTC)"
+
+#: admin/views/push-channel.php:130
+msgid "What widgets will show"
+msgstr "Co pokażą widgety"
+
+#: admin/views/push-channel.php:140
+msgid ""
+"Nothing yet — widgets start showing data once power, energy today and total "
+"energy have all arrived."
+msgstr ""
+"Na razie nic. Widżety zaczną pokazywać dane, gdy dotrą moc, energia dziś i "
+"energia łącznie."
+
+#: admin/views/push-channel.php:144
+msgid "4. New token"
+msgstr "4. Nowy token"
+
+#: admin/views/push-channel.php:145
+msgid ""
+"Generate a new token if the old one was lost or may have leaked. The old "
+"token stops working immediately — update your device or automation right "
+"after. Values, history and widgets are kept."
+msgstr ""
+"Wygeneruj nowy token, jeśli stary zaginął albo mógł wyciec. Stary token "
+"przestaje działać natychmiast. Od razu zaktualizuj urządzenie lub "
+"automatyzację. Wartości, historia i widżety pozostaną bez zmian."
+
+#: admin/views/push-channel.php:150
+msgid "Generate a new token"
+msgstr "Wygeneruj nowy token"
+
+#: includes/class-plugin.php:232
+msgid "Push (device sends data to your site)"
+msgstr "Push (urządzenie wysyła dane na stronę)"
+
+#: includes/class-plugin.php:237
+msgid "Generic REST / JSON API"
+msgstr "Generic REST / JSON API"
+
+#: includes/class-pro-notice.php:105
+msgid "The full-screen display is available in the Pro version."
+msgstr "Tryb pełnoekranowy jest dostępny w wersji Pro."
+
+#: includes/class-review-notice.php:255 includes/class-review-notice.php:262
+msgid "The link has expired. Go back and try again."
+msgstr "Odnośnik wygasł. Wróć i spróbuj ponownie."
+
+#. translators: %s: plugin name.
+#: includes/class-review-notice.php:389
+#, php-format
+msgid ""
+"Is %s working well for you? A short review on WordPress.org helps other site "
+"owners find it — and helps me, a solo developer, keep improving it."
+msgstr ""
+"Czy %s dobrze się sprawdza? Krótka opinia na WordPress.org pomaga innym "
+"właścicielom witryn znaleźć wtyczkę. Pomaga też w dalszym rozwoju wtyczki, "
+"którą tworzy jedna osoba."
+
+#: includes/class-review-notice.php:399
+msgid "Leave a review"
+msgstr "Napisz opinię"
+
+#: includes/class-review-notice.php:401
+msgid "Maybe later"
+msgstr "Może później"
+
+#: includes/class-review-notice.php:403
+msgid "I already did"
+msgstr "Opinia już wystawiona"
+
+#: includes/class-review-notice.php:405
+msgid "Something not working? Ask on the support forum"
+msgstr "Coś nie działa? Zapytaj na forum wsparcia"
+
+#: includes/class-source-refresher.php:85
+msgid "Every 5 minutes (Veloxa Solar Widget)"
+msgstr "Co 5 minut (Veloxa Solar Widget)"
+
+#: includes/class-source-refresher.php:198
+msgid "This connection is not a polled data source."
+msgstr "To połączenie nie jest źródłem, z którego wtyczka sama pobiera dane."
+
+#: includes/core/class-http-client.php:108
+msgid "The server redirected too many times."
+msgstr "Serwer przekierował zbyt wiele razy."
+
+#: includes/core/class-http-client.php:152
+msgid "The configured URL has no valid host."
+msgstr "Skonfigurowany URL nie ma prawidłowego hosta."
+
+#. translators: %s: the host that was blocked
+#: includes/core/class-http-client.php:172
+#, php-format
+msgid ""
+"Refusing to connect to \"%s\" — it resolves to a link-local or reserved "
+"address (such as a cloud metadata service). This is always blocked."
+msgstr ""
+"Nie można połączyć się z „%s” — adres wskazuje na zakres link-local lub "
+"zarezerwowany (np. usługę metadanych w chmurze). Takie połączenia są zawsze "
+"blokowane."
+
+#. translators: %s: the host that was blocked
+#: includes/core/class-http-client.php:222
+#, php-format
+msgid ""
+"Refusing to connect to \"%s\" — it is a local or private network address. If "
+"this site runs in the same network as the device or Home Assistant, an "
+"administrator can enable \"Allow local network addresses\" in the plugin "
+"settings. Otherwise use a push channel instead."
+msgstr ""
+"Nie można połączyć się z „%s”, ponieważ jest to adres sieci lokalnej lub "
+"prywatnej. Jeśli ta witryna działa w tej samej sieci co urządzenie lub Home "
+"Assistant, administrator może włączyć opcję „Zezwalaj na adresy sieci "
+"lokalnej” w ustawieniach wtyczki. W przeciwnym razie użyj kanału push."
+
+#. translators: 1: number of refreshed data sources, 2: number of failed ones
+#: includes/core/class-messages.php:55
+#, php-format
+msgid "Refreshed %1$d source, %2$d failed."
+msgid_plural "Refreshed %1$d sources, %2$d failed."
+msgstr[0] "Odświeżono %1$d źródło, nieudane: %2$d."
+msgstr[1] "Odświeżono %1$d źródła, nieudane: %2$d."
+msgstr[2] "Odświeżono %1$d źródeł, nieudane: %2$d."
+
+#. translators: 1: count of old history rows with its noun, 2: count of old error log entries with its noun
+#: includes/core/class-messages.php:65
+#, php-format
+msgid "Removed %1$s and %2$s."
+msgstr "Usunięto %1$s i %2$s."
+
+#. translators: %d: number of rows
+#: includes/core/class-messages.php:67
+#, php-format
+msgid "%d old history row"
+msgid_plural "%d old history rows"
+msgstr[0] "%d stary wiersz historii"
+msgstr[1] "%d stare wiersze historii"
+msgstr[2] "%d starych wierszy historii"
+
+#. translators: %d: number of entries
+#: includes/core/class-messages.php:69
+#, php-format
+msgid "%d old error log entry"
+msgid_plural "%d old error log entries"
+msgstr[0] "%d stary wpis dziennika błędów"
+msgstr[1] "%d stare wpisy dziennika błędów"
+msgstr[2] "%d starych wpisów dziennika błędów"
+
+#. translators: %s: comma-separated entity names
+#: includes/core/class-messages.php:74
+#, php-format
+msgid "Waiting for the device to send: %s."
+msgstr "Wtyczka czeka, aż urządzenie wyśle: %s."
+
+#: includes/core/class-push-ingest.php:95
+msgid "Request body is too large."
+msgstr "Treść żądania jest zbyt duża."
+
+#: includes/core/class-push-ingest.php:101
+msgid "Invalid or missing token."
+msgstr "Token jest nieprawidłowy albo go brakuje."
+
+#. translators: %d: requests per minute allowed
+#: includes/core/class-push-ingest.php:108
+#, php-format
+msgid "Rate limit exceeded — max %d requests per minute for this channel."
+msgstr "Przekroczono limit żądań dla tego kanału (maksymalnie %d na minutę)."
+
+#: includes/core/class-push-ingest.php:118
+msgid "No valid reading found in the request body."
+msgstr "W treści żądania nie znaleziono prawidłowego odczytu."
+
+#. translators: 1: unit as sent by the device, 2: entity name, 3: comma-separated accepted units
+#: includes/core/class-push-ingest.php:381
+#, php-format
+msgid "Unknown unit \"%1$s\" for entity \"%2$s\". Accepted: %3$s."
+msgstr ""
+"Jednostka „%1$s” dla encji „%2$s” jest nieznana. Akceptowane jednostki: %3$s."
+
+#. translators: %s: entity name
+#: includes/core/class-push-ingest.php:406
+#, php-format
+msgid "The value for entity \"%s\" must be a number."
+msgstr "Wartość encji \"%s\" musi być liczbą."
+
+#: includes/core/class-push-ingest.php:412
+msgid "The value for entity \"battery_soc\" must be between 0 and 100."
+msgstr "Wartość encji \"battery_soc\" musi mieścić się w zakresie 0–100."
+
+#. translators: %s: the rejected entity name as sent by the device
+#: includes/core/class-push-ingest.php:432
+#, php-format
+msgid "Invalid entity name: \"%s\"."
+msgstr "Nazwa encji „%s” jest nieprawidłowa."
+
+#. translators: %s: entity name not on the channel's whitelist
+#: includes/core/class-push-ingest.php:440
+#, php-format
+msgid ""
+"Unknown entity for this channel: \"%s\". Add it to the channel's entity list "
+"first."
+msgstr "Ten kanał nie zna encji „%s”. Najpierw dodaj ją do listy encji kanału."
+
+#. translators: %s: entity name
+#: includes/core/class-push-ingest.php:450
+#, php-format
+msgid "Missing value for entity \"%s\"."
+msgstr "Brakuje wartości dla encji „%s”."
+
+#: includes/model/class-sanity-checks.php:46
+msgid ""
+"Energy today is larger than the total energy — the unit of one of them is "
+"probably wrong."
+msgstr ""
+"Energia dziś jest większa niż energia łączna. Jednostka jednej z tych "
+"wartości jest prawdopodobnie błędna."
+
+#: includes/model/class-sanity-checks.php:50
+msgid "Solar power is negative — the value probably has the opposite sign."
+msgstr "Moc paneli jest ujemna. Wartość ma prawdopodobnie odwrotny znak."
+
+#: includes/model/class-sanity-checks.php:54
+msgid ""
+"Battery charge is outside 0–100 % — the unit or the field is probably wrong."
+msgstr ""
+"Poziom baterii jest poza zakresem 0–100 %. Jednostka albo pole są "
+"prawdopodobnie błędne."
+
+#: includes/model/class-sanity-checks.php:63
+msgid ""
+"Energy today went down during the day — the field may not be a daily counter."
+msgstr ""
+"Energia dziś zmalała w ciągu dnia. To pole może nie być licznikiem dziennym."
+
+#: includes/premium/class-branding.php:130
+msgid "Your branding"
+msgstr "Własna marka"
+
+#: includes/premium/class-branding.php:133
+msgid ""
+"Your company name, logo and brand colour on the widgets and the full-screen "
+"display are available in the Agency plan."
+msgstr ""
+"Nazwa firmy, logo i kolor marki w widgetach i na ekranie pełnoekranowym są "
+"dostępne w planie Agency."
+
+#: includes/premium/class-branding.php:136
+msgid "Company name"
+msgstr "Nazwa firmy"
+
+#: includes/premium/class-branding.php:140
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/premium/class-branding.php:143
+#: includes/premium/class-branding.php:200
+msgid "Choose logo"
+msgstr "Wybierz logo"
+
+#: includes/premium/class-branding.php:144
+msgid "Remove"
+msgstr "Usuń"
+
+#: includes/premium/class-branding.php:147
+msgid "Brand colour"
+msgstr "Kolor marki"
+
+#: includes/premium/class-branding.php:150
+msgid ""
+"The logo and company name appear in the header of the full-screen display; "
+"the brand colour is used for the chart line, the battery level and the "
+"history bars. Choose a colour that is clearly visible on both light and dark "
+"backgrounds. Leave empty for the default look."
+msgstr ""
+"Logo i nazwa firmy pojawiają się w nagłówku ekranu pełnoekranowego. Kolor "
+"marki jest używany dla linii wykresu, poziomu baterii i słupków historii. "
+"Wybierz kolor dobrze widoczny na jasnym i ciemnym tle. Zostaw puste, aby "
+"zachować domyślny wygląd."
+
+#: includes/premium/class-branding.php:201
+msgid "Use this logo"
+msgstr "Użyj tego logo"
+
+#: includes/premium/class-chart-widget.php:61
+#: includes/widgets/class-widget-renderer.php:52
+msgid "Production today (chart)"
+msgstr "Produkcja dziś (wykres)"
+
+#: includes/premium/class-chart.php:59
+msgid ""
+"No production history for today yet — the chart fills in as readings arrive."
+msgstr ""
+"Nie ma jeszcze historii produkcji z dzisiaj. Wykres będzie się wypełniał "
+"wraz z kolejnymi odczytami."
+
+#. translators: 1: chart title, 2: peak power, 3: time of the peak
+#: includes/premium/class-chart.php:155
+#, php-format
+msgid "%1$s. Peak %2$s at %3$s."
+msgstr "%1$s. Szczyt %2$s o %3$s."
+
+#: includes/premium/class-chart.php:202
+#: includes/premium/class-history-widget.php:408
+#: includes/premium/rce/class-rce-widget.php:265
+msgid "Show as table"
+msgstr "Pokaż jako tabelę"
+
+#: includes/premium/class-chart.php:203
+msgid "Hour"
+msgstr "Godzina"
+
+#: includes/premium/class-chart.php:203
+#: includes/premium/class-stats-widget.php:73
+#: includes/premium/class-stats-widget.php:325
+msgid "Peak power"
+msgstr "Moc szczytowa"
+
+#: includes/premium/class-flow-widget.php:119
+#: includes/premium/class-flow-widget.php:406
+#: includes/widgets/class-widget-renderer.php:53
+msgid "Energy flow"
+msgstr "Przepływ energii"
+
+#: includes/premium/class-flow-widget.php:174
+msgid ""
+"The energy balance does not add up — check the battery or grid sign in the "
+"connection settings."
+msgstr ""
+"Bilans energii się nie zgadza. Sprawdź znak baterii lub sieci w ustawieniach "
+"połączenia."
+
+#: includes/premium/class-flow-widget.php:336
+msgid "Solar"
+msgstr "Panele"
+
+#: includes/premium/class-flow-widget.php:337
+msgid "Grid"
+msgstr "Sieć"
+
+#: includes/premium/class-flow-widget.php:338
+msgid "Home"
+msgstr "Dom"
+
+#: includes/premium/class-flow-widget.php:339
+#: includes/widgets/class-widget-renderer.php:236
+msgid "Battery"
+msgstr "Bateria"
+
+#. translators: %s: battery charge in percent
+#: includes/premium/class-flow-widget.php:400
+#, php-format
+msgid "Battery charge: %s %%."
+msgstr "Naładowanie baterii: %s %%."
+
+#: includes/premium/class-flow-widget.php:412
+msgid ""
+"≈ Home consumption estimated: solar + grid − battery (the source does not "
+"report it)."
+msgstr ""
+"≈ Zużycie domu jest szacowane: panele + sieć − bateria (źródło nie podaje "
+"tej wartości)."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:460
+msgid "Solar: no production."
+msgstr "Panele: brak produkcji."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:460
+#, php-format
+msgid "Solar produces %s."
+msgstr "Panele produkują %s."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:463
+#, php-format
+msgid "Home uses %s."
+msgstr "Dom zużywa %s."
+
+#: includes/premium/class-flow-widget.php:466
+msgid "Grid: no exchange."
+msgstr "Sieć: brak wymiany."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:470
+#, php-format
+msgid "Taking %s from the grid."
+msgstr "Pobór %s z sieci."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:470
+#, php-format
+msgid "Sending %s to the grid."
+msgstr "Oddawanie %s do sieci."
+
+#: includes/premium/class-flow-widget.php:473
+msgid "Battery idle."
+msgstr "Bateria bezczynna."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:477
+#, php-format
+msgid "Battery charging at %s."
+msgstr "Bateria ładuje się mocą %s."
+
+#. translators: %s: power
+#: includes/premium/class-flow-widget.php:477
+#, php-format
+msgid "Battery discharging at %s."
+msgstr "Bateria rozładowuje się mocą %s."
+
+#: includes/premium/class-history-widget.php:80
+msgid "Period"
+msgstr "Okres"
+
+#: includes/premium/class-history-widget.php:83
+msgid "Last 30 days"
+msgstr "Ostatnie 30 dni"
+
+#: includes/premium/class-history-widget.php:84
+msgid "Last 12 months"
+msgstr "Ostatnie 12 miesięcy"
+
+#: includes/premium/class-history-widget.php:85
+msgid "This year by month"
+msgstr "Bieżący rok, miesiącami"
+
+#. translators: 1: attribute name, 2: the value given, 3: comma-separated allowed values
+#: includes/premium/class-history-widget.php:143
+#: includes/premium/class-portfolio-widget.php:140
+#: includes/premium/class-stats-widget.php:147
+#: includes/premium/display/class-display.php:396
+#: includes/premium/rce/class-export-widget.php:135
+#: includes/premium/rce/class-rce-widget.php:187
+#, php-format
+msgid "Unknown %1$s \"%2$s\". Allowed values: %3$s."
+msgstr ""
+"Wartość „%2$s” atrybutu %1$s jest nieznana. Dopuszczalne wartości: %3$s."
+
+#: includes/premium/class-history-widget.php:327
+msgid ""
+"No production history yet — daily totals appear after the first day of "
+"readings."
+msgstr ""
+"Nie ma jeszcze historii produkcji. Sumy dzienne pojawią się po pierwszym "
+"dniu odczytów."
+
+#: includes/premium/class-history-widget.php:353
+msgid "no data"
+msgstr "brak danych"
+
+#. translators: 1: chart title, 2: number of bars with data, 3: total energy
+#: includes/premium/class-history-widget.php:385
+#, php-format
+msgid "%1$s: %2$d bars with data, total %3$s. Values in the table below."
+msgstr ""
+"%1$s: liczba słupków z danymi: %2$d, łącznie %3$s. Wartości są w tabeli "
+"poniżej."
+
+#. translators: %s: date of the first day with data
+#: includes/premium/class-history-widget.php:393
+#, php-format
+msgid "Data since %s"
+msgstr "Dane od %s"
+
+#: includes/premium/class-history-widget.php:397
+msgid "Lighter bars: estimated from power readings"
+msgstr "Jaśniejsze słupki: szacunek z odczytów mocy"
+
+#: includes/premium/class-history-widget.php:404
+msgid "Outlined bar: current month, still incomplete"
+msgstr "Obrysowany słupek: bieżący miesiąc, jeszcze niepełny"
+
+#: includes/premium/class-history-widget.php:404
+msgid "Outlined bar: today, still incomplete"
+msgstr "Obrysowany słupek: dzisiaj, jeszcze niepełny"
+
+#: includes/premium/class-history-widget.php:409
+msgid "Month"
+msgstr "Miesiąc"
+
+#: includes/premium/class-history-widget.php:409
+#: includes/premium/rce/class-rce-widget.php:104
+msgid "Day"
+msgstr "Dzień"
+
+#: includes/premium/class-history-widget.php:409
+msgid "Energy"
+msgstr "Energia"
+
+#: includes/premium/class-history-widget.php:409
+msgid "Note"
+msgstr "Uwaga"
+
+#: includes/premium/class-history-widget.php:446
+#: includes/premium/class-stats-widget.php:308
+msgid "estimated value"
+msgstr "wartość szacunkowa"
+
+#: includes/premium/class-history-widget.php:450
+msgid "incomplete"
+msgstr "niepełny"
+
+#. translators: %d: number of days without data
+#: includes/premium/class-history-widget.php:455
+#, php-format
+msgid "%d day without data"
+msgid_plural "%d days without data"
+msgstr[0] "%d dzień bez danych"
+msgstr[1] "%d dni bez danych"
+msgstr[2] "%d dni bez danych"
+
+#: includes/premium/class-license-notice.php:38
+msgid "Activate your Pro license to use this widget."
+msgstr "Aktywuj licencję Pro, aby używać tego widgetu."
+
+#: includes/premium/class-license-notice.php:47
+msgid "Activate your Pro license to use the full-screen display."
+msgstr "Aktywuj licencję Pro, aby używać trybu pełnoekranowego."
+
+#: includes/premium/class-portfolio-widget.php:91
+#: includes/premium/class-stats-widget.php:67
+#: includes/premium/rce/class-export-widget.php:90
+#: includes/premium/rce/class-rce-widget.php:112 blocks/widget/editor.js:119
+msgid "Show"
+msgstr "Pokaż"
+
+#: includes/premium/class-portfolio-widget.php:94
+#: includes/sources/abstract-source.php:148
+#: includes/widgets/class-widget-renderer.php:232
+msgid "Current power"
+msgstr "Bieżąca moc"
+
+#: includes/premium/class-portfolio-widget.php:95
+#: includes/premium/class-portfolio-widget.php:292
+#: includes/sources/abstract-source.php:149
+#: includes/widgets/class-widget-renderer.php:233
+msgid "Energy today"
+msgstr "Energia dziś"
+
+#: includes/premium/class-portfolio-widget.php:96
+#: includes/premium/class-portfolio-widget.php:293
+#: includes/sources/abstract-source.php:150
+#: includes/widgets/class-widget-renderer.php:234
+msgid "Total energy"
+msgstr "Energia łącznie"
+
+#: includes/premium/class-portfolio-widget.php:97
+#: includes/premium/class-portfolio-widget.php:294
+#: includes/widgets/class-widget-renderer.php:237
+msgid "Avoided CO₂"
+msgstr "Uniknięta emisja CO₂"
+
+#: includes/premium/class-portfolio-widget.php:98
+msgid "List of installations"
+msgstr "Lista instalacji"
+
+#. translators: %s: comma-separated connection IDs or names
+#: includes/premium/class-portfolio-widget.php:147
+#, php-format
+msgid ""
+"Unknown data source in connections: %s. Use the IDs shown on the Solar "
+"Widget → Connections screen."
+msgstr ""
+"W atrybucie connections jest nieznane źródło danych: %s. Użyj "
+"identyfikatorów z ekranu Solar Widget → Połączenia."
+
+#: includes/premium/class-portfolio-widget.php:271
+msgid ""
+"No installation to show yet: switch on \"Show on public pages\" for the data "
+"sources in Solar Widget → Connections."
+msgstr ""
+"Nie ma jeszcze instalacji do pokazania. Włącz opcję „Pokazuj na stronach "
+"publicznych” dla źródeł danych w menu Solar Widget → Połączenia."
+
+#: includes/premium/class-portfolio-widget.php:289
+msgid "Producing now"
+msgstr "Produkcja teraz"
+
+#. translators: %s: number of installations
+#: includes/premium/class-portfolio-widget.php:300
+#, php-format
+msgid "%s installation"
+msgid_plural "%s installations"
+msgstr[0] "%s instalacja"
+msgstr[1] "%s instalacje"
+msgstr[2] "%s instalacji"
+
+#: includes/premium/class-portfolio-widget.php:318
+msgid "No current data"
+msgstr "Brak aktualnych danych"
+
+#. translators: %s: emission factor, e.g. "0.7"
+#: includes/premium/class-portfolio-widget.php:328
+#: includes/widgets/class-widget-renderer.php:570
+#, php-format
+msgid "Estimate: %s kg CO₂ per kWh produced"
+msgstr "Szacunek: %s kg CO₂ na wyprodukowaną kWh"
+
+#. translators: %s: time (or date and time) of the last update
+#: includes/premium/class-portfolio-widget.php:332
+#: includes/widgets/class-widget-renderer.php:610
+#, php-format
+msgid "Updated %s"
+msgstr "Zaktualizowano %s"
+
+#: includes/premium/class-stats-widget.php:70
+msgid "Production this year"
+msgstr "Produkcja w tym roku"
+
+#: includes/premium/class-stats-widget.php:71
+#: includes/premium/class-stats-widget.php:293
+msgid "Total production"
+msgstr "Produkcja łącznie"
+
+#: includes/premium/class-stats-widget.php:72
+#: includes/premium/class-stats-widget.php:312
+msgid "Best day"
+msgstr "Najlepszy dzień"
+
+#: includes/premium/class-stats-widget.php:88
+#: includes/widgets/class-widget-renderer.php:55
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: includes/premium/class-stats-widget.php:237
+msgid ""
+"No production history yet — statistics appear after the first day of "
+"readings."
+msgstr ""
+"Nie ma jeszcze historii produkcji. Statystyki pojawią się po pierwszym dniu "
+"odczytów."
+
+#. translators: %s: year
+#: includes/premium/class-stats-widget.php:280
+#, php-format
+msgid "Production in %s"
+msgstr "Produkcja w %s"
+
+#. translators: %s: date of the first day with data
+#: includes/premium/class-stats-widget.php:297
+msgid "inverter lifetime counter"
+msgstr "licznik łączny falownika"
+
+#. translators: %s: date of the first day with data
+#: includes/premium/class-stats-widget.php:297
+#, php-format
+msgid "since %s"
+msgstr "od %s"
+
+#: includes/premium/display/class-display.php:113
+msgid "Full-screen layout"
+msgstr "Układ trybu pełnoekranowego"
+
+#. translators: %s: example URL parameter
+#: includes/premium/display/class-display.php:120
+#, php-format
+msgid ""
+"Layout of the full-screen display. A single screen can override it with %s "
+"in the address."
+msgstr ""
+"Układ ekranu pełnoekranowego. Pojedynczy ekran może go zmienić parametrem %s "
+"w adresie."
+
+#: includes/premium/display/class-display.php:159
+msgid "Summary: power, today, total"
+msgstr "Podsumowanie: moc, dziś, łącznie"
+
+#: includes/premium/display/class-display.php:160
+msgid "Energy flow and battery"
+msgstr "Przepływ energii i bateria"
+
+#: includes/premium/display/class-display.php:161
+msgid "Full: energy flow, today's chart, statistics"
+msgstr "Pełny: przepływ energii, wykres dnia, statystyki"
+
+#: includes/premium/display/class-display.php:260
+msgid "Full-screen display"
+msgstr "Tryb pełnoekranowy"
+
+#: includes/premium/display/class-display.php:349
+msgid "Current production"
+msgstr "Bieżąca produkcja"
+
+#: includes/premium/display/class-display.php:358
+msgid "Panels at rest"
+msgstr "Panele w spoczynku"
+
+#. translators: %s: time of the last data
+#: includes/premium/display/class-display.php:406
+#, php-format
+msgid "Last data: %s"
+msgstr "Ostatnie dane: %s"
+
+#: includes/premium/display/class-display.php:407
+msgid "No connection — showing the last data, reconnecting automatically."
+msgstr ""
+"Brak połączenia z siecią. Wyświetlane są ostatnie dane. Połączenie zostanie "
+"wznowione automatycznie."
+
+#: includes/premium/rce/class-export-widget.php:93
+#: includes/premium/rce/class-export-widget.php:249
+#: includes/premium/rce/class-rce-widget.php:107
+msgid "Today"
+msgstr "Dziś"
+
+#: includes/premium/rce/class-export-widget.php:94
+#: includes/premium/rce/class-export-widget.php:250
+msgid "This month"
+msgstr "Ten miesiąc"
+
+#: includes/premium/rce/class-export-widget.php:95
+msgid "Since data collection started"
+msgstr "Od początku zbierania danych"
+
+#: includes/premium/rce/class-export-widget.php:160
+#: includes/premium/rce/class-rce-widget.php:228
+msgid ""
+"Electricity prices are switched off. Switch on \"Electricity prices (RCE)\" "
+"in the settings at the bottom of Solar Widget → Connections."
+msgstr ""
+"Ceny energii są wyłączone. Włącz opcję „Ceny energii (RCE)” w ustawieniach "
+"na dole ekranu Solar Widget → Połączenia."
+
+#. translators: %s: amount in Polish złoty, e.g. "12.34"
+#: includes/premium/rce/class-export-widget.php:233
+#, php-format
+msgid "%s PLN"
+msgstr "%s zł"
+
+#: includes/premium/rce/class-export-widget.php:245
+msgid ""
+"No data yet — the value appears when prices for today are downloaded and the "
+"source has sent grid readings."
+msgstr ""
+"Nie ma jeszcze danych. Wartość pojawi się po pobraniu dzisiejszych cen i "
+"pierwszych odczytach mocy sieci ze źródła."
+
+#. translators: %s: date when the calculation started
+#: includes/premium/rce/class-export-widget.php:252
+#, php-format
+msgid "Since %s"
+msgstr "Od %s"
+
+#. translators: 1: exported energy with unit, e.g. "12.3 kWh"
+#: includes/premium/rce/class-export-widget.php:265
+#, php-format
+msgid "%s exported to the grid"
+msgstr "%s oddane do sieci"
+
+#. translators: %s: average price per kWh in Polish złoty
+#: includes/premium/rce/class-export-widget.php:269
+#, php-format
+msgid "avg %s/kWh"
+msgstr "średnio %s/kWh"
+
+#. translators: %s: energy with unit
+#: includes/premium/rce/class-export-widget.php:278
+#, php-format
+msgid "of which %s at negative prices"
+msgstr "w tym %s przy ujemnych cenach"
+
+#. translators: %d: percentage of the time covered by readings
+#: includes/premium/rce/class-export-widget.php:283
+#, php-format
+msgid "Readings cover %d%% of the time"
+msgstr "Odczyty obejmują %d%% czasu"
+
+#: includes/premium/rce/class-export-widget.php:290
+msgid ""
+"Estimate calculated by the plugin: energy exported in each 15 minutes (from "
+"your readings) × the RCE price of those 15 minutes. Price source: PSE S.A. "
+"(raporty.pse.pl). Net-billing settles with the monthly price (RCEm), so this "
+"is not the amount on your bill."
+msgstr ""
+"Szacunek obliczony przez wtyczkę: energia oddana w każdym kwadransie (z "
+"odczytów) pomnożona przez cenę RCE tego kwadransu. Źródło cen: PSE S.A. "
+"(raporty.pse.pl). Net-billing rozlicza się ceną miesięczną (RCEm), dlatego "
+"to nie jest kwota z rachunku."
+
+#: includes/premium/rce/class-pse-client.php:43
+msgid "The PSE API returned too many pages."
+msgstr "API PSE zwróciło zbyt wiele stron."
+
+#. translators: %d: HTTP status code
+#: includes/premium/rce/class-pse-client.php:64
+#, php-format
+msgid "The PSE API answered with HTTP %d."
+msgstr "API PSE odpowiedziało kodem HTTP %d."
+
+#: includes/premium/rce/class-pse-client.php:70
+msgid "The PSE API returned an unexpected response."
+msgstr "API PSE zwróciło nieoczekiwaną odpowiedź."
+
+#: includes/premium/rce/class-rce-module.php:136
+msgid "You do not have permission to do this."
+msgstr "Nie masz uprawnień do wykonania tej czynności."
+
+#: includes/premium/rce/class-rce-module.php:144
+msgid "Electricity prices are switched off."
+msgstr "Ceny energii są wyłączone."
+
+#: includes/premium/rce/class-rce-module.php:180
+msgid "Prices synced."
+msgstr "Ceny zostały pobrane."
+
+#: includes/premium/rce/class-rce-module.php:181
+msgid "Sync failed — see the last error."
+msgstr "Pobieranie nie powiodło się. Sprawdź ostatni błąd."
+
+#: includes/premium/rce/class-rce-module.php:182
+msgid "Another sync is running. Try again in a few minutes."
+msgstr "Trwa inne pobieranie. Spróbuj ponownie za kilka minut."
+
+#: includes/premium/rce/class-rce-module.php:186
+#: includes/widgets/class-widget-renderer.php:56
+msgid "Electricity prices (RCE)"
+msgstr "Ceny energii (RCE)"
+
+#: includes/premium/rce/class-rce-module.php:190
+msgid "Download RCE prices from PSE S.A. (api.raporty.pse.pl) once an hour"
+msgstr "Pobieraj ceny RCE z PSE S.A. (api.raporty.pse.pl) co godzinę"
+
+#: includes/premium/rce/class-rce-module.php:192
+msgid ""
+"Wholesale electricity prices in Poland for today and, after about 14:00, for "
+"tomorrow — shown by the \"Electricity prices (RCE)\" widget. Only the date "
+"and your site address are sent to PSE; visitors' pages never contact PSE."
+msgstr ""
+"Hurtowe ceny energii elektrycznej w Polsce na dziś, a po ok. 14:00 także na "
+"jutro. Pokazuje je widżet „Ceny energii (RCE)”. Do PSE wysyłana jest tylko "
+"data i adres witryny. Strony odwiedzających nigdy nie łączą się z PSE."
+
+#. translators: 1: intervals stored today, 2: expected intervals, 3: intervals stored tomorrow, 4: expected intervals
+#: includes/premium/rce/class-rce-module.php:226
+#, php-format
+msgid "Today: %1$d/%2$d intervals, tomorrow: %3$d/%4$d."
+msgstr "Dziś: %1$d/%2$d przedziałów, jutro: %3$d/%4$d."
+
+#. translators: %s: date and time, or "never"
+#: includes/premium/rce/class-rce-module.php:229
+#, php-format
+msgid "Last sync: %s."
+msgstr "Ostatnie pobranie: %s."
+
+#. translators: %s: date and time, or "never"
+#: includes/premium/rce/class-rce-module.php:229
+msgid "never"
+msgstr "nigdy"
+
+#. translators: 1: number of failed syncs in a row, 2: error message
+#: includes/premium/rce/class-rce-module.php:234
+#, php-format
+msgid "Failed syncs in a row: %1$d (%2$s)."
+msgstr "Nieudane pobrania z rzędu: %1$d (%2$s)."
+
+#: includes/premium/rce/class-rce-module.php:237
+msgid "Sync now"
+msgstr "Pobierz teraz"
+
+#: includes/premium/rce/class-rce-widget.php:108
+msgid "Tomorrow"
+msgstr "Jutro"
+
+#: includes/premium/rce/class-rce-widget.php:115
+msgid "Chart and table"
+msgstr "Wykres i tabela"
+
+#: includes/premium/rce/class-rce-widget.php:116
+msgid "Chart"
+msgstr "Wykres"
+
+#: includes/premium/rce/class-rce-widget.php:117
+msgid "Table"
+msgstr "Tabela"
+
+#: includes/premium/rce/class-rce-widget.php:124
+#: includes/premium/rce/class-rce-widget.php:289
+msgid "PLN/kWh"
+msgstr "zł/kWh"
+
+#: includes/premium/rce/class-rce-widget.php:125
+#: includes/premium/rce/class-rce-widget.php:289
+msgid "PLN/MWh"
+msgstr "zł/MWh"
+
+#: includes/premium/rce/class-rce-widget.php:129
+msgid "Cheapest / most expensive"
+msgstr "Najtańsza / najdroższa pora"
+
+#: includes/premium/rce/class-rce-widget.php:132
+msgid "1 hour"
+msgstr "1 godzina"
+
+#: includes/premium/rce/class-rce-widget.php:133
+msgid "30 minutes"
+msgstr "30 minut"
+
+#: includes/premium/rce/class-rce-widget.php:134
+msgid "2 hours"
+msgstr "2 godziny"
+
+#: includes/premium/rce/class-rce-widget.php:135
+msgid "3 hours"
+msgstr "3 godziny"
+
+#. translators: 1: minimum, 2: maximum, 3: step
+#: includes/premium/rce/class-rce-widget.php:195
+#, php-format
+msgid "The window must be %1$d–%2$d minutes, a multiple of %3$d."
+msgstr "Okno musi mieć %1$d–%2$d minut i być wielokrotnością %3$d."
+
+#. translators: %s: date
+#: includes/premium/rce/class-rce-widget.php:244
+#, php-format
+msgid "Electricity price (RCE) — %s"
+msgstr "Cena energii (RCE) — %s"
+
+#. translators: %s: date
+#: includes/premium/rce/class-rce-widget.php:249
+#, php-format
+msgid "Prices for %s are not published yet."
+msgstr "Ceny na %s nie zostały jeszcze opublikowane."
+
+#. translators: %s: date
+#: includes/premium/rce/class-rce-widget.php:249
+msgid "No price data available."
+msgstr "Nie ma danych o cenach."
+
+#. translators: 1: date, 2: lowest price, 3: highest price, 4: unit
+#: includes/premium/rce/class-rce-widget.php:339
+#, php-format
+msgid "RCE prices for %1$s: from %2$s to %3$s %4$s"
+msgstr "Ceny RCE na %1$s: od %2$s do %3$s %4$s"
+
+#: includes/premium/rce/class-rce-widget.php:410
+msgid "Cheapest hour"
+msgstr "Najtańsza godzina"
+
+#: includes/premium/rce/class-rce-widget.php:410
+msgid "Most expensive hour"
+msgstr "Najdroższa godzina"
+
+#. translators: %d: minutes
+#: includes/premium/rce/class-rce-widget.php:413
+#, php-format
+msgid "Cheapest %d minutes"
+msgstr "Najtańsze %d minut"
+
+#. translators: %d: minutes
+#: includes/premium/rce/class-rce-widget.php:413
+#, php-format
+msgid "Most expensive %d minutes"
+msgstr "Najdroższe %d minut"
+
+#. translators: 1: label, 2: time span, 3: average price, 4: unit
+#: includes/premium/rce/class-rce-widget.php:417
+#, php-format
+msgid "%1$s: %2$s, avg %3$s %4$s"
+msgstr "%1$s: %2$s, średnio %3$s %4$s"
+
+#: includes/premium/rce/class-rce-widget.php:438
+msgid "Time"
+msgstr "Godzina"
+
+#: includes/premium/rce/class-rce-widget.php:450
+msgid ""
+"Source: PSE S.A. (raporty.pse.pl), RCE — wholesale market price, not the "
+"price on your electricity bill."
+msgstr ""
+"Źródło: PSE S.A. (raporty.pse.pl), RCE — rynkowa cena hurtowa. To nie jest "
+"cena z rachunku za energię."
+
+#: includes/premium/rce/class-rce-widget.php:454
+msgid ""
+"Processed by the plugin: prices converted from PLN/MWh to PLN/kWh; the "
+"cheapest and the most expensive hours are calculated."
+msgstr ""
+"Wtyczka przeliczyła ceny z zł/MWh na zł/kWh i wyznaczyła najtańsze oraz "
+"najdroższe godziny."
+
+#: includes/premium/rce/class-rce-widget.php:455
+msgid ""
+"Processed by the plugin: the cheapest and the most expensive hours are "
+"calculated."
+msgstr "Wtyczka wyznaczyła najtańsze i najdroższe godziny."
+
+#. translators: %s: date and time in the site timezone
+#: includes/premium/rce/class-rce-widget.php:462
+#, php-format
+msgid "Downloaded: %s."
+msgstr "Pobrano: %s."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:122
+msgid "Last data received from SolarEdge"
+msgstr "Ostatnie dane odebrane z SolarEdge"
+
+#. translators: %s: date and time
+#: includes/premium/solaredge/class-solaredge-admin.php:126
+#, php-format
+msgid ""
+"Received %s. Raw values exactly as SolarEdge sends them — compare them with "
+"the SolarEdge app. If a value is wrong, copy this table into your support "
+"request."
+msgstr ""
+"Odebrano %s. Poniżej są surowe wartości w takiej postaci, w jakiej wysyła je "
+"SolarEdge. Porównaj je z aplikacją SolarEdge. Jeśli któraś wartość się nie "
+"zgadza, skopiuj tę tabelę do zgłoszenia do pomocy technicznej."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:150
+msgid "Add SolarEdge (cloud)"
+msgstr "Dodaj SolarEdge (chmura)"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:155
+msgid ""
+"For SolarEdge inverters. The site owner creates an API key in the SolarEdge "
+"monitoring portal: Admin → Site Access → Access Control → API Access (if you "
+"do not see Admin, ask your installer). An installer's account key covers all "
+"of their sites. SolarEdge allows 300 requests a day per key, so the plugin "
+"refreshes every 15 minutes by default. Beta: set up from the SolarEdge "
+"documentation and not yet confirmed on a real installation — compare the "
+"values with the SolarEdge app."
+msgstr ""
+"Dla falowników SolarEdge. Właściciel instalacji tworzy klucz API w portalu "
+"monitoringu SolarEdge: Admin → Site Access → Access Control → API Access. "
+"Jeśli nie widzisz zakładki Admin, poproś o pomoc instalatora. Klucz konta "
+"instalatora obejmuje wszystkie instalacje tego instalatora. SolarEdge "
+"pozwala na 300 zapytań dziennie na klucz, dlatego wtyczka domyślnie odświeża "
+"dane co 15 minut. Wersja beta: to źródło skonfigurowano według dokumentacji "
+"SolarEdge i nie zostało jeszcze sprawdzone na prawdziwej instalacji. "
+"Porównaj wartości z aplikacją SolarEdge."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:162
+msgid "Enter the API key again — it is not kept after a failed attempt."
+msgstr "Wpisz ponownie klucz API — po nieudanej próbie nie jest zapamiętywany."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:176
+msgid "API key"
+msgstr "Klucz API"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:180
+#: includes/premium/solarman/class-solarman-admin.php:256
+#: includes/premium/solarman/class-solarman-admin.php:270
+msgid "Leave empty to keep the current one."
+msgstr "Zostaw puste, aby zachować obecną wartość."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:185
+msgid "Site ID (optional)"
+msgstr "ID instalacji (opcjonalnie)"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:188
+msgid ""
+"Leave empty if the key has one site — it is found automatically. With more "
+"sites, saving lists them with their IDs."
+msgstr ""
+"Zostaw puste, jeśli klucz ma jedną instalację. Zostanie ona znaleziona "
+"automatycznie. Jeśli instalacji jest więcej, po zapisaniu zobaczysz ich "
+"listę z identyfikatorami."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:193
+msgid "All sites"
+msgstr "Wszystkie instalacje"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:196
+msgid "Add every site of this API key as a separate data source"
+msgstr "Dodaj każdą instalację z tego klucza API jako osobne źródło danych"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:198
+msgid ""
+"Adding every site of an installer account at once is available in the Agency "
+"plan."
+msgstr ""
+"Dodawanie wszystkich instalacji z konta instalatora naraz jest dostępne w "
+"planie Agency."
+
+#: includes/premium/solaredge/class-solaredge-admin.php:208
+msgid "Connect to SolarEdge"
+msgstr "Połącz z SolarEdge"
+
+#: includes/premium/solaredge/class-solaredge-admin.php:263
+msgid "No site was found for this API key."
+msgstr "Nie znaleziono żadnej instalacji dla tego klucza API."
+
+#. translators: %s: comma-separated site names with IDs
+#: includes/premium/solaredge/class-solaredge-admin.php:276
+#, php-format
+msgid "Enter the site ID. Sites of this key: %s."
+msgstr "Wpisz identyfikator instalacji. Instalacje tego klucza: %s."
+
+#. translators: %d: number of requests per day
+#: includes/premium/solaredge/class-solaredge-client.php:144
+#, php-format
+msgid ""
+"The daily SolarEdge request budget (%d) is used up — the last reading is "
+"kept, and requests resume tomorrow (UTC). SolarEdge allows 300 requests a "
+"day per API key."
+msgstr ""
+"Dzienny limit zapytań do SolarEdge (%d) został wykorzystany. Wyświetlany "
+"jest ostatni odczyt, a zapytania zostaną wznowione jutro (UTC). SolarEdge "
+"pozwala na 300 zapytań dziennie na klucz API."
+
+#: includes/premium/solaredge/class-solaredge-client.php:162
+msgid "SolarEdge rejected the API key, or the key has no access to this site."
+msgstr ""
+"SolarEdge odrzucił klucz API albo klucz nie ma dostępu do tej instalacji."
+
+#: includes/premium/solaredge/class-solaredge-client.php:166
+msgid ""
+"SolarEdge rate limit reached — the last reading is kept and the next attempt "
+"happens on schedule."
+msgstr ""
+"Osiągnięto limit zapytań SolarEdge. Wyświetlany jest ostatni odczyt, a "
+"kolejna próba nastąpi zgodnie z harmonogramem."
+
+#. translators: %d: HTTP status code
+#: includes/premium/solaredge/class-solaredge-client.php:173
+#, php-format
+msgid "SolarEdge returned an unexpected response (HTTP %d)."
+msgstr "SolarEdge zwrócił nieoczekiwaną odpowiedź (HTTP %d)."
+
+#: includes/premium/solaredge/class-solaredge-source.php:69
+msgid "Enter the SolarEdge API key (letters and digits)."
+msgstr "Wpisz klucz API SolarEdge (litery i cyfry)."
+
+#: includes/premium/solaredge/class-solaredge-source.php:75
+msgid "The site ID must be a number."
+msgstr "Identyfikator instalacji musi być liczbą."
+
+#: includes/premium/solaredge/class-solaredge-source.php:149
+msgid "No SolarEdge site selected — edit the connection."
+msgstr "Nie wybrano instalacji SolarEdge. Edytuj połączenie."
+
+#. translators: %s: comma-separated field names
+#: includes/premium/solaredge/class-solaredge-source.php:206
+#, php-format
+msgid "SolarEdge did not return: %s."
+msgstr "SolarEdge nie zwrócił wartości: %s."
+
+#. translators: 1: number of plants, 2: estimated requests per day, 3: daily request limit, 4: minutes
+#: includes/premium/solarman/class-solarman-admin.php:137
+#, php-format
+msgid ""
+"With %1$d plant(s) on this APP ID the plugin would need about %2$d Solarman "
+"requests a day, more than the daily limit of %3$d — late in the day the "
+"readings would stop until midnight (UTC). Set \"Refresh every\" to at least "
+"%4$d minutes for each of them."
+msgstr ""
+"Liczba instalacji na tym APP ID: %1$d. Wtyczka potrzebowałaby ok. %2$d "
+"zapytań do Solarmana dziennie, czyli więcej niż dzienny limit %3$d. Pod "
+"koniec dnia odczyty zatrzymałyby się do północy (UTC). Ustaw „Odświeżaj co” "
+"na co najmniej %4$d min dla każdej z tych instalacji."
+
+#: includes/premium/solarman/class-solarman-admin.php:222
+msgid "Add Solarman (cloud)"
+msgstr "Dodaj Solarman (chmura)"
+
+#: includes/premium/solarman/class-solarman-admin.php:227
+msgid ""
+"For inverters monitored in the Solarman app (Sofar, Deye, Solis, ZCS, KStar "
+"and others). You need your own API keys: e-mail "
+"customerservice@solarmanpv.com and ask for OpenAPI access (APP ID and APP "
+"SECRET). Personal accounts get a free plan (up to 3 plants, 200,000 requests "
+"a year); business accounts are paid by Solarman. The plugin stays within "
+"about 500 requests a day."
+msgstr ""
+"Dla falowników monitorowanych w aplikacji Solarman (Sofar, Deye, Solis, ZCS, "
+"KStar i inne). Potrzebujesz własnych kluczy API: napisz na "
+"customerservice@solarmanpv.com z prośbą o dostęp do OpenAPI (APP ID i APP "
+"SECRET). Konta prywatne dostają bezpłatny plan (do 3 instalacji, 200 000 "
+"zapytań rocznie). Konta firmowe są płatne w Solarmanie. Wtyczka wykonuje nie "
+"więcej niż ok. 500 zapytań dziennie."
+
+#: includes/premium/solarman/class-solarman-admin.php:234
+msgid ""
+"Enter the APP SECRET and password again — they are not kept after a failed "
+"attempt."
+msgstr ""
+"Wpisz ponownie APP SECRET i hasło — po nieudanej próbie nie są zapamiętywane."
+
+#: includes/premium/solarman/class-solarman-admin.php:248
+msgid "APP ID"
+msgstr "APP ID"
+
+#: includes/premium/solarman/class-solarman-admin.php:252
+msgid "APP SECRET"
+msgstr "APP SECRET"
+
+#: includes/premium/solarman/class-solarman-admin.php:261
+msgid "Solarman account e-mail"
+msgstr "E-mail konta Solarman"
+
+#: includes/premium/solarman/class-solarman-admin.php:265
+msgid "Solarman account password"
+msgstr "Hasło konta Solarman"
+
+#: includes/premium/solarman/class-solarman-admin.php:268
+msgid ""
+"Solarman requires your account password to issue access. The plugin never "
+"stores the password itself — only the SHA-256 form Solarman asks for, "
+"encrypted in the database."
+msgstr ""
+"Solarman wymaga hasła konta, aby przyznać dostęp. Wtyczka nigdy nie "
+"przechowuje samego hasła. Przechowuje tylko postać SHA-256, której wymaga "
+"Solarman, zaszyfrowaną w bazie danych."
+
+#: includes/premium/solarman/class-solarman-admin.php:276
+msgid "All plants"
+msgstr "Wszystkie instalacje"
+
+#: includes/premium/solarman/class-solarman-admin.php:279
+msgid "Add every plant of this Solarman account as a separate data source"
+msgstr "Dodaj każdą instalację z tego konta Solarman jako osobne źródło danych"
+
+#: includes/premium/solarman/class-solarman-admin.php:280
+msgid ""
+"For installers: one data source per plant, named as in Solarman. Plants "
+"already added are skipped, and the refresh interval is lengthened when "
+"needed so that all plants fit within the daily request limit."
+msgstr ""
+"Dla instalatorów: jedno źródło danych na instalację, z nazwą taką jak w "
+"Solarmanie. Instalacje już dodane są pomijane. W razie potrzeby odstęp "
+"odświeżania jest wydłużany, aby wszystkie instalacje zmieściły się w "
+"dziennym limicie zapytań."
+
+#: includes/premium/solarman/class-solarman-admin.php:282
+msgid ""
+"Adding every plant of an account at once is available in the Agency plan."
+msgstr ""
+"Dodawanie wszystkich instalacji z konta naraz jest dostępne w planie Agency."
+
+#: includes/premium/solarman/class-solarman-admin.php:288
+msgid "Plant ID (optional)"
+msgstr "ID instalacji (opcjonalnie)"
+
+#: includes/premium/solarman/class-solarman-admin.php:291
+msgid ""
+"Leave empty if the account has one plant — it is found automatically. With "
+"more plants, saving lists them with their IDs."
+msgstr ""
+"Zostaw puste, jeśli konto ma jedną instalację. Zostanie ona znaleziona "
+"automatycznie. Jeśli instalacji jest więcej, po zapisaniu zobaczysz ich "
+"listę z identyfikatorami."
+
+#. translators: 1: estimated requests per day, 2: number of plants, 3: daily request limit
+#: includes/premium/solarman/class-solarman-admin.php:305
+#, php-format
+msgid ""
+"This APP ID: about %1$d requests a day for %2$d plant(s) on this site; the "
+"plugin's daily limit is %3$d."
+msgstr ""
+"Ten APP ID: ok. %1$d zapytań dziennie dla instalacji w tej witrynie (liczba "
+"instalacji: %2$d). Dzienny limit wtyczki to %3$d."
+
+#: includes/premium/solarman/class-solarman-admin.php:318
+msgid ""
+"Requests are counted per site. If the same APP ID is also used on another "
+"website, set longer intervals on both so that together they stay within your "
+"Solarman plan (free plan: 200,000 requests a year, about 548 a day)."
+msgstr ""
+"Zapytania są liczone osobno dla każdej strony. Jeśli ten sam APP ID działa "
+"też na innej stronie, ustaw dłuższe odstępy na obu, żeby razem zmieściły się "
+"w planie Solarmana (plan darmowy: 200 000 zapytań rocznie, ok. 548 dziennie)."
+
+#: includes/premium/solarman/class-solarman-admin.php:322
+msgid "Connect to Solarman"
+msgstr "Połącz z Solarmanem"
+
+#. translators: 1: number of plants added, 2: number of plants skipped, 3: refresh interval in minutes
+#: includes/premium/solarman/class-solarman-admin.php:375
+#, php-format
+msgid ""
+"Solarman: %1$d plant(s) added, %2$d already connected. New plants refresh "
+"every %3$d minutes so that all plants on this APP ID stay within the daily "
+"request limit."
+msgstr ""
+"Solarman: dodano instalacji: %1$d, już połączonych: %2$d. Nowe instalacje "
+"odświeżają się co %3$d min, żeby wszystkie instalacje na tym APP ID "
+"zmieściły się w dziennym limicie zapytań."
+
+#: includes/premium/solarman/class-solarman-admin.php:399
+msgid "Last data received from Solarman"
+msgstr "Ostatnie dane odebrane z Solarmana"
+
+#. translators: %s: date and time
+#: includes/premium/solarman/class-solarman-admin.php:403
+#, php-format
+msgid ""
+"Received %s. Raw values as Solarman sends them — used to verify units and "
+"signs against the Solarman app."
+msgstr ""
+"Odebrano %s. Poniżej są surowe wartości w takiej postaci, w jakiej wysyła je "
+"Solarman. Służą do sprawdzenia jednostek i znaków w porównaniu z aplikacją "
+"Solarman."
+
+#: includes/premium/solarman/class-solarman-admin.php:473
+msgid "This Solarman account has no plants."
+msgstr "To konto Solarman nie ma instalacji."
+
+#. translators: %s: comma-separated plant names with IDs
+#: includes/premium/solarman/class-solarman-admin.php:486
+#, php-format
+msgid "Enter the plant ID. Plants in this account: %s."
+msgstr "Wpisz identyfikator instalacji. Instalacje na tym koncie: %s."
+
+#: includes/premium/solarman/class-solarman-client.php:149
+msgid ""
+"Solarman did not return an access token — check the APP ID, APP SECRET, e-"
+"mail and password."
+msgstr ""
+"Solarman nie zwrócił tokenu dostępu. Sprawdź APP ID, APP SECRET, adres e-"
+"mail i hasło."
+
+#. translators: %d: number of calls per day
+#: includes/premium/solarman/class-solarman-client.php:283
+#, php-format
+msgid ""
+"The daily Solarman request budget (%d) is used up — the last reading is "
+"kept, and requests resume tomorrow (UTC). This protects the yearly limit of "
+"your Solarman API plan."
+msgstr ""
+"Dzienny limit zapytań do Solarmana (%d) został wykorzystany. Wyświetlany "
+"jest ostatni odczyt, a zapytania zostaną wznowione jutro (UTC). Chroni to "
+"roczny limit planu API Solarman."
+
+#: includes/premium/solarman/class-solarman-client.php:313
+msgid "Solarman rejected the access token."
+msgstr "Solarman odrzucił token dostępu."
+
+#: includes/premium/solarman/class-solarman-client.php:317
+msgid ""
+"Solarman rate limit reached — the last reading is kept and the next attempt "
+"happens on schedule."
+msgstr ""
+"Osiągnięto limit zapytań Solarmana. Wyświetlany jest ostatni odczyt, a "
+"kolejna próba nastąpi zgodnie z harmonogramem."
+
+#. translators: %d: HTTP status code
+#: includes/premium/solarman/class-solarman-client.php:322
+#, php-format
+msgid "Solarman returned an unexpected response (HTTP %d)."
+msgstr "Solarman zwrócił nieoczekiwaną odpowiedź (HTTP %d)."
+
+#. translators: %s: error message from Solarman
+#: includes/premium/solarman/class-solarman-client.php:335
+#, php-format
+msgid "Solarman: %s"
+msgstr "Solarman: %s"
+
+#. translators: %s: error message from Solarman
+#: includes/premium/solarman/class-solarman-client.php:335
+msgid "the request was refused."
+msgstr "żądanie zostało odrzucone."
+
+#: includes/premium/solarman/class-solarman-source.php:72
+msgid "Enter the APP ID you received from Solarman (digits only)."
+msgstr "Wpisz APP ID otrzymane od Solarmana (same cyfry)."
+
+#: includes/premium/solarman/class-solarman-source.php:76
+msgid "Enter the APP SECRET you received from Solarman."
+msgstr "Wpisz APP SECRET otrzymany od Solarmana."
+
+#: includes/premium/solarman/class-solarman-source.php:80
+msgid "Enter the e-mail address of your Solarman account."
+msgstr "Wpisz adres e-mail konta Solarman."
+
+#: includes/premium/solarman/class-solarman-source.php:84
+msgid "Enter the password of your Solarman account."
+msgstr "Wpisz hasło konta Solarman."
+
+#: includes/premium/solarman/class-solarman-source.php:90
+msgid "The plant ID must be a number."
+msgstr "Identyfikator instalacji musi być liczbą."
+
+#: includes/premium/solarman/class-solarman-source.php:148
+msgid "No Solarman plant selected — edit the connection."
+msgstr "Nie wybrano instalacji Solarman. Edytuj połączenie."
+
+#: includes/premium/solarman/class-solarman-source.php:176
+msgid ""
+"Connected to Solarman — the values are not shown yet: their units and signs "
+"are being verified against the Solarman portal on a real installation."
+msgstr ""
+"Połączono z Solarmanem. Wartości nie są jeszcze pokazywane, ponieważ ich "
+"jednostki i znaki są sprawdzane z portalem Solarman na prawdziwej instalacji."
+
+#. translators: %s: comma-separated field names
+#: includes/premium/solarman/class-solarman-source.php:257
+#, php-format
+msgid "Solarman did not return: %s."
+msgstr "Solarman nie zwrócił wartości: %s."
+
+#: includes/sources/abstract-source.php:151
+#: includes/widgets/class-widget-renderer.php:522
+msgid "Battery charge"
+msgstr "Naładowanie baterii"
+
+#: includes/sources/abstract-source.php:152
+msgid "Battery power"
+msgstr "Moc baterii"
+
+#: includes/sources/abstract-source.php:153
+msgid "Grid power"
+msgstr "Moc sieci"
+
+#. translators: %d: minutes
+#: includes/sources/abstract-source.php:178
+#, php-format
+msgid ""
+"The source measurement time is %d minutes in the future — check the timezone "
+"setting of the source. Using the fetch time instead."
+msgstr ""
+"Czas pomiaru w źródle jest %d minut w przyszłości. Sprawdź ustawienie strefy "
+"czasowej źródła. Zamiast czasu pomiaru użyto czasu pobrania."
+
+#: includes/sources/abstract-source.php:199
+msgid "No data yet — the first reading has not arrived."
+msgstr "Nie ma jeszcze danych. Pierwszy odczyt jeszcze nie dotarł."
+
+#. translators: %s: field label
+#: includes/sources/abstract-source.php:204
+#, php-format
+msgid "This data source does not provide \"%s\"."
+msgstr "To źródło danych nie dostarcza wartości „%s”."
+
+#: includes/sources/class-ha-source.php:342
+msgid "suggested by sensor names (beta)"
+msgstr "wybrane po nazwach czujników (beta)"
+
+#: includes/sources/class-ha-source.php:366
+msgid ""
+"Enter the full Home Assistant address, e.g. https://example.ui.nabu.casa"
+msgstr "Wpisz pełny adres Home Assistanta, np. https://example.ui.nabu.casa"
+
+#: includes/sources/class-ha-source.php:370
+msgid "A Home Assistant access token is required."
+msgstr "Token dostępu Home Assistanta jest wymagany."
+
+#. translators: %s: field label
+#: includes/sources/class-ha-source.php:382
+#, php-format
+msgid "%s: choose a sensor."
+msgstr "%s: wybierz czujnik."
+
+#. translators: %s: field key
+#: includes/sources/class-ha-source.php:391
+#, php-format
+msgid "Invalid sensor for \"%s\"."
+msgstr "Czujnik wybrany dla „%s” jest nieprawidłowy."
+
+#: includes/sources/class-ha-source.php:422
+msgid "Invalid or expired Home Assistant access token."
+msgstr "Token dostępu Home Assistanta jest nieprawidłowy albo wygasł."
+
+#: includes/sources/class-ha-source.php:426
+msgid ""
+"Not found in Home Assistant — the sensor may have been renamed or removed."
+msgstr ""
+"Nie znaleziono w Home Assistancie. Czujnik mógł zostać przemianowany albo "
+"usunięty."
+
+#. translators: %d: HTTP status code
+#: includes/sources/class-ha-source.php:431
+#, php-format
+msgid "Home Assistant returned an unexpected response code: %d."
+msgstr "Home Assistant zwrócił nieoczekiwany kod odpowiedzi: %d."
+
+#: includes/sources/class-ha-source.php:437
+msgid "Invalid response from Home Assistant."
+msgstr "Home Assistant zwrócił nieprawidłową odpowiedź."
+
+#. translators: 1: entity id, 2: unit
+#: includes/sources/class-ha-source.php:674
+#, php-format
+msgid "%1$s: unit \"%2$s\" does not fit this field."
+msgstr "%1$s: jednostka „%2$s” nie pasuje do tego pola."
+
+#. translators: 1: entity id, 2: state, e.g. "unavailable"
+#: includes/sources/class-ha-source.php:681
+#, php-format
+msgid "%1$s is \"%2$s\" in Home Assistant."
+msgstr "%1$s ma w Home Assistancie wartość „%2$s”."
+
+#. translators: %s: field label
+#: includes/sources/class-push-source.php:64
+#, php-format
+msgid "%s is required."
+msgstr "Pole „%s” jest wymagane."
+
+#. translators: %s: field label or key
+#: includes/sources/class-push-source.php:71
+#, php-format
+msgid "%s: choose a unit."
+msgstr "%s: wybierz jednostkę."
+
+#: includes/sources/class-rest-source.php:209
+msgid "Enter a full http:// or https:// URL."
+msgstr "Wpisz pełny adres URL z http:// lub https://."
+
+#: includes/sources/class-rest-source.php:215
+msgid "The auth header must look like \"Header-Name: value\"."
+msgstr "Nagłówek autoryzacji musi mieć postać „Nazwa-Nagłówka: wartość”."
+
+#. translators: %s: field label, e.g. "Current power"
+#: includes/sources/class-rest-source.php:223
+#, php-format
+msgid "%s: a JSON path is required."
+msgstr "%s: ścieżka JSON jest wymagana."
+
+#. translators: %s: field key
+#: includes/sources/class-rest-source.php:230
+#, php-format
+msgid "Unknown field \"%s\"."
+msgstr "Pole „%s” jest nieznane."
+
+#. translators: 1: field label, 2: allowed units, comma separated
+#: includes/sources/class-rest-source.php:236
+#, php-format
+msgid "%1$s: choose a unit (%2$s)."
+msgstr "%1$s: wybierz jednostkę (%2$s)."
+
+#. translators: %s: timezone the user entered
+#: includes/sources/class-rest-source.php:244
+#, php-format
+msgid ""
+"Unknown timezone \"%s\" — use a name like Europe/Warsaw, or leave empty for "
+"the site timezone."
+msgstr ""
+"Strefa czasowa „%s” jest nieznana. Użyj nazwy takiej jak Europe/Warsaw albo "
+"zostaw puste pole, aby użyć strefy czasowej witryny."
+
+#: includes/sources/class-rest-source.php:276
+msgid ""
+"Authorization failed — check the URL key or auth header in the connection "
+"settings."
+msgstr ""
+"Autoryzacja nie powiodła się. Sprawdź klucz w adresie URL albo nagłówek "
+"autoryzacji w ustawieniach połączenia."
+
+#: includes/sources/class-rest-source.php:280
+msgid ""
+"The data source rate limit was reached — the last reading is kept and the "
+"next attempt happens on schedule."
+msgstr ""
+"Osiągnięto limit zapytań źródła danych. Wyświetlany jest ostatni odczyt, a "
+"kolejna próba nastąpi zgodnie z harmonogramem."
+
+#. translators: %d: HTTP status code
+#: includes/sources/class-rest-source.php:285
+#, php-format
+msgid "The server returned an unexpected response code: %d."
+msgstr "Serwer zwrócił nieoczekiwany kod odpowiedzi: %d."
+
+#: includes/sources/class-rest-source.php:291
+msgid "The server response is not valid JSON."
+msgstr "Odpowiedź serwera nie jest prawidłowym JSON-em."
+
+#. translators: %s: field label
+#: includes/sources/class-rest-source.php:340
+#, php-format
+msgid "%s: invalid unit in the connection settings."
+msgstr "%s: w ustawieniach połączenia jest nieprawidłowa jednostka."
+
+#. translators: 1: field label, 2: JSON path
+#: includes/sources/class-rest-source.php:348
+#, php-format
+msgid "%1$s: path \"%2$s\" was not found in the response."
+msgstr "%1$s: w odpowiedzi nie znaleziono ścieżki „%2$s”."
+
+#. translators: 1: field label, 2: JSON path
+#: includes/sources/class-rest-source.php:350
+#, php-format
+msgid "%1$s: the value at \"%2$s\" is not a number."
+msgstr "%1$s: wartość w „%2$s” nie jest liczbą."
+
+#: includes/widgets/class-block.php:67
+msgid "Solar production"
+msgstr "Produkcja fotowoltaiki"
+
+#: includes/widgets/class-block.php:168
+#: includes/widgets/class-widget-renderer.php:334
+msgid "This widget is available in the Pro version."
+msgstr "Ten widget jest dostępny w wersji Pro."
+
+#: includes/widgets/class-block.php:170
+#: includes/widgets/class-widget-renderer.php:344
+msgid "This widget is available in the Agency plan."
+msgstr "Ten widget jest dostępny w planie Agency."
+
+#: includes/widgets/class-block.php:175
+msgid "Card"
+msgstr "Karta"
+
+#: includes/widgets/class-block.php:176
+msgid "Minimal"
+msgstr "Minimalny"
+
+#: includes/widgets/class-widget-renderer.php:57
+msgid "Exported energy value (RCE)"
+msgstr "Wartość energii oddanej (RCE)"
+
+#: includes/widgets/class-widget-renderer.php:74
+msgid "Our installations"
+msgstr "Nasze instalacje"
+
+#: includes/widgets/class-widget-renderer.php:235
+msgid "Summary"
+msgstr "Podsumowanie"
+
+#. translators: 1: the value given, 2: comma-separated allowed values
+#: includes/widgets/class-widget-renderer.php:349
+#, php-format
+msgid "Unknown widget \"%1$s\". Allowed values: %2$s."
+msgstr "Widżet „%1$s” jest nieznany. Dopuszczalne wartości: %2$s."
+
+#. translators: 1: the value given, 2: comma-separated allowed values
+#: includes/widgets/class-widget-renderer.php:354
+#, php-format
+msgid "Unknown style \"%1$s\". Allowed values: %2$s."
+msgstr "Styl „%1$s” jest nieznany. Dopuszczalne wartości: %2$s."
+
+#. translators: %s: widget name
+#: includes/widgets/class-widget-renderer.php:409
+#, php-format
+msgid "This data source does not provide the data for the \"%s\" widget."
+msgstr "To źródło danych nie dostarcza danych potrzebnych do widżetu „%s”."
+
+#: includes/widgets/class-widget-renderer.php:430
+msgid ""
+"Only logged-in editors see this widget. To show it to visitors, enable "
+"\"Show on public pages\" for this connection in Solar Widget → Connections."
+msgstr ""
+"Ten widżet jest widoczny tylko dla zalogowanych redaktorów. Aby odwiedzający "
+"też go widzieli, włącz opcję „Pokazuj na stronach publicznych” dla tego "
+"połączenia w menu Solar Widget → Połączenia."
+
+#: includes/widgets/class-widget-renderer.php:531
+msgid "Charging"
+msgstr "Ładowanie"
+
+#: includes/widgets/class-widget-renderer.php:532
+msgid "Discharging"
+msgstr "Rozładowanie"
+
+#: includes/widgets/class-widget-renderer.php:533
+msgid "Idle"
+msgstr "Bezczynna"
+
+#. translators: %s: mass of CO2 with unit, e.g. "12 kg"
+#: includes/widgets/class-widget-renderer.php:566
+#, php-format
+msgid "Today: %s"
+msgstr "Dziś: %s"
+
+#: includes/widgets/class-widget-renderer.php:614
+msgid "Data may be out of date"
+msgstr "Dane mogą być nieaktualne"
+
+#: includes/widgets/class-widget-renderer.php:628
+msgid "Waiting for the first reading."
+msgstr "Wtyczka czeka na pierwszy odczyt."
+
+#: includes/widgets/class-widget-renderer.php:631
+msgid "The data source is currently unavailable."
+msgstr "Źródło danych jest obecnie niedostępne."
+
+#: includes/widgets/class-widget-renderer.php:662
+msgid "No data source configured yet — add one in Solar Widget → Connections."
+msgstr ""
+"Nie dodano jeszcze żadnego źródła danych. Dodaj je w menu Solar Widget → "
+"Połączenia."
+
+#. translators: %s: comma-separated connection names with their IDs in brackets
+#: includes/widgets/class-widget-renderer.php:671
+#, php-format
+msgid ""
+"Choose a connection by its ID with the \"connection\" attribute. Available: "
+"%s."
+msgstr ""
+"Wskaż połączenie, podając jego identyfikator w atrybucie „connection”. "
+"Dostępne identyfikatory: %s."
+
+#. translators: 1: the value given, 2: comma-separated connection names with their IDs in brackets
+#: includes/widgets/class-widget-renderer.php:681
+#, php-format
+msgid "Unknown connection ID \"%1$s\". Available: %2$s."
+msgstr ""
+"Nie ma połączenia o identyfikatorze „%1$s”. Dostępne identyfikatory: %2$s."
+
+#: blocks/widget/editor.js:117
+msgid "Widget"
+msgstr "Widget"
+
+#: blocks/widget/editor.js:128
+msgid "Shows all data sources that are visible on public pages."
+msgstr "Pokazuje wszystkie źródła danych widoczne na stronach publicznych."
+
+#: blocks/widget/editor.js:130
+msgid "Data source"
+msgstr "Źródło danych"
+
+#: blocks/widget/editor.js:138
+msgid "Style"
+msgstr "Styl"
+
+#: blocks/widget/editor.js:146
+msgid "Label (optional)"
+msgstr "Etykieta (opcjonalnie)"
+
+#: blocks/widget/editor.js:156
+msgid ""
+"This data source does not provide the data for the selected widget — choose "
+"another widget or source."
+msgstr ""
+"To źródło danych nie dostarcza danych potrzebnych do wybranego widżetu. "
+"Wybierz inny widżet albo inne źródło."
+
+#: blocks/widget/editor.js:163
+msgid ""
+"This source is not public yet — visitors will not see the widget until you "
+"enable \"Show on public pages\" in Solar Widget → Connections."
+msgstr ""
+"To źródło nie jest jeszcze publiczne. Odwiedzający nie zobaczą widżetu, "
+"dopóki nie włączysz opcji „Pokazuj na stronach publicznych” w menu Solar "
+"Widget → Połączenia."
+
+msgid "Your device, Home Assistant automation or script sends readings to this site. Recommended for most externally hosted WordPress sites."
+msgstr "Twoje urządzenie, automatyzacja Home Assistant lub skrypt wysyła odczyty do tej witryny. Polecane dla większości witryn WordPress w hostingu zewnętrznym."
+
+msgid "Read selected solar sensors from a Home Assistant instance that your WordPress server can reach."
+msgstr "Odczytuj wybrane czujniki instalacji solarnej z Home Assistanta dostępnego dla serwera WordPress."
+
+msgid "Map values from any JSON API and choose the units it uses."
+msgstr "Mapuj wartości z dowolnego API JSON i wybierz używane jednostki."
+
+msgid "Connect directly to SolaxCloud. This integration is in beta."
+msgstr "Połącz bezpośrednio z SolaxCloud. Ta integracja jest w wersji beta."
+
+msgid "Choose a data source below, then follow its setup form."
+msgstr "Wybierz poniżej źródło danych i wypełnij formularz konfiguracji."
+
+msgid "No connections yet. Add a source to start displaying your solar data."
+msgstr "Nie ma jeszcze połączeń. Dodaj źródło, aby wyświetlać dane instalacji solarnej."
+
+msgid "Setup required"
+msgstr "Wymaga konfiguracji"
+
+msgid "Last refresh failed"
+msgstr "Ostatnie odświeżenie nie powiodło się"
+
+msgid "Waiting for first reading"
+msgstr "Oczekiwanie na pierwszy odczyt"
+
+msgid "Data is out of date"
+msgstr "Dane są nieaktualne"
+
+msgid "Data is up to date"
+msgstr "Dane są aktualne"
+
+msgid "New sources are private by default. You can choose separately whether to show their data on public pages."
+msgstr "Nowe źródła są domyślnie prywatne. Możesz osobno zdecydować, czy wyświetlać ich dane na stronach publicznych."
+
+msgid "Change source type"
+msgstr "Zmień typ źródła"
+
+msgid "Changing source type will discard unsaved entries."
+msgstr "Zmiana typu źródła spowoduje utratę niezapisanych wpisów."
+
+msgid "Your non-secret entries were restored. For your security, enter passwords and tokens again."
+msgstr "Przywrócono wpisane wartości, które nie są sekretami. Ze względów bezpieczeństwa wpisz ponownie hasła i tokeny."
+
+msgid "Connect a SolarEdge installation using an API key from the monitoring portal."
+msgstr "Połącz instalację SolarEdge za pomocą klucza API z portalu monitoringu."
+
+msgid "Connect to an inverter monitored in the Solarman cloud using your OpenAPI account."
+msgstr "Połącz falownik monitorowany w chmurze Solarman za pomocą konta OpenAPI."
+
+msgid "Actions"
+msgstr "Działania"
+
+msgid "Add source"
+msgstr "Dodaj źródło"
+
+msgid "Cancel adding source"
+msgstr "Anuluj dodawanie źródła"
+
+#: includes/widgets/class-widget-renderer.php
+msgid "Private data"
+msgstr "Dane prywatne"
+
+#: admin/class-connections-page.php
+msgid "SolaX Cloud"
+msgstr "SolaX Cloud"
+
+#: admin/views/connections-page.php
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/views/connections-page.php
+msgid "Available in Pro — see plans"
+msgstr "Dostępne w wersji Pro. Zobacz plany"

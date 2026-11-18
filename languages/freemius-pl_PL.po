@@ -1,0 +1,2146 @@
+# Polish translation of the Freemius WordPress SDK strings, shipped with IoT Data Widget.
+# Loaded only for the "freemius" text domain when the admin language is pl_PL (see IOTDW_Plugin::load_freemius_translation()).
+msgid ""
+msgstr ""
+"Project-Id-Version: Freemius SDK 2.13.4 (IoT Data Widget 1.0.3)\n"
+"PO-Revision-Date: 2026-10-09 20:00+0200\n"
+"Last-Translator: Rafał Strachowski\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: freemius\n"
+
+msgid "An update to a Beta version will replace your installed version of %s with the latest Beta release - use with caution, and not on production sites. You have been warned."
+msgstr "Aktualizacja do wersji Beta zastąpi zainstalowaną wersję %s najnowszym wydaniem Beta — używaj ostrożnie i nie na stronach produkcyjnych. Ostrzegaliśmy."
+
+msgid "Would you like to proceed with the update?"
+msgstr "Czy chcesz kontynuować aktualizację?"
+
+msgid "Freemius SDK couldn't find the plugin's main file. Please contact sdk@freemius.com with the current error."
+msgstr "Freemius SDK nie może znaleźć głównego pliku wtyczki. Skontaktuj się z sdk@freemius.com i podaj bieżący błąd."
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "I found a better %s"
+msgstr "Znalazłem lepszy produkt%.0s"
+
+msgid "What's the %s's name?"
+msgstr "Jak się nazywa ten lepszy produkt?%.0s"
+
+msgid "It's a temporary %s - I'm troubleshooting an issue"
+msgstr "To tymczasowa operacja (%s) — szukam przyczyny problemu"
+
+msgid "Deactivation"
+msgstr "Dezaktywacja"
+
+msgid "Theme Switch"
+msgstr "Zmiana motywu"
+
+msgid "Other"
+msgstr "Inne"
+
+msgid "I no longer need the %s"
+msgstr "Nie potrzebuję już tego produktu%.0s"
+
+msgid "I only needed the %s for a short period"
+msgstr "Ten produkt był mi potrzebny tylko na krótko%.0s"
+
+msgid "The %s broke my site"
+msgstr "Ten produkt zepsuł moją stronę%.0s"
+
+msgid "The %s suddenly stopped working"
+msgstr "Ten produkt nagle przestał działać%.0s"
+
+msgid "I can't pay for it anymore"
+msgstr "Nie stać mnie już na to"
+
+msgid "What price would you feel comfortable paying?"
+msgstr "Jaką cenę uważasz za odpowiednią?"
+
+msgid "I don't like to share my information with you"
+msgstr "Nie chcę udostępniać Wam swoich informacji"
+
+msgid "The %s didn't work"
+msgstr "Ten produkt nie zadziałał%.0s"
+
+msgid "I couldn't understand how to make it work"
+msgstr "Nie wiedziałem, jak go uruchomić"
+
+msgid "The %s is great, but I need specific feature that you don't support"
+msgstr "Ten produkt jest świetny, ale potrzebuję funkcji, której nie macie%.0s"
+
+msgid "What feature?"
+msgstr "Jakiej funkcji?"
+
+msgid "The %s is not working"
+msgstr "Ten produkt nie działa%.0s"
+
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr "Napisz, co nie zadziałało, abyśmy mogli to poprawić dla kolejnych użytkowników..."
+
+msgid "It's not what I was looking for"
+msgstr "To nie jest to, czego szukałem"
+
+msgid "What you've been looking for?"
+msgstr "Czego szukałeś?"
+
+msgid "The %s didn't work as expected"
+msgstr "Ten produkt nie działał zgodnie z oczekiwaniami%.0s"
+
+msgid "What did you expect?"
+msgstr "Czego się spodziewałeś?"
+
+msgid "You have purchased a %s license."
+msgstr "Kupiłeś licencję %s."
+
+msgid " The %s's %sdownload link%s, license key, and installation instructions have been sent to %s. If you can't find the email after 5 min, please check your spam box."
+msgstr " %s — %sLink do pobrania%s, klucz licencyjny i instrukcja instalacji zostały wysłane na adres %s. Jeśli po 5 minutach nie widzisz wiadomości, sprawdź folder spam."
+
+msgctxt "interjection expressing joy or exuberance"
+msgid "Yee-haw"
+msgstr "Hurra"
+
+msgctxt "addonX cannot run without pluginY"
+msgid "%s cannot run without %s."
+msgstr "%s nie może działać bez %s."
+
+msgctxt "addonX cannot run..."
+msgid "%s cannot run without the plugin."
+msgstr "%s nie może działać bez wtyczki."
+
+msgctxt "exclamation"
+msgid "Oops"
+msgstr "Ups"
+
+msgid "There was an unexpected API error while processing your request. Please try again in a few minutes and if it still doesn't work, contact the %s's author with the following:"
+msgstr "Podczas przetwarzania żądania wystąpił nieoczekiwany błąd API. Spróbuj ponownie za kilka minut, a jeśli nadal nie działa, skontaktuj się z autorem produktu (%s) i podaj poniższe informacje:"
+
+msgid "You have a %s license."
+msgstr "Masz licencję %s."
+
+msgid "Premium %s version was successfully activated."
+msgstr "Wersja premium %s została aktywowana."
+
+msgctxt "Used to express elation, enthusiasm, or triumph (especially in electronic communication)."
+msgid "W00t"
+msgstr "Super"
+
+msgid "%s free trial was successfully cancelled. Since the add-on is premium only it was automatically deactivated. If you like to use it in the future, you'll have to purchase a license."
+msgstr "Darmowy okres próbny %s został anulowany. Ponieważ dodatek jest dostępny tylko w wersji premium, został automatycznie dezaktywowany. Jeśli chcesz go używać w przyszłości, musisz kupić licencję."
+
+msgid "%s is a premium only add-on. You have to purchase a license first before activating the plugin."
+msgstr "%s to dodatek tylko w wersji premium. Przed aktywacją wtyczki musisz kupić licencję."
+
+msgid "More information about %s"
+msgstr "Więcej informacji o %s"
+
+msgid "Purchase License"
+msgstr "Kup licencję"
+
+msgid "You should receive %3$s for %1$s to your mailbox at %2$s in the next 5 minutes."
+msgstr "W ciągu 5 minut na adres %2$s powinieneś otrzymać %3$s dla %1$s."
+
+msgctxt "Part of the message telling the user what they should receive via email."
+msgid "a license key"
+msgstr "klucz licencyjny"
+
+msgid "%s to activate the license once you get it."
+msgstr "%s, aby aktywować licencję, gdy ją otrzymasz."
+
+msgctxt "Part of an activation link message."
+msgid "Click here"
+msgstr "Kliknij tutaj"
+
+msgctxt "Part of the message telling the user what they should receive via email."
+msgid "the installation instructions"
+msgstr "instrukcję instalacji"
+
+msgctxt "Part of the message that tells the user to check their spam folder for a specific email."
+msgid "the product's support email address"
+msgstr "adres e-mail wsparcia produktu"
+
+msgid "If you didn't get the email, try checking your spam folder or search for emails from %4$s."
+msgstr "Jeśli nie otrzymałeś wiadomości, sprawdź folder spam albo wyszukaj wiadomości od %4$s."
+
+msgid "Thanks for upgrading."
+msgstr "Dziękujemy za przejście na wyższy plan."
+
+msgid "You should receive a confirmation email for %1$s to your mailbox at %2$s. Please make sure you click the button in that email to %3$s."
+msgstr "Na adres %2$s powinieneś otrzymać e-mail z potwierdzeniem dla %1$s. Kliknij przycisk w tej wiadomości, aby %3$s."
+
+msgid "start the trial"
+msgstr "rozpocząć okres próbny"
+
+msgid "complete the opt-in"
+msgstr "dokończyć wyrażanie zgody"
+
+msgid "Thanks!"
+msgstr "Dziękujemy!"
+
+msgid "You are just one step away - %s"
+msgstr "Został tylko jeden krok — %s"
+
+msgctxt "%s - plugin name. As complete \"PluginX\" activation now"
+msgid "Complete \"%s\" Activation Now"
+msgstr "Dokończ teraz aktywację „%s”"
+
+msgid "We made a few tweaks to the %s, %s"
+msgstr "Wprowadziliśmy kilka zmian w produkcie (%s), %s"
+
+msgid "Opt in to make \"%s\" better!"
+msgstr "Wyraź zgodę, aby pomóc ulepszyć „%s”!"
+
+msgid "The upgrade of %s was successfully completed."
+msgstr "Aktualizacja %s zakończyła się powodzeniem."
+
+msgid "Add-On"
+msgstr "Dodatek"
+
+msgid "Plugin"
+msgstr "Wtyczka"
+
+msgid "Theme"
+msgstr "Motyw"
+
+msgid "An unknown error has occurred while trying to toggle the license's white-label mode."
+msgstr "Wystąpił nieznany błąd podczas przełączania trybu white-label licencji."
+
+msgid "Your %s license was flagged as white-labeled to hide sensitive information from the WP Admin (e.g. your email, license key, prices, billing address & invoices). If you ever wish to revert it back, you can easily do it through your %s. If this was a mistake you can also %s."
+msgstr "Twoja licencja %s została oznaczona jako white-label, aby ukryć poufne informacje w panelu WP (np. Twój e-mail, klucz licencyjny, ceny, adres rozliczeniowy i faktury). Jeśli zechcesz to cofnąć, możesz to łatwo zrobić w %s. Jeśli to pomyłka, możesz też %s."
+
+msgid "User Dashboard"
+msgstr "Panel użytkownika"
+
+msgid "revert it now"
+msgstr "cofnąć to teraz"
+
+msgid "An unknown error has occurred while trying to set the user's beta mode."
+msgstr "Wystąpił nieznany błąd podczas ustawiania trybu beta użytkownika."
+
+msgid "Invalid new user ID or email address."
+msgstr "Nieprawidłowy identyfikator nowego użytkownika lub adres e-mail."
+
+msgid "Sorry, we could not complete the email update. Another user with the same email is already registered."
+msgstr "Nie udało się zmienić adresu e-mail. Inny użytkownik z tym adresem jest już zarejestrowany."
+
+msgid "If you would like to give up the ownership of the %s's account to %s click the Change Ownership button."
+msgstr "Jeśli chcesz przekazać własność konta (%s) użytkownikowi %s, kliknij przycisk Zmień właściciela."
+
+msgid "Change Ownership"
+msgstr "Zmień właściciela"
+
+msgid "Invalid site details collection."
+msgstr "Nieprawidłowy zbiór danych strony."
+
+msgid "We can't see any active licenses associated with that email address, are you sure it's the right address?"
+msgstr "Nie widzimy żadnych aktywnych licencji powiązanych z tym adresem e-mail. Czy na pewno to właściwy adres?"
+
+msgid "We couldn't find your email address in the system, are you sure it's the right address?"
+msgstr "Nie znaleźliśmy Twojego adresu e-mail w systemie. Czy na pewno to właściwy adres?"
+
+msgid "Account is pending activation. Please check your email and click the link to activate your account and then submit the affiliate form again."
+msgstr "Konto czeka na aktywację. Sprawdź pocztę, kliknij link aktywacyjny, a potem ponownie wyślij formularz partnerski."
+
+msgid "Renew your license now"
+msgstr "Odnów licencję teraz"
+
+msgid "Buy a license now"
+msgstr "Kup licencję teraz"
+
+msgid "%s to access version %s security & feature updates, and support."
+msgstr "%s, aby mieć dostęp do aktualizacji bezpieczeństwa i funkcji wersji %s oraz do wsparcia."
+
+msgid "%s opt-in was successfully completed."
+msgstr "Zgoda dla %s została wyrażona."
+
+msgid "Your trial has been successfully started."
+msgstr "Okres próbny został rozpoczęty."
+
+msgid "Your account was successfully activated with the %s plan."
+msgstr "Twoje konto zostało aktywowane z planem %s."
+
+msgid "Couldn't activate %s."
+msgstr "Nie udało się aktywować %s."
+
+msgid "Please contact us with the following message:"
+msgstr "Skontaktuj się z nami i podaj poniższy komunikat:"
+
+msgid "An unknown error has occurred."
+msgstr "Wystąpił nieznany błąd."
+
+msgid "Upgrade"
+msgstr "Ulepsz"
+
+msgid "Pricing"
+msgstr "Cennik"
+
+msgid "Start Trial"
+msgstr "Rozpocznij okres próbny"
+
+msgid "Affiliation"
+msgstr "Program partnerski"
+
+msgid "Account"
+msgstr "Konto"
+
+msgid "Contact Us"
+msgstr "Kontakt"
+
+msgid "Add-Ons"
+msgstr "Dodatki"
+
+msgctxt "ASCII arrow left icon"
+msgid "&#x2190;"
+msgstr "&#x2190;"
+
+msgctxt "ASCII arrow right icon"
+msgid "&#x27a4;"
+msgstr "&#x27a4;"
+
+msgctxt "noun"
+msgid "Pricing"
+msgstr "Cennik"
+
+msgid "Support Forum"
+msgstr "Forum wsparcia"
+
+msgid "Your email has been successfully verified - you are AWESOME!"
+msgstr "Twój adres e-mail został zweryfikowany — jesteś NIESAMOWITY!"
+
+msgctxt "a positive response"
+msgid "Right on"
+msgstr "Świetnie"
+
+msgid "seems like the key you entered doesn't match our records."
+msgstr "wygląda na to, że wpisany klucz nie zgadza się z naszymi danymi."
+
+msgid "Debug mode was successfully enabled and will be automatically disabled in 60 min. You can also disable it earlier by clicking the \"Stop Debug\" link."
+msgstr "Tryb debugowania został włączony i wyłączy się automatycznie po 60 minutach. Możesz go też wyłączyć wcześniej, klikając link „Zatrzymaj debugowanie”."
+
+msgid "Your %s Add-on plan was successfully upgraded."
+msgstr "Plan dodatku %s został podniesiony."
+
+msgid "%s Add-on was successfully purchased."
+msgstr "Dodatek %s został zakupiony."
+
+msgid "Download the latest version"
+msgstr "Pobierz najnowszą wersję"
+
+msgid "It seems like one of the authentication parameters is wrong. Update your Public Key, Secret Key & User ID, and try again."
+msgstr "Jeden z parametrów uwierzytelniania jest nieprawidłowy. Zaktualizuj klucz publiczny, klucz tajny i ID użytkownika, a następnie spróbuj ponownie."
+
+msgid "Error received from the server:"
+msgstr "Błąd otrzymany z serwera:"
+
+msgctxt "something somebody says when they are thinking about what you have just said."
+msgid "Hmm"
+msgstr "Hmm"
+
+msgid "It looks like you are still on the %s plan. If you did upgrade or change your plan, it's probably an issue on our side - sorry."
+msgstr "Wygląda na to, że nadal korzystasz z planu %s. Jeśli zmieniłeś plan, to prawdopodobnie problem po naszej stronie — przepraszamy."
+
+msgctxt "trial period"
+msgid "Trial"
+msgstr "Okres próbny"
+
+msgid "I have upgraded my account but when I try to Sync the License, the plan remains %s."
+msgstr "Podniosłem plan konta, ale po synchronizacji licencji plan nadal to %s."
+
+msgid "Please contact us here"
+msgstr "Skontaktuj się z nami tutaj"
+
+msgid "Your plan was successfully changed to %s."
+msgstr "Twój plan został zmieniony na %s."
+
+msgid "Your license has expired. You can still continue using the free %s forever."
+msgstr "Twoja licencja wygasła. Nadal możesz bezterminowo korzystać z darmowej wersji %s."
+
+msgid "Your license has expired. %1$sUpgrade now%2$s to continue using the %3$s without interruptions."
+msgstr "Twoja licencja wygasła. %1$sPrzejdź na wyższy plan%2$s, aby dalej bez przerw korzystać z %3$s."
+
+msgid "Your license has been cancelled. If you think it's a mistake, please contact support."
+msgstr "Twoja licencja została anulowana. Jeśli uważasz, że to pomyłka, skontaktuj się ze wsparciem."
+
+msgid "Your license has expired. You can still continue using all the %s features, but you'll need to renew your license to continue getting updates and support."
+msgstr "Twoja licencja wygasła. Nadal możesz korzystać ze wszystkich funkcji %s, ale aby dostawać aktualizacje i wsparcie, musisz odnowić licencję."
+
+msgid "Your free trial has expired. You can still continue using all our free features."
+msgstr "Darmowy okres próbny wygasł. Nadal możesz korzystać ze wszystkich darmowych funkcji."
+
+msgid "Your free trial has expired. %1$sUpgrade now%2$s to continue using the %3$s without interruptions."
+msgstr "Darmowy okres próbny wygasł. %1$sPrzejdź na wyższy plan%2$s, aby dalej bez przerw korzystać z %3$s."
+
+msgid "Your server is blocking the access to Freemius' API, which is crucial for %1$s synchronization. Please contact your host to whitelist the following domains:%2$s"
+msgstr "Twój serwer blokuje dostęp do API Freemius, niezbędnego do synchronizacji %1$s. Poproś firmę hostingową o dodanie do białej listy następujących domen:%2$s"
+
+msgid "Show error details"
+msgstr "Pokaż szczegóły błędu"
+
+msgid "It looks like the license could not be activated."
+msgstr "Wygląda na to, że nie udało się aktywować licencji."
+
+msgid "Your license was successfully activated."
+msgstr "Licencja została aktywowana."
+
+msgid "It looks like your site currently doesn't have an active license."
+msgstr "Wygląda na to, że ta strona nie ma obecnie aktywnej licencji."
+
+msgid "It looks like the license deactivation failed."
+msgstr "Wygląda na to, że nie udało się dezaktywować licencji."
+
+msgid "Your %s license was successfully deactivated."
+msgstr "Licencja %s została dezaktywowana."
+
+msgid "Your license was successfully deactivated, you are back to the %s plan."
+msgstr "Licencja została dezaktywowana, wracasz do planu %s."
+
+msgid "O.K"
+msgstr "OK"
+
+msgid "Seems like we are having some temporary issue with your subscription cancellation. Please try again in few minutes."
+msgstr "Mamy chwilowy problem z anulowaniem subskrypcji. Spróbuj ponownie za kilka minut."
+
+msgid "Your subscription was successfully cancelled. Your %s plan license will expire in %s."
+msgstr "Subskrypcja została anulowana. Licencja planu %s wygaśnie za %s."
+
+msgid "You are already running the %s in a trial mode."
+msgstr "Używasz już %s w trybie próbnym."
+
+msgid "You already utilized a trial before."
+msgstr "Okres próbny został już wcześniej wykorzystany."
+
+msgid "None of the %s's plans supports a trial period."
+msgstr "Żaden z planów produktu (%s) nie obejmuje okresu próbnego."
+
+msgid "Plan %s do not exist, therefore, can't start a trial."
+msgstr "Plan %s nie istnieje, więc nie można rozpocząć okresu próbnego."
+
+msgid "Plan %s does not support a trial period."
+msgstr "Plan %s nie obejmuje okresu próbnego."
+
+msgid "It looks like you are not in trial mode anymore so there's nothing to cancel :)"
+msgstr "Wygląda na to, że nie jesteś już w trybie próbnym, więc nie ma czego anulować :)"
+
+msgid "Seems like we are having some temporary issue with your trial cancellation. Please try again in few minutes."
+msgstr "Mamy chwilowy problem z anulowaniem okresu próbnego. Spróbuj ponownie za kilka minut."
+
+msgid "Your %s free trial was successfully cancelled."
+msgstr "Darmowy okres próbny %s został anulowany."
+
+msgid "Seems like you got the latest release."
+msgstr "Wygląda na to, że masz najnowszą wersję."
+
+msgid "You are all good!"
+msgstr "Wszystko w porządku!"
+
+msgid "Version %s was released."
+msgstr "Wydano wersję %s."
+
+msgid "Please download %s."
+msgstr "Pobierz %s."
+
+msgid "the latest %s version here"
+msgstr "najnowszą wersję %s tutaj"
+
+msgid "New"
+msgstr "Nowe"
+
+msgid "Verification mail was just sent to %s. If you can't find it after 5 min, please check your spam box."
+msgstr "Wiadomość weryfikacyjna została wysłana na adres %s. Jeśli po 5 minutach jej nie widzisz, sprawdź folder spam."
+
+msgid "Site successfully opted in."
+msgstr "Zgoda dla strony została wyrażona."
+
+msgid "Awesome"
+msgstr "Świetnie"
+
+msgid "Diagnostic data will no longer be sent from %s to %s."
+msgstr "Dane diagnostyczne nie będą już wysyłane z %s do %s."
+
+msgid "Sharing diagnostic data with %s helps to provide functionality that's more relevant to your website, avoid WordPress or PHP version incompatibilities that can break your website, and recognize which languages & regions the plugin should be translated and tailored to."
+msgstr "Udostępnianie danych diagnostycznych %s pomaga dopasować funkcje do Twojej strony, unikać niezgodności z wersjami WordPressa lub PHP, które mogą zepsuć stronę, oraz ustalić, na jakie języki i regiony warto przetłumaczyć i dostosować wtyczkę."
+
+msgid "Thank you!"
+msgstr "Dziękujemy!"
+
+msgid "A confirmation email was just sent to %s. You must confirm the update within the next 4 hours. If you cannot find the email, please check your spam folder."
+msgstr "E-mail z potwierdzeniem został wysłany na adres %s. Musisz potwierdzić zmianę w ciągu 4 godzin. Jeśli nie widzisz wiadomości, sprawdź folder spam."
+
+msgid "A confirmation email was just sent to %s. The email owner must confirm the update within the next 4 hours."
+msgstr "E-mail z potwierdzeniem został wysłany na adres %s. Właściciel adresu musi potwierdzić zmianę w ciągu 4 godzin."
+
+msgid "Thanks for confirming the ownership change. An email was just sent to %s for final approval."
+msgstr "Dziękujemy za potwierdzenie zmiany właściciela. Na adres %s została wysłana wiadomość do ostatecznego zatwierdzenia."
+
+msgid "%s is the new owner of the account."
+msgstr "%s jest nowym właścicielem konta."
+
+msgctxt "as congratulations"
+msgid "Congrats"
+msgstr "Gratulacje"
+
+msgid "Your name was successfully updated."
+msgstr "Imię i nazwisko zostały zaktualizowane."
+
+msgid "Please provide your full name."
+msgstr "Podaj imię i nazwisko."
+
+msgid "You have successfully updated your %s."
+msgstr "Zaktualizowano: %s."
+
+msgid "Is this your client's site? %s if you wish to hide sensitive info like your email, license key, prices, billing address & invoices from the WP Admin."
+msgstr "Czy to strona Twojego klienta? %s, jeśli chcesz ukryć w panelu WP poufne informacje, takie jak Twój e-mail, klucz licencyjny, ceny, adres rozliczeniowy i faktury."
+
+msgid "Click here"
+msgstr "Kliknij tutaj"
+
+msgid "Bundle"
+msgstr "Pakiet"
+
+msgid "Just letting you know that the add-ons information of %s is being pulled from an external server."
+msgstr "Informujemy, że dane o dodatkach %s są pobierane z zewnętrznego serwera."
+
+msgctxt "advance notice of something that will need attention."
+msgid "Heads up"
+msgstr "Uwaga"
+
+msgctxt "exclamation"
+msgid "Hey"
+msgstr "Hej"
+
+msgid "How do you like %s so far? Test all our %s premium features with a %d-day free trial."
+msgstr "Jak Ci się podoba %s? Wypróbuj wszystkie funkcje premium %s w darmowym okresie próbnym (%d dni)."
+
+msgid "No commitment for %s days - cancel anytime!"
+msgstr "Bez zobowiązań przez %s dni — anuluj w każdej chwili!"
+
+msgid "No credit card required"
+msgstr "Karta płatnicza nie jest wymagana"
+
+msgctxt "call to action"
+msgid "Start free trial"
+msgstr "Rozpocznij darmowy okres próbny"
+
+msgid "Hey there, did you know that %s has an affiliate program? If you like the %s you can become our ambassador and earn some cash!"
+msgstr "Czy wiesz, że %s ma program partnerski? Jeśli lubisz ten produkt (%s), możesz zostać naszym ambasadorem i zarabiać!"
+
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+msgid "Activate License"
+msgstr "Aktywuj licencję"
+
+msgid "Change License"
+msgstr "Zmień licencję"
+
+msgid "Opt In"
+msgstr "Wyraź zgodę"
+
+msgid "Opt Out"
+msgstr "Wycofaj zgodę"
+
+msgid "Please follow these steps to complete the upgrade"
+msgstr "Wykonaj poniższe kroki, aby dokończyć aktualizację"
+
+msgid "Download the latest %s version"
+msgstr "Pobierz najnowszą wersję %s"
+
+msgid "Upload and activate the downloaded version"
+msgstr "Wgraj i aktywuj pobraną wersję"
+
+msgid "How to upload and activate?"
+msgstr "Jak wgrać i aktywować?"
+
+msgid " The paid version of %1$s is already installed. Please navigate to the %2$s to activate it and start benefiting from the %3$s features."
+msgstr " Płatna wersja %1$s jest już zainstalowana. Przejdź do strony %2$s, aby ją aktywować i zacząć korzystać z funkcji %3$s."
+
+msgid "Themes page"
+msgstr "Motywy"
+
+msgid "Plugins page"
+msgstr "Wtyczki"
+
+msgid " The paid version of %1$s is already installed. Please activate it to start benefiting from the %2$s features. %3$s"
+msgstr " Płatna wersja %1$s jest już zainstalowana. Aktywuj ją, aby zacząć korzystać z funkcji %2$s. %3$s"
+
+msgid "Activate %s features"
+msgstr "Aktywuj funkcje %s"
+
+msgid "Your plan was successfully upgraded."
+msgstr "Plan został podniesiony."
+
+msgid "Your plan was successfully activated."
+msgstr "Plan został aktywowany."
+
+msgid "%sClick here%s to choose the sites where you'd like to activate the license on."
+msgstr "%sKliknij tutaj%s, aby wybrać strony, na których chcesz aktywować licencję."
+
+msgid "Auto installation only works for opted-in users."
+msgstr "Automatyczna instalacja działa tylko dla użytkowników, którzy wyrazili zgodę."
+
+msgid "Invalid module ID."
+msgstr "Nieprawidłowy identyfikator modułu."
+
+msgid "Premium add-on version already installed."
+msgstr "Wersja premium dodatku jest już zainstalowana."
+
+msgid "Premium version already active."
+msgstr "Wersja premium jest już aktywna."
+
+msgid "You do not have a valid license to access the premium version."
+msgstr "Nie masz ważnej licencji uprawniającej do wersji premium."
+
+msgid "Plugin is a \"Serviceware\" which means it does not have a premium code version."
+msgstr "Wtyczka jest typu „Serviceware”, co oznacza, że nie ma wersji kodu premium."
+
+msgid "View paid features"
+msgstr "Zobacz płatne funkcje"
+
+msgid "Thank you so much for using our products!"
+msgstr "Bardzo dziękujemy za korzystanie z naszych produktów!"
+
+msgid "You've already opted-in to our usage-tracking, which helps us keep improving them."
+msgstr "Wyraziłeś już zgodę na śledzenie użycia, które pomaga nam je ulepszać."
+
+msgid "%s and its add-ons"
+msgstr "%s i jego dodatki"
+
+msgid "Products"
+msgstr "Produkty"
+
+msgid "Thank you so much for using %s and its add-ons!"
+msgstr "Bardzo dziękujemy za korzystanie z %s i jego dodatków!"
+
+msgid "Thank you so much for using %s!"
+msgstr "Bardzo dziękujemy za korzystanie z %s!"
+
+msgid "You've already opted-in to our usage-tracking, which helps us keep improving the %s."
+msgstr "Wyraziłeś już zgodę na śledzenie użycia, które pomaga nam ulepszać ten produkt (%s)."
+
+msgid "Yes"
+msgstr "Tak"
+
+msgid "send me security & feature updates, educational content and offers."
+msgstr "wysyłajcie mi aktualizacje bezpieczeństwa i funkcji, treści edukacyjne i oferty."
+
+msgid "No"
+msgstr "Nie"
+
+msgid "do %sNOT%s send me security & feature updates, educational content and offers."
+msgstr "%sNIE%s wysyłajcie mi aktualizacji bezpieczeństwa i funkcji, treści edukacyjnych ani ofert."
+
+msgid "Due to the new %sEU General Data Protection Regulation (GDPR)%s compliance requirements it is required that you provide your explicit consent, again, confirming that you are onboard :-)"
+msgstr "W związku z wymogami nowego %sogólnego rozporządzenia o ochronie danych (RODO)%s musisz ponownie wyrazić wyraźną zgodę, potwierdzając, że chcesz z nami zostać :-)"
+
+msgid "Please let us know if you'd like us to contact you for security & feature updates, educational content, and occasional offers:"
+msgstr "Daj nam znać, czy możemy kontaktować się z Tobą w sprawie aktualizacji bezpieczeństwa i funkcji, treści edukacyjnych i okazjonalnych ofert:"
+
+msgid "License key is empty."
+msgstr "Klucz licencyjny jest pusty."
+
+msgid "Renew license"
+msgstr "Odnów licencję"
+
+msgid "Buy license"
+msgstr "Kup licencję"
+
+msgid "There is a %s of %s available."
+msgstr "Dostępna jest %s %s."
+
+msgid "new Beta version"
+msgstr "nowa wersja Beta"
+
+msgid "new version"
+msgstr "nowa wersja"
+
+msgid "Important Upgrade Notice:"
+msgstr "Ważna informacja o aktualizacji:"
+
+msgid "Installing plugin: %s"
+msgstr "Instalowanie wtyczki: %s"
+
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Nie można połączyć się z systemem plików. Sprawdź dane logowania."
+
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Zdalny pakiet wtyczki nie zawiera katalogu o oczekiwanej nazwie, a zmiana nazwy się nie powiodła."
+
+msgid "Purchase More"
+msgstr "Kup więcej"
+
+msgctxt "verb"
+msgid "Purchase"
+msgstr "Kup"
+
+msgid "Start my free %s"
+msgstr "Rozpocznij darmowy %s"
+
+msgid "Install Free Version Now"
+msgstr "Zainstaluj darmową wersję teraz"
+
+msgid "Install Now"
+msgstr "Zainstaluj teraz"
+
+msgid "Install Free Version Update Now"
+msgstr "Zainstaluj aktualizację darmowej wersji teraz"
+
+msgid "Install Update Now"
+msgstr "Zainstaluj aktualizację teraz"
+
+msgctxt "as download latest version"
+msgid "Download Latest Free Version"
+msgstr "Pobierz najnowszą darmową wersję"
+
+msgctxt "as download latest version"
+msgid "Download Latest"
+msgstr "Pobierz najnowszą wersję"
+
+msgid "Activate this add-on"
+msgstr "Aktywuj ten dodatek"
+
+msgid "Activate Free Version"
+msgstr "Aktywuj darmową wersję"
+
+msgid "Activate"
+msgstr "Aktywuj"
+
+msgctxt "Plugin installer section title"
+msgid "Description"
+msgstr "Opis"
+
+msgctxt "Plugin installer section title"
+msgid "Installation"
+msgstr "Instalacja"
+
+msgctxt "Plugin installer section title"
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Screenshots"
+msgstr "Zrzuty ekranu"
+
+msgctxt "Plugin installer section title"
+msgid "Changelog"
+msgstr "Lista zmian"
+
+msgctxt "Plugin installer section title"
+msgid "Reviews"
+msgstr "Opinie"
+
+msgctxt "Plugin installer section title"
+msgid "Other Notes"
+msgstr "Inne uwagi"
+
+msgctxt "Plugin installer section title"
+msgid "Features & Pricing"
+msgstr "Funkcje i cennik"
+
+msgid "Plugin Install"
+msgstr "Instalacja wtyczki"
+
+msgctxt "e.g. Professional Plan"
+msgid "%s Plan"
+msgstr "Plan %s"
+
+msgctxt "e.g. the best product"
+msgid "Best"
+msgstr "Najlepszy"
+
+msgctxt "as every month"
+msgid "Monthly"
+msgstr "Miesięcznie"
+
+msgctxt "as once a year"
+msgid "Annual"
+msgstr "Rocznie"
+
+msgid "Lifetime"
+msgstr "Dożywotnio"
+
+msgctxt "e.g. billed monthly"
+msgid "Billed %s"
+msgstr "Rozliczane: %s"
+
+msgctxt "as once a year"
+msgid "Annually"
+msgstr "Rocznie"
+
+msgctxt "as once a year"
+msgid "Once"
+msgstr "Jednorazowo"
+
+msgid "Single Site License"
+msgstr "Licencja na jedną stronę"
+
+msgid "Unlimited Licenses"
+msgstr "Nielimitowane licencje"
+
+msgid "Up to %s Sites"
+msgstr "Do %s stron"
+
+msgctxt "as monthly period"
+msgid "mo"
+msgstr "mies."
+
+msgctxt "as annual period"
+msgid "year"
+msgstr "rok"
+
+msgctxt "noun"
+msgid "Price"
+msgstr "Cena"
+
+msgid "Save %s"
+msgstr "Oszczędzasz %s"
+
+msgid "No commitment for %s - cancel anytime"
+msgstr "Bez zobowiązań przez %s — anuluj w każdej chwili"
+
+msgid "After your free %s, pay as little as %s"
+msgstr "Po darmowym %s płacisz już od %s"
+
+msgid "Details"
+msgstr "Szczegóły"
+
+msgctxt "product version"
+msgid "Version"
+msgstr "Wersja"
+
+msgctxt "as the plugin author"
+msgid "Author"
+msgstr "Autor"
+
+msgid "Last Updated"
+msgstr "Ostatnia aktualizacja"
+
+msgctxt "x-ago"
+msgid "%s ago"
+msgstr "%s temu"
+
+msgid "Requires WordPress Version"
+msgstr "Wymagana wersja WordPressa"
+
+msgid "%s or higher"
+msgstr "%s lub nowsza"
+
+msgid "Compatible up to"
+msgstr "Zgodna do wersji"
+
+msgid "Requires PHP Version"
+msgstr "Wymagana wersja PHP"
+
+msgid "Downloaded"
+msgstr "Pobrania"
+
+msgid "%s time"
+msgstr "%s raz"
+
+msgid "%s times"
+msgstr "%s razy"
+
+msgid "WordPress.org Plugin Page"
+msgstr "Strona wtyczki na WordPress.org"
+
+msgid "Plugin Homepage"
+msgstr "Strona domowa wtyczki"
+
+msgid "Donate to this plugin"
+msgstr "Wesprzyj tę wtyczkę"
+
+msgid "Average Rating"
+msgstr "Średnia ocena"
+
+msgid "based on %s"
+msgstr "na podstawie %s"
+
+msgid "%s rating"
+msgstr "%s ocena"
+
+msgid "%s ratings"
+msgstr "Ocen: %s"
+
+msgid "%s star"
+msgstr "%s gwiazdka"
+
+msgid "%s stars"
+msgstr "Gwiazdek: %s"
+
+msgid "Click to see reviews that provided a rating of %s"
+msgstr "Kliknij, aby zobaczyć opinie z oceną %s"
+
+msgid "Contributors"
+msgstr "Współtwórcy"
+
+msgid "This plugin requires a newer version of PHP."
+msgstr "Ta wtyczka wymaga nowszej wersji PHP."
+
+msgid "<a href=\"%s\" target=\"_blank\">Click here to learn more about updating PHP</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">Kliknij tutaj, aby dowiedzieć się więcej o aktualizacji PHP</a>."
+
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+msgid "This plugin has not been marked as compatible with your version of WordPress."
+msgstr "Ta wtyczka nie została oznaczona jako zgodna z Twoją wersją WordPressa."
+
+msgid "This plugin has not been tested with your current version of WordPress."
+msgstr "Ta wtyczka nie była testowana z Twoją obecną wersją WordPressa."
+
+msgid "Paid add-on must be deployed to Freemius."
+msgstr "Płatny dodatek musi zostać wdrożony we Freemius."
+
+msgid "Add-on must be deployed to WordPress.org or Freemius."
+msgstr "Dodatek musi zostać wdrożony na WordPress.org lub we Freemius."
+
+msgid "Latest Version Installed"
+msgstr "Zainstalowano najnowszą wersję"
+
+msgid "Latest Free Version Installed"
+msgstr "Zainstalowano najnowszą darmową wersję"
+
+msgid "Newer Version (%s) Installed"
+msgstr "Zainstalowano nowszą wersję (%s)"
+
+msgid "Newer Free Version (%s) Installed"
+msgstr "Zainstalowano nowszą darmową wersję (%s)"
+
+msgid "Downgrading your plan"
+msgstr "Obniżenie planu"
+
+msgid "Cancelling the subscription"
+msgstr "Anulowanie subskrypcji"
+
+msgid "%1$s will immediately stop all future recurring payments and your %2$s plan license will expire in %3$s."
+msgstr "%1$s natychmiast zatrzyma wszystkie przyszłe płatności cykliczne, a licencja planu %2$s wygaśnie za %3$s."
+
+msgid "Please note that we will not be able to grandfather outdated pricing for renewals/new subscriptions after a cancellation. If you choose to renew the subscription manually in the future, after a price increase, which typically occurs once a year, you will be charged the updated price."
+msgstr "Pamiętaj, że po anulowaniu nie będziemy mogli utrzymać dotychczasowych cen przy odnowieniach i nowych subskrypcjach. Jeśli w przyszłości odnowisz subskrypcję ręcznie po podwyżce cen (zwykle raz w roku), zapłacisz aktualną cenę."
+
+msgid "Cancelling the trial will immediately block access to all premium features. Are you sure?"
+msgstr "Anulowanie okresu próbnego natychmiast zablokuje dostęp do wszystkich funkcji premium. Czy na pewno?"
+
+msgid "You can still enjoy all %s features but you will not have access to %s security & feature updates, nor support."
+msgstr "Nadal możesz korzystać ze wszystkich funkcji %s, ale nie będziesz mieć dostępu do aktualizacji bezpieczeństwa i funkcji %s ani do wsparcia."
+
+msgid "Once your license expires you can still use the Free version but you will NOT have access to the %s features."
+msgstr "Po wygaśnięciu licencji nadal możesz korzystać z wersji darmowej, ale NIE będziesz mieć dostępu do funkcji %s."
+
+msgid "Activate %s Plan"
+msgstr "Aktywuj plan %s"
+
+msgid "Auto renews in %s"
+msgstr "Automatyczne odnowienie za %s"
+
+msgid "Expires in %s"
+msgstr "Wygasa za %s"
+
+msgctxt "as synchronize license"
+msgid "Sync License"
+msgstr "Synchronizuj licencję"
+
+msgid "Cancel Trial"
+msgstr "Anuluj okres próbny"
+
+msgid "Change Plan"
+msgstr "Zmień plan"
+
+msgctxt "verb"
+msgid "Upgrade"
+msgstr "Ulepsz"
+
+msgctxt "verb"
+msgid "Downgrade"
+msgstr "Obniż plan"
+
+msgid "Free"
+msgstr "Darmowy"
+
+msgctxt "as product pricing plan"
+msgid "Plan"
+msgstr "Plan"
+
+msgid "Bundle Plan"
+msgstr "Plan pakietowy"
+
+msgid "Free Trial"
+msgstr "Darmowy okres próbny"
+
+msgid "Account Details"
+msgstr "Szczegóły konta"
+
+msgid "Stop Debug"
+msgstr "Zatrzymaj debugowanie"
+
+msgid "Start Debug"
+msgstr "Rozpocznij debugowanie"
+
+msgid "Billing & Invoices"
+msgstr "Płatności i faktury"
+
+msgid "Deactivate License"
+msgstr "Dezaktywuj licencję"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Czy na pewno chcesz kontynuować?"
+
+msgid "Cancel Subscription"
+msgstr "Anuluj subskrypcję"
+
+msgctxt "as synchronize"
+msgid "Sync"
+msgstr "Synchronizuj"
+
+msgid "Name"
+msgstr "Imię i nazwisko"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "User ID"
+msgstr "ID użytkownika"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Site ID"
+msgstr "ID strony"
+
+msgid "No ID"
+msgstr "Brak ID"
+
+msgid "Public Key"
+msgstr "Klucz publiczny"
+
+msgid "Secret Key"
+msgstr "Klucz tajny"
+
+msgctxt "as secret encryption key missing"
+msgid "No Secret"
+msgstr "Brak klucza tajnego"
+
+msgid "License Key"
+msgstr "Klucz licencyjny"
+
+msgid "Trial"
+msgstr "Okres próbny"
+
+msgid "Join the Beta program"
+msgstr "Dołącz do programu Beta"
+
+msgid "not verified"
+msgstr "niezweryfikowany"
+
+msgid "Free version"
+msgstr "Wersja darmowa"
+
+msgid "Premium version"
+msgstr "Wersja premium"
+
+msgid "Expired"
+msgstr "Wygasła"
+
+msgid "Verify Email"
+msgstr "Zweryfikuj e-mail"
+
+msgid "Change User"
+msgstr "Zmień użytkownika"
+
+msgid "What is your %s?"
+msgstr "Podaj: %s"
+
+msgctxt "verb"
+msgid "Edit"
+msgstr "Edytuj"
+
+msgctxt "verb"
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "Download %s Version"
+msgstr "Pobierz wersję %s"
+
+msgid "Download Paid Version"
+msgstr "Pobierz wersję płatną"
+
+msgid "Sites"
+msgstr "Strony"
+
+msgid "Search by address"
+msgstr "Szukaj po adresie"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "License"
+msgstr "Licencja"
+
+msgid "Plan"
+msgstr "Plan"
+
+msgctxt "as software license"
+msgid "License"
+msgstr "Licencja"
+
+msgctxt "verb"
+msgid "Hide"
+msgstr "Ukryj"
+
+msgid "Processing"
+msgstr "Przetwarzanie"
+
+msgid "Get updates for bleeding edge Beta versions of %s."
+msgstr "Otrzymuj aktualizacje do najnowszych wersji Beta %s."
+
+msgid "Cancelling %s"
+msgstr "Anulowanie: %s"
+
+msgid "trial"
+msgstr "okres próbny"
+
+msgid "Cancelling %s..."
+msgstr "Anulowanie: %s..."
+
+msgid "subscription"
+msgstr "subskrypcja"
+
+msgid "Deactivating your license will block all premium features, but will enable activating the license on another site. Are you sure you want to proceed?"
+msgstr "Dezaktywacja licencji zablokuje wszystkie funkcje premium, ale pozwoli aktywować licencję na innej stronie. Czy na pewno chcesz kontynuować?"
+
+msgid "Disabling white-label mode"
+msgstr "Wyłączanie trybu white-label"
+
+msgid "Enabling white-label mode"
+msgstr "Włączanie trybu white-label"
+
+msgid "View details"
+msgstr "Zobacz szczegóły"
+
+msgid "Add Ons for %s"
+msgstr "Dodatki do %s"
+
+msgid "We couldn't load the add-ons list. It's probably an issue on our side, please try to come back in few minutes."
+msgstr "Nie udało się wczytać listy dodatków. To prawdopodobnie problem po naszej stronie — spróbuj ponownie za kilka minut."
+
+msgctxt "active add-on"
+msgid "Active"
+msgstr "Aktywny"
+
+msgctxt "installed add-on"
+msgid "Installed"
+msgstr "Zainstalowany"
+
+msgctxt "as close a window"
+msgid "Dismiss"
+msgstr "Zamknij"
+
+msgid "%s sec"
+msgstr "%s s"
+
+msgid "Automatic Installation"
+msgstr "Automatyczna instalacja"
+
+msgid "An automated download and installation of %s (paid version) from %s will start in %s. If you would like to do it manually - click the cancellation button now."
+msgstr "Automatyczne pobranie i instalacja %s (wersja płatna) z %s rozpocznie się za %s. Jeśli wolisz zrobić to ręcznie, kliknij teraz przycisk anulowania."
+
+msgid "The installation process has started and may take a few minutes to complete. Please wait until it is done - do not refresh this page."
+msgstr "Instalacja się rozpoczęła i może potrwać kilka minut. Poczekaj na jej zakończenie — nie odświeżaj tej strony."
+
+msgid "Cancel Installation"
+msgstr "Anuluj instalację"
+
+msgctxt "greeting"
+msgid "Hey %s,"
+msgstr "Cześć %s,"
+
+msgid "Thank you for updating to %1$s v%2$s!"
+msgstr "Dziękujemy za aktualizację do %1$s v%2$s!"
+
+msgid "Never miss an important update"
+msgstr "Nie przegap żadnej ważnej aktualizacji"
+
+msgid "Allow & Continue"
+msgstr "Zezwól i kontynuuj"
+
+msgid "We have introduced this opt-in so you never miss an important update and help us make the %s more compatible with your site and better at doing what you need it to."
+msgstr "Wprowadziliśmy tę zgodę, abyś nie przegapił żadnej ważnej aktualizacji i abyś pomógł nam lepiej dopasować ten produkt (%s) do Twojej strony i Twoich potrzeb."
+
+msgid "Opt in to get email notifications for security & feature updates, educational content, and occasional offers, and to share some basic WordPress environment info."
+msgstr "Wyraź zgodę, aby otrzymywać powiadomienia e-mail o aktualizacjach bezpieczeństwa i funkcji, treści edukacyjne i okazjonalne oferty, oraz udostępnić podstawowe informacje o środowisku WordPressa."
+
+msgid "If you skip this, that's okay! %1$s will still work just fine."
+msgstr "Jeśli pominiesz ten krok, nic się nie stanie! %1$s będzie działać normalnie."
+
+msgid "Opt in to get email notifications for security & feature updates, educational content, and occasional offers, and to share some basic WordPress environment info. This will help us make the %s more compatible with your site and better at doing what you need it to."
+msgstr "Wyraź zgodę, aby otrzymywać powiadomienia e-mail o aktualizacjach bezpieczeństwa i funkcji, treści edukacyjne i okazjonalne oferty, oraz udostępnić podstawowe informacje o środowisku WordPressa. Pomoże nam to lepiej dopasować ten produkt (%s) do Twojej strony i Twoich potrzeb."
+
+msgid "Welcome to %s! To get started, please enter your license key:"
+msgstr "Witaj w %s! Aby zacząć, wpisz klucz licencyjny:"
+
+msgid "Re-send activation email"
+msgstr "Wyślij ponownie e-mail aktywacyjny"
+
+msgid "Thanks %s!"
+msgstr "Dziękujemy, %s!"
+
+msgid "You should receive a confirmation email for %s to your mailbox at %s. Please make sure you click the button in that email to %s."
+msgstr "Na adres %s powinieneś otrzymać e-mail z potwierdzeniem dla %s. Kliknij przycisk w tej wiadomości, aby %s."
+
+msgid "We're excited to introduce the Freemius network-level integration."
+msgstr "Z przyjemnością przedstawiamy integrację Freemius na poziomie sieci."
+
+msgid "During the update process we detected %s site(s) in the network that are still pending your attention."
+msgstr "Podczas aktualizacji wykryliśmy w sieci strony wymagające Twojej uwagi (%s)."
+
+msgid "During the update process we detected %d site(s) that are still pending license activation."
+msgstr "Podczas aktualizacji wykryliśmy strony oczekujące na aktywację licencji (%d)."
+
+msgid "If you'd like to use the %s on those sites, please enter your license key below and click the activation button."
+msgstr "Jeśli chcesz używać tego produktu (%s) na tych stronach, wpisz poniżej klucz licencyjny i kliknij przycisk aktywacji."
+
+msgid "%s's paid features"
+msgstr "Płatne funkcje produktu (%s)"
+
+msgid "Alternatively, you can skip it for now and activate the license later, in your %s's network-level Account page."
+msgstr "Możesz też na razie to pominąć i aktywować licencję później na stronie Konto (%s) na poziomie sieci."
+
+msgid "License key"
+msgstr "Klucz licencyjny"
+
+msgid "Can't find your license key?"
+msgstr "Nie możesz znaleźć klucza licencyjnego?"
+
+msgid "A user has not yet been associated with the license, which is necessary to prevent unauthorized activation. To assign the license to your user, you agree to share your WordPress user's full name and email address."
+msgstr "Licencja nie jest jeszcze przypisana do użytkownika, co jest konieczne, by zapobiec nieuprawnionej aktywacji. Aby przypisać licencję do swojego użytkownika, zgadzasz się udostępnić imię i nazwisko oraz adres e-mail swojego użytkownika WordPressa."
+
+msgctxt "verb"
+msgid "Skip"
+msgstr "Pomiń"
+
+msgid "Delegate to Site Admins"
+msgstr "Przekaż administratorom stron"
+
+msgid "If you click it, this decision will be delegated to the sites administrators."
+msgstr "Po kliknięciu tę decyzję podejmą administratorzy poszczególnych stron."
+
+msgid "License issues?"
+msgstr "Problemy z licencją?"
+
+msgid "This will allow %s to"
+msgstr "To pozwoli %s:"
+
+msgid "For delivery of security & feature updates, and license management, %s needs to"
+msgstr "Aby dostarczać aktualizacje bezpieczeństwa i funkcji oraz zarządzać licencją, %s musi:"
+
+msgid "Have a license key?"
+msgstr "Masz klucz licencyjny?"
+
+msgid "Don't have a license key?"
+msgstr "Nie masz klucza licencyjnego?"
+
+msgid "Freemius is our licensing and software updates engine"
+msgstr "Freemius to nasz system licencji i aktualizacji oprogramowania"
+
+msgid "Privacy Policy"
+msgstr "Polityka prywatności"
+
+msgid "Terms of Service"
+msgstr "Warunki korzystania z usługi"
+
+msgid "License Agreement"
+msgstr "Umowa licencyjna"
+
+msgctxt "as in the process of sending an email"
+msgid "Sending email"
+msgstr "Wysyłanie e-maila"
+
+msgctxt "as activating plugin"
+msgid "Activating"
+msgstr "Aktywowanie"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgctxt "as turned off"
+msgid "Off"
+msgstr "Wyłączone"
+
+msgctxt "as turned on"
+msgid "On"
+msgstr "Włączone"
+
+msgid "Freemius Debug"
+msgstr "Debugowanie Freemius"
+
+msgid "SDK"
+msgstr "SDK"
+
+msgctxt "as code debugging"
+msgid "Debugging"
+msgstr "Debugowanie"
+
+msgctxt "timer for auto-disabling debug"
+msgid "Auto off in:"
+msgstr "Automatyczne wyłączenie za:"
+
+msgid "Actions"
+msgstr "Akcje"
+
+msgid "Are you sure you want to delete all Freemius data?"
+msgstr "Czy na pewno chcesz usunąć wszystkie dane Freemius?"
+
+msgid "Delete All Accounts"
+msgstr "Usuń wszystkie konta"
+
+msgid "Clear API Cache"
+msgstr "Wyczyść pamięć podręczną API"
+
+msgid "Clear Updates Transients"
+msgstr "Wyczyść transienty aktualizacji"
+
+msgid "Reset Deactivation Snoozing"
+msgstr "Resetuj odkładanie dezaktywacji"
+
+msgid "Sync Data From Server"
+msgstr "Synchronizuj dane z serwera"
+
+msgid "Migrate Options to Network"
+msgstr "Przenieś opcje na poziom sieci"
+
+msgid "Load DB Option"
+msgstr "Wczytaj opcję z bazy"
+
+msgid "Set DB Option"
+msgstr "Ustaw opcję w bazie"
+
+msgid "Key"
+msgstr "Klucz"
+
+msgid "Value"
+msgstr "Wartość"
+
+msgctxt "as software development kit versions"
+msgid "SDK Versions"
+msgstr "Wersje SDK"
+
+msgid "SDK Path"
+msgstr "Ścieżka SDK"
+
+msgid "Module Path"
+msgstr "Ścieżka modułu"
+
+msgid "Is Active"
+msgstr "Aktywny"
+
+msgid "Plugins"
+msgstr "Wtyczki"
+
+msgid "Themes"
+msgstr "Motywy"
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgctxt "as application program interface"
+msgid "API"
+msgstr "API"
+
+msgid "Freemius State"
+msgstr "Stan Freemius"
+
+msgid "Network Blog"
+msgstr "Blog sieci"
+
+msgid "Network User"
+msgstr "Użytkownik sieci"
+
+msgctxt "as connection was successful"
+msgid "Connected"
+msgstr "Połączono"
+
+msgctxt "as connection blocked"
+msgid "Blocked"
+msgstr "Zablokowane"
+
+msgctxt "API connectivity state is unknown"
+msgid "No requests yet"
+msgstr "Brak zapytań"
+
+msgid "Simulate Trial Promotion"
+msgstr "Symuluj promocję okresu próbnego"
+
+msgid "Simulate Network Upgrade"
+msgstr "Symuluj aktualizację sieci"
+
+msgid "%s Installs"
+msgstr "Instalacje: %s"
+
+msgctxt "like websites"
+msgid "Sites"
+msgstr "Strony"
+
+msgid "Blog ID"
+msgstr "ID bloga"
+
+msgid "License ID"
+msgstr "ID licencji"
+
+msgctxt "verb"
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Add Ons of module %s"
+msgstr "Dodatki modułu %s"
+
+msgid "Users"
+msgstr "Użytkownicy"
+
+msgid "Verified"
+msgstr "Zweryfikowany"
+
+msgid "%s Licenses"
+msgstr "Licencje: %s"
+
+msgid "Plugin ID"
+msgstr "ID wtyczki"
+
+msgid "Plan ID"
+msgstr "ID planu"
+
+msgid "Quota"
+msgstr "Limit"
+
+msgid "Activated"
+msgstr "Aktywowano"
+
+msgid "Blocking"
+msgstr "Blokujące"
+
+msgid "Type"
+msgstr "Typ"
+
+msgctxt "as expiration date"
+msgid "Expiration"
+msgstr "Wygasa"
+
+msgid "Debug Log"
+msgstr "Dziennik debugowania"
+
+msgid "All Types"
+msgstr "Wszystkie typy"
+
+msgid "All Requests"
+msgstr "Wszystkie żądania"
+
+msgid "File"
+msgstr "Plik"
+
+msgid "Function"
+msgstr "Funkcja"
+
+msgid "Process ID"
+msgstr "ID procesu"
+
+msgid "Logger"
+msgstr "Logger"
+
+msgid "Message"
+msgstr "Komunikat"
+
+msgid "Filter"
+msgstr "Filtr"
+
+msgid "Download"
+msgstr "Pobierz"
+
+msgid "Timestamp"
+msgstr "Znacznik czasu"
+
+msgid "Secure HTTPS %s page, running from an external domain"
+msgstr "Bezpieczna strona HTTPS %s, działająca z zewnętrznej domeny"
+
+msgid "Support"
+msgstr "Wsparcie"
+
+msgctxt "milliseconds"
+msgid "ms"
+msgstr "ms"
+
+msgid "Freemius API"
+msgstr "API Freemius"
+
+msgid "Requests"
+msgstr "Żądania"
+
+msgid "Invalid clone resolution action."
+msgstr "Nieprawidłowa akcja rozwiązania klonu."
+
+msgid "products"
+msgstr "produkty"
+
+msgid "The products below have been placed into safe mode because we noticed that %2$s is an exact copy of %3$s:%1$s"
+msgstr "Poniższe produkty przełączono w tryb bezpieczny, ponieważ zauważyliśmy, że %2$s jest dokładną kopią %3$s:%1$s"
+
+msgid "The products below have been placed into safe mode because we noticed that %2$s is an exact copy of these sites:%3$s%1$s"
+msgstr "Poniższe produkty przełączono w tryb bezpieczny, ponieważ zauważyliśmy, że %2$s jest dokładną kopią tych stron:%3$s%1$s"
+
+msgid "%1$s has been placed into safe mode because we noticed that %2$s is an exact copy of %3$s."
+msgstr "%1$s przełączono w tryb bezpieczny, ponieważ zauważyliśmy, że %2$s jest dokładną kopią %3$s."
+
+msgid "the above-mentioned sites"
+msgstr "wymienionych wyżej stron"
+
+msgid "Is %2$s a duplicate of %4$s?"
+msgstr "Czy %2$s to duplikat %4$s?"
+
+msgid "Yes, %2$s is a duplicate of %4$s for the purpose of testing, staging, or development."
+msgstr "Tak, %2$s to duplikat %4$s do testów, stagingu lub programowania."
+
+msgid "Long-Term Duplicate"
+msgstr "Długotrwały duplikat"
+
+msgid "Duplicate Website"
+msgstr "Duplikat strony"
+
+msgid "Is %2$s the new home of %4$s?"
+msgstr "Czy %2$s to nowe miejsce %4$s?"
+
+msgid "Yes, %%2$s is replacing %%4$s. I would like to migrate my %s from %%4$s to %%2$s."
+msgstr "Tak, %%2$s zastępuje %%4$s. Chcę przenieść %s z %%4$s na %%2$s."
+
+msgid "license"
+msgstr "licencję"
+
+msgid "data"
+msgstr "dane"
+
+msgid "Migrate License"
+msgstr "Przenieś licencję"
+
+msgid "Migrate"
+msgstr "Przenieś"
+
+msgid "Is %2$s a new website?"
+msgstr "Czy %2$s to nowa strona?"
+
+msgid "Yes, %2$s is a new and different website that is separate from %4$s."
+msgstr "Tak, %2$s to nowa, inna strona, niezależna od %4$s."
+
+msgid "It requires license activation."
+msgstr "Wymaga aktywacji licencji."
+
+msgid "New Website"
+msgstr "Nowa strona"
+
+msgctxt "Clone resolution admin notice products list label"
+msgid "Products"
+msgstr "Produkty"
+
+msgid "You marked this website, %s, as a temporary duplicate of %s."
+msgstr "Oznaczyłeś tę stronę, %s, jako tymczasowy duplikat %s."
+
+msgid "You marked this website, %s, as a temporary duplicate of these sites"
+msgstr "Oznaczyłeś tę stronę, %s, jako tymczasowy duplikat tych stron"
+
+msgid "%s automatic security & feature updates and paid functionality will keep working without interruptions until %s (or when your license expires, whatever comes first)."
+msgstr "%s automatyczne aktualizacje bezpieczeństwa i funkcji oraz płatne funkcje będą działać bez przerw do %s (albo do wygaśnięcia licencji, jeśli nastąpi wcześniej)."
+
+msgctxt "\"The <product_label>\", e.g.: \"The plugin\""
+msgid "The %s's"
+msgstr "%s —"
+
+msgid "The following products'"
+msgstr "Następujące produkty —"
+
+msgid "If this is a long term duplicate, to keep automatic updates and paid functionality after %s, please %s."
+msgstr "Jeśli to długotrwały duplikat, aby zachować automatyczne aktualizacje i płatne funkcje po %s, %s."
+
+msgid "activate a license here"
+msgstr "aktywuj tutaj licencję"
+
+msgid "View Basic Website Info"
+msgstr "Podstawowe informacje o stronie"
+
+msgid "Homepage URL & title, WP & PHP versions, and site language"
+msgstr "Adres URL i tytuł strony głównej, wersje WP i PHP oraz język strony"
+
+msgid "To provide additional functionality that's relevant to your website, avoid WordPress or PHP version incompatibilities that can break your website, and recognize which languages & regions the %s should be translated and tailored to."
+msgstr "Aby zapewnić dodatkowe funkcje odpowiednie dla Twojej strony, unikać niezgodności z wersjami WordPressa lub PHP, które mogą zepsuć stronę, oraz ustalić, na jakie języki i regiony warto przetłumaczyć i dostosować ten produkt (%s)."
+
+msgid "View Basic %s Info"
+msgstr "Podstawowe informacje: %s"
+
+msgid "Current %s & SDK versions, and if active or uninstalled"
+msgstr "Bieżące wersje (%s i SDK) oraz informacja, czy jest aktywny lub odinstalowany"
+
+msgid "View License Essentials"
+msgstr "Podstawowe dane licencji"
+
+msgid "To let you manage & control where the license is activated and ensure %s security & feature updates are only delivered to websites you authorize."
+msgstr "Abyś mógł zarządzać tym, gdzie licencja jest aktywowana, i aby aktualizacje bezpieczeństwa i funkcji (%s) trafiały tylko na strony, które autoryzujesz."
+
+msgid "View %s State"
+msgstr "Stan: %s"
+
+msgid "Is active, deactivated, or uninstalled"
+msgstr "Aktywny, dezaktywowany lub odinstalowany"
+
+msgid "So you can reuse the license when the %s is no longer active."
+msgstr "Abyś mógł ponownie użyć licencji, gdy ten produkt (%s) nie jest już aktywny."
+
+msgid "View Diagnostic Info"
+msgstr "Informacje diagnostyczne"
+
+msgid "optional"
+msgstr "opcjonalnie"
+
+msgid "WordPress & PHP versions, site language & title"
+msgstr "Wersje WordPressa i PHP, język i tytuł strony"
+
+msgid "To avoid breaking your website due to WordPress or PHP version incompatibilities, and recognize which languages & regions the %s should be translated and tailored to."
+msgstr "Aby nie zepsuć Twojej strony przez niezgodność z wersjami WordPressa lub PHP oraz ustalić, na jakie języki i regiony warto przetłumaczyć i dostosować ten produkt (%s)."
+
+msgid "View Plugins & Themes List"
+msgstr "Lista wtyczek i motywów"
+
+msgid "Names, slugs, versions, and if active or not"
+msgstr "Nazwy, slugi, wersje i informacja, czy są aktywne"
+
+msgid "To ensure compatibility and avoid conflicts with your installed plugins and themes."
+msgstr "Aby zapewnić zgodność i uniknąć konfliktów z zainstalowanymi wtyczkami i motywami."
+
+msgid "View Basic Profile Info"
+msgstr "Podstawowe informacje o profilu"
+
+msgid "Your WordPress user's: first & last name, and email address"
+msgstr "Dane Twojego użytkownika WordPressa: imię i nazwisko oraz adres e-mail"
+
+msgid "Never miss important updates, get security warnings before they become public knowledge, and receive notifications about special offers and awesome new features."
+msgstr "Nie przegap ważnych aktualizacji, otrzymuj ostrzeżenia o zagrożeniach, zanim staną się publiczne, oraz powiadomienia o specjalnych ofertach i nowych funkcjach."
+
+msgid "Newsletter"
+msgstr "Newsletter"
+
+msgid "Updates, announcements, marketing, no spam"
+msgstr "Aktualizacje, ogłoszenia, marketing — bez spamu"
+
+msgctxt "verb"
+msgid "Update"
+msgstr "Aktualizuj"
+
+msgid "Billing"
+msgstr "Rozliczenia"
+
+msgid "Business name"
+msgstr "Nazwa firmy"
+
+msgid "Tax / VAT ID"
+msgstr "NIP / VAT ID"
+
+msgid "Address Line %d"
+msgstr "Adres — linia %d"
+
+msgid "City"
+msgstr "Miasto"
+
+msgid "Town"
+msgstr "Miejscowość"
+
+msgid "ZIP / Postal Code"
+msgstr "Kod pocztowy"
+
+msgid "Country"
+msgstr "Kraj"
+
+msgid "Select Country"
+msgstr "Wybierz kraj"
+
+msgid "State"
+msgstr "Stan"
+
+msgid "Province"
+msgstr "Prowincja"
+
+msgid "Payments"
+msgstr "Płatności"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Amount"
+msgstr "Kwota"
+
+msgid "Invoice"
+msgstr "Faktura"
+
+msgid "Checkout"
+msgstr "Zamówienie"
+
+msgid "PCI compliant"
+msgstr "Zgodne z PCI"
+
+msgid "Processing, please wait and do not close or refresh this window..."
+msgstr "Przetwarzanie, poczekaj i nie zamykaj ani nie odświeżaj tego okna..."
+
+msgid "Redirecting, please <a href=\"%1$s\">click here</a> if you're stuck..."
+msgstr "Przekierowanie — jeśli nic się nie dzieje, <a href=\"%1$s\">kliknij tutaj</a>..."
+
+msgctxt "verb"
+msgid "Opt Out"
+msgstr "Wycofaj zgodę"
+
+msgctxt "verb"
+msgid "Opt In"
+msgstr "Wyraź zgodę"
+
+msgid "API"
+msgstr "API"
+
+msgid "Method"
+msgstr "Metoda"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Length"
+msgstr "Długość"
+
+msgctxt "as file/folder path"
+msgid "Path"
+msgstr "Ścieżka"
+
+msgid "Body"
+msgstr "Treść"
+
+msgid "Result"
+msgstr "Wynik"
+
+msgid "Start"
+msgstr "Początek"
+
+msgid "End"
+msgstr "Koniec"
+
+msgid "Log"
+msgstr "Dziennik"
+
+msgid "In %s"
+msgstr "Za %s"
+
+msgid "%s ago"
+msgstr "%s temu"
+
+msgctxt "seconds"
+msgid "sec"
+msgstr "s"
+
+msgid "Plugins & Themes Sync"
+msgstr "Synchronizacja wtyczek i motywów"
+
+msgid "Total"
+msgstr "Łącznie"
+
+msgid "Last"
+msgstr "Ostatnio"
+
+msgid "Scheduled Crons"
+msgstr "Zaplanowane zadania cron"
+
+msgid "Module"
+msgstr "Moduł"
+
+msgid "Module Type"
+msgstr "Typ modułu"
+
+msgid "Cron Type"
+msgstr "Typ zadania cron"
+
+msgid "Next"
+msgstr "Następne"
+
+msgid "Non-expiring"
+msgstr "Bezterminowa"
+
+msgid "Apply to become an affiliate"
+msgstr "Złóż wniosek o udział w programie partnerskim"
+
+msgid "Due to violation of our affiliation terms, we decided to temporarily block your affiliation account. If you have any questions, please contact support."
+msgstr "Z powodu naruszenia warunków programu partnerskiego tymczasowo zablokowaliśmy Twoje konto partnera. Jeśli masz pytania, skontaktuj się ze wsparciem."
+
+msgid "Thank you for applying for our affiliate program, unfortunately, we've decided at this point to reject your application. Please try again in 30 days."
+msgstr "Dziękujemy za zgłoszenie do programu partnerskiego, ale na tym etapie musieliśmy je odrzucić. Spróbuj ponownie za 30 dni."
+
+msgid "Your affiliation account was temporarily suspended."
+msgstr "Twoje konto partnera zostało tymczasowo zawieszone."
+
+msgid "Thank you for applying for our affiliate program, we'll review your details during the next 14 days and will get back to you with further information."
+msgstr "Dziękujemy za zgłoszenie do programu partnerskiego. Sprawdzimy Twoje dane w ciągu 14 dni i odezwiemy się z dalszymi informacjami."
+
+msgid "Your affiliate application for %s has been accepted! Log in to your affiliate area at: %s."
+msgstr "Twoje zgłoszenie do programu partnerskiego %s zostało przyjęte! Zaloguj się do panelu partnera: %s."
+
+msgid "Like the %s? Become our ambassador and earn cash ;-)"
+msgstr "Podoba Ci się ten produkt (%s)? Zostań naszym ambasadorem i zarabiaj ;-)"
+
+msgid "Refer new customers to our %s and earn %s commission on each successful sale you refer!"
+msgstr "Polecaj nasz produkt (%s) nowym klientom i zarabiaj %s prowizji od każdej udanej sprzedaży z Twojego polecenia!"
+
+msgid "Program Summary"
+msgstr "Podsumowanie programu"
+
+msgid "%s commission when a customer purchases a new license."
+msgstr "%s prowizji, gdy klient kupi nową licencję."
+
+msgid "Get commission for automated subscription renewals."
+msgstr "Prowizja od automatycznych odnowień subskrypcji."
+
+msgid "%s tracking cookie after the first visit to maximize earnings potential."
+msgstr "Ciasteczko śledzące ważne %s po pierwszej wizycie, aby zmaksymalizować zarobki."
+
+msgid "Unlimited commissions."
+msgstr "Brak limitu prowizji."
+
+msgid "%s minimum payout amount."
+msgstr "Minimalna kwota wypłaty: %s."
+
+msgid "Payouts are in USD and processed monthly via PayPal."
+msgstr "Wypłaty są w USD i realizowane co miesiąc przez PayPal."
+
+msgid "As we reserve 30 days for potential refunds, we only pay commissions that are older than 30 days."
+msgstr "Ponieważ przez 30 dni możliwe są zwroty, wypłacamy tylko prowizje starsze niż 30 dni."
+
+msgid "Affiliate"
+msgstr "Partner"
+
+msgid "Email address"
+msgstr "Adres e-mail"
+
+msgid "Full name"
+msgstr "Imię i nazwisko"
+
+msgid "PayPal account email address"
+msgstr "Adres e-mail konta PayPal"
+
+msgid "Where are you going to promote the %s?"
+msgstr "Gdzie zamierzasz promować ten produkt (%s)?"
+
+msgid "Enter the domain of your website or other websites from where you plan to promote the %s."
+msgstr "Wpisz domenę swojej strony lub innych stron, na których zamierzasz promować ten produkt (%s)."
+
+msgid "Add another domain"
+msgstr "Dodaj kolejną domenę"
+
+msgid "Extra Domains"
+msgstr "Dodatkowe domeny"
+
+msgid "Extra domains where you will be marketing the product from."
+msgstr "Dodatkowe domeny, z których będziesz promować produkt."
+
+msgid "Promotion methods"
+msgstr "Metody promocji"
+
+msgid "Social media (Facebook, Twitter, etc.)"
+msgstr "Media społecznościowe (Facebook, Twitter itp.)"
+
+msgid "Mobile apps"
+msgstr "Aplikacje mobilne"
+
+msgid "Website, email, and social media statistics (optional)"
+msgstr "Statystyki strony, e-maili i mediów społecznościowych (opcjonalnie)"
+
+msgid "Please feel free to provide any relevant website or social media statistics, e.g. monthly unique site visits, number of email subscribers, followers, etc. (we will keep this information confidential)."
+msgstr "Możesz podać odpowiednie statystyki strony lub mediów społecznościowych, np. miesięczną liczbę unikalnych odwiedzin, liczbę subskrybentów e-mail, obserwujących itp. (zachowamy te informacje w poufności)."
+
+msgid "How will you promote us?"
+msgstr "Jak zamierzasz nas promować?"
+
+msgid "Please provide details on how you intend to promote %s (please be as specific as possible)."
+msgstr "Opisz, jak zamierzasz promować ten produkt (%s) (możliwie konkretnie)."
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Become an affiliate"
+msgstr "Zostań partnerem"
+
+msgid "Please enter the license key to enable the debug mode:"
+msgstr "Wpisz klucz licencyjny, aby włączyć tryb debugowania:"
+
+msgid "To enter the debug mode, please enter the secret key of the license owner (UserID = %d), which you can find in your \"My Profile\" section of your User Dashboard:"
+msgstr "Aby włączyć tryb debugowania, wpisz klucz tajny właściciela licencji (UserID = %d), który znajdziesz w sekcji „Mój profil” w Panelu użytkownika:"
+
+msgid "Submit"
+msgstr "Wyślij"
+
+msgid "User key"
+msgstr "Klucz użytkownika"
+
+msgid "Email address update"
+msgstr "Zmiana adresu e-mail"
+
+msgctxt "close window"
+msgid "Dismiss"
+msgstr "Zamknij"
+
+msgid "Enter the new email address"
+msgstr "Wpisz nowy adres e-mail"
+
+msgid "Are both %s and %s your email addresses?"
+msgstr "Czy oba adresy, %s i %s, należą do Ciebie?"
+
+msgid "Yes - both addresses are mine"
+msgstr "Tak — oba adresy są moje"
+
+msgid "%s is my client's email address"
+msgstr "%s to adres e-mail mojego klienta"
+
+msgid "%s is my email address"
+msgstr "%s to mój adres e-mail"
+
+msgid "Would you like to merge %s into %s?"
+msgstr "Czy chcesz połączyć %s z %s?"
+
+msgid "Yes - move all my data and assets from %s to %s"
+msgstr "Tak — przenieś wszystkie moje dane i zasoby z %s do %s"
+
+msgid "No - only move this site's data to %s"
+msgstr "Nie — przenieś tylko dane tej strony do %s"
+
+msgid "Update"
+msgstr "Aktualizuj"
+
+msgid "Please enter the license key that you received in the email right after the purchase:"
+msgstr "Wpisz klucz licencyjny, który otrzymałeś e-mailem zaraz po zakupie:"
+
+msgid "Update License"
+msgstr "Zaktualizuj licencję"
+
+msgid "The %1$s will be periodically sending essential license data to %2$s to check for security and feature updates, and verify the validity of your license."
+msgstr "Ten produkt (%1$s) będzie okresowo wysyłać do %2$s podstawowe dane licencji, aby sprawdzać dostępność aktualizacji bezpieczeństwa i funkcji oraz weryfikować ważność licencji."
+
+msgid "Agree & Activate License"
+msgstr "Zgadzam się i aktywuję licencję"
+
+msgid "Associate with the license owner's account."
+msgstr "Powiąż z kontem właściciela licencji."
+
+msgid "Keep automatic updates"
+msgstr "Zachowaj automatyczne aktualizacje"
+
+msgid "Communication"
+msgstr "Komunikacja"
+
+msgid "Stay Connected"
+msgstr "Pozostań w kontakcie"
+
+msgid "Diagnostic Info"
+msgstr "Informacje diagnostyczne"
+
+msgid "Keep Sharing"
+msgstr "Udostępniaj nadal"
+
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+msgid "There is a new version of %s available."
+msgstr "Dostępna jest nowa wersja %s."
+
+msgid " %s to access version %s security & feature updates, and support."
+msgstr " %s, aby mieć dostęp do aktualizacji bezpieczeństwa i funkcji wersji %s oraz do wsparcia."
+
+msgid "New Version Available"
+msgstr "Dostępna nowa wersja"
+
+msgctxt "close a window"
+msgid "Dismiss"
+msgstr "Zamknij"
+
+msgid "Send License Key"
+msgstr "Wyślij klucz licencyjny"
+
+msgid "Enter the email address you've used during the purchase and we will resend you the license key."
+msgstr "Wpisz adres e-mail użyty przy zakupie, a ponownie wyślemy Ci klucz licencyjny."
+
+msgid "Enter the email address you've used for the upgrade below and we will resend you the license key."
+msgstr "Wpisz poniżej adres e-mail użyty przy przejściu na wyższy plan, a ponownie wyślemy Ci klucz licencyjny."
+
+msgid "Deactivating or uninstalling the %s will automatically disable the license, which you'll be able to use on another site."
+msgstr "Dezaktywacja lub odinstalowanie tego produktu (%s) automatycznie zwolni licencję, którą będziesz mógł wykorzystać na innej stronie."
+
+msgid "Uninstalling the %s will automatically disable the license, which you'll be able to use on another site."
+msgstr "Odinstalowanie tego produktu (%s) automatycznie zwolni licencję, którą będziesz mógł wykorzystać na innej stronie."
+
+msgid "In case you are NOT planning on using this %s on this site (or any other site) - would you like to cancel the %s as well?"
+msgstr "Jeśli NIE planujesz używać tego produktu (%s) na tej (ani żadnej innej) stronie — czy chcesz też anulować: %s?"
+
+msgid "Cancel %s - I no longer need any security & feature updates, nor support for %s because I'm not planning to use the %s on this, or any other site."
+msgstr "Anuluj: %s — nie potrzebuję już aktualizacji bezpieczeństwa i funkcji ani wsparcia dla %s, bo nie planuję używać tego produktu (%s) na tej ani żadnej innej stronie."
+
+msgid "Don't cancel %s - I'm still interested in getting security & feature updates, as well as be able to contact support."
+msgstr "Nie anuluj: %s — nadal chcę otrzymywać aktualizacje bezpieczeństwa i funkcji oraz mieć dostęp do wsparcia."
+
+msgid "Once your license expires you will no longer be able to use the %s, unless you activate it again with a valid premium license."
+msgstr "Po wygaśnięciu licencji nie będziesz już mógł korzystać z tego produktu (%s), chyba że aktywujesz go ponownie ważną licencją premium."
+
+msgid "Cancel %s?"
+msgstr "Anulować: %s?"
+
+msgid "Proceed"
+msgstr "Kontynuuj"
+
+msgid "Cancel %s & Proceed"
+msgstr "Anuluj (%s) i kontynuuj"
+
+msgid "You are 1-click away from starting your %1$s-day free trial of the %2$s plan."
+msgstr "Jedno kliknięcie dzieli Cię od rozpoczęcia %1$s-dniowego darmowego okresu próbnego planu %2$s."
+
+msgid "For compliance with the WordPress.org guidelines, before we start the trial we ask that you opt in with your user and non-sensitive site information, allowing the %s to periodically send data to %s to check for version updates and to validate your trial."
+msgstr "Zgodnie z wytycznymi WordPress.org przed rozpoczęciem okresu próbnego prosimy o zgodę na udostępnienie danych użytkownika i niewrażliwych informacji o stronie, dzięki czemu ten produkt (%s) będzie okresowo wysyłać dane do %s, aby sprawdzać aktualizacje i weryfikować okres próbny."
+
+msgid "By changing the user, you agree to transfer the account ownership to:"
+msgstr "Zmieniając użytkownika, zgadzasz się przekazać własność konta:"
+
+msgid "I Agree - Change User"
+msgstr "Zgadzam się — zmień użytkownika"
+
+msgid "Enter email address"
+msgstr "Wpisz adres e-mail"
+
+msgid "Saved"
+msgstr "Zapisano"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "Activate license on all pending sites."
+msgstr "Aktywuj licencję na wszystkich oczekujących stronach."
+
+msgid "Apply on all pending sites."
+msgstr "Zastosuj na wszystkich oczekujących stronach."
+
+msgid "Activate license on all sites in the network."
+msgstr "Aktywuj licencję na wszystkich stronach w sieci."
+
+msgid "Apply on all sites in the network."
+msgstr "Zastosuj na wszystkich stronach w sieci."
+
+msgid "allow"
+msgstr "zezwól"
+
+msgid "delegate"
+msgstr "przekaż"
+
+msgid "skip"
+msgstr "pomiń"
+
+msgid "Click to view full-size screenshot %d"
+msgstr "Kliknij, aby zobaczyć zrzut ekranu %d w pełnym rozmiarze"
+
+msgid "Unlimited Updates"
+msgstr "Nielimitowane aktualizacje"
+
+msgid "Localhost"
+msgstr "Localhost"
+
+msgctxt "as 5 licenses left"
+msgid "%s left"
+msgstr "Pozostało: %s"
+
+msgid "Last license"
+msgstr "Ostatnia licencja"
+
+msgid "No expiration"
+msgstr "Bez wygasania"
+
+msgid "Cancelled"
+msgstr "Anulowana"
+
+msgid "Disconnecting the website will permanently remove %s from your User Dashboard's account."
+msgstr "Odłączenie strony trwale usunie %s z Twojego konta w Panelu użytkownika."
+
+msgid "By disconnecting the website, previously shared diagnostic data about %1$s will be deleted and no longer visible to %2$s."
+msgstr "Po odłączeniu strony wcześniej udostępnione dane diagnostyczne o %1$s zostaną usunięte i nie będą już widoczne dla %2$s."
+
+msgid "If you wish to cancel your %1$s plan's subscription instead, please navigate to the %2$s and cancel it there."
+msgstr "Jeśli zamiast tego chcesz anulować subskrypcję planu %1$s, przejdź do %2$s i anuluj ją tam."
+
+msgid "Are you sure you would like to proceed with the disconnection?"
+msgstr "Czy na pewno chcesz odłączyć stronę?"
+
+msgid "Owner Name"
+msgstr "Imię i nazwisko właściciela"
+
+msgid "Owner Email"
+msgstr "E-mail właściciela"
+
+msgid "Owner ID"
+msgstr "ID właściciela"
+
+msgid "Subscription"
+msgstr "Subskrypcja"
+
+msgid "Sorry for the inconvenience and we are here to help if you give us a chance."
+msgstr "Przepraszamy za kłopot — chętnie pomożemy, jeśli dasz nam szansę."
+
+msgid "Contact Support"
+msgstr "Skontaktuj się ze wsparciem"
+
+msgid "Anonymous feedback"
+msgstr "Anonimowa opinia"
+
+msgid "hour"
+msgstr "godz."
+
+msgid "hours"
+msgstr "godz."
+
+msgid "days"
+msgstr "dni"
+
+msgid "Deactivate"
+msgstr "Dezaktywuj"
+
+msgid "Activate %s"
+msgstr "Aktywuj %s"
+
+msgid "Submit & %s"
+msgstr "Wyślij i %s"
+
+msgid "Quick Feedback"
+msgstr "Szybka opinia"
+
+msgid "If you have a moment, please let us know why you are %s"
+msgstr "Jeśli masz chwilę, powiedz nam, dlaczego %s"
+
+msgid "deactivating"
+msgstr "dezaktywujesz"
+
+msgid "switching"
+msgstr "zmieniasz"
+
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Napisz, z jakiego powodu, abyśmy mogli się poprawić."
+
+msgid "Snooze & %s"
+msgstr "Odłóż i %s"
+
+msgid "Yes - %s"
+msgstr "Tak — %s"
+
+msgid "Skip & %s"
+msgstr "Pomiń i %s"
+
+msgid "Click here to use the plugin anonymously"
+msgstr "Kliknij tutaj, aby używać wtyczki anonimowo"
+
+msgid "You might have missed it, but you don't have to share any data and can just %s the opt-in."
+msgstr "Być może to przeoczyłeś, ale nie musisz udostępniać żadnych danych — wystarczy kliknąć „%s”."

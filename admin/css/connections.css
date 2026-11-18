@@ -1,0 +1,205 @@
+.veloxa-solar-add-source {
+	margin: 24px 0;
+	max-width: 1100px;
+}
+
+.veloxa-solar-source-chooser {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+	gap: 12px;
+	margin-top: 16px;
+}
+
+.veloxa-solar-source-chooser > p {
+	grid-column: 1 / -1;
+	margin: 0;
+}
+
+.veloxa-solar-source-card {
+	display: flex;
+	min-height: 90px;
+	flex-direction: column;
+	gap: 8px;
+	padding: 16px;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	background: #fff;
+	color: #1d2327;
+	text-decoration: none;
+}
+
+.veloxa-solar-source-card:hover {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	color: #135e96;
+}
+
+.veloxa-solar-source-card:focus-visible,
+.veloxa-solar-add-source [data-source-back]:focus-visible,
+.veloxa-solar-add-source [data-source-cancel]:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+.veloxa-solar-add-source [hidden] {
+	display: none !important;
+}
+
+.veloxa-solar-source-card strong {
+	font-size: 14px;
+}
+
+.veloxa-solar-beta-label {
+	display: inline-block;
+	margin-left: 4px;
+	padding: 0 6px;
+	border-radius: 3px;
+	background: #f0c33c;
+	color: #1d2327;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 18px;
+	vertical-align: middle;
+}
+
+.veloxa-solar-source-card span {
+	color: #50575e;
+}
+
+.veloxa-solar-selected-source {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	margin: 16px 0;
+}
+
+.veloxa-solar-selected-source h3 {
+	margin: 0;
+}
+
+.veloxa-solar-selected-source .description {
+	margin: 4px 0 0;
+}
+
+.veloxa-solar-source-form {
+	max-width: 900px;
+	padding: 16px 20px;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	background: #fff;
+}
+
+.veloxa-solar-source-form[hidden],
+.veloxa-solar-source-chooser[hidden] {
+	display: none !important;
+}
+
+.veloxa-solar-status {
+	display: inline-block;
+	margin: 0 0 6px;
+	padding: 2px 7px;
+	border-radius: 2px;
+	font-weight: 600;
+}
+
+.veloxa-solar-status.is-success {
+	background: #edfaef;
+	color: #135e27;
+}
+
+.veloxa-solar-status.is-warning {
+	background: #fcf0c3;
+	color: #614200;
+}
+
+.veloxa-solar-status.is-error {
+	background: #fcf0f1;
+	color: #8a2424;
+}
+
+.veloxa-solar-status.is-muted {
+	background: #f0f0f1;
+	color: #50575e;
+}
+
+@media screen and (max-width: 782px) {
+	.veloxa-solar-selected-source {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.veloxa-solar-source-form {
+		padding: 12px;
+	}
+
+	.veloxa-solar-connections-table,
+	.veloxa-solar-connections-table tbody,
+	.veloxa-solar-connections-table .veloxa-solar-connection-row,
+	.veloxa-solar-connections-table .veloxa-solar-connection-row td {
+		display: block !important;
+		width: auto !important;
+	}
+
+	.veloxa-solar-connections-table thead {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+
+	.veloxa-solar-connections-table .veloxa-solar-connection-row {
+		margin: 0 0 12px;
+		border: 1px solid #c3c4c7;
+		background: #fff;
+	}
+
+	.veloxa-solar-connections-table .veloxa-solar-connection-row td[data-label] {
+		padding: 10px 12px !important;
+		border-bottom: 1px solid #dcdcde;
+	}
+
+	.veloxa-solar-connections-table .veloxa-solar-connection-row td[data-label]::before {
+		display: block;
+		margin-bottom: 4px;
+		color: #50575e;
+		content: attr(data-label);
+		font-size: 11px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+	.veloxa-solar-connection-row td:last-child {
+		line-height: 2;
+	}
+}
+
+/* 0.7.10: Pro sources in the chooser — not selectable, quiet link to plans. */
+.veloxa-solar-source-card--pro {
+	border-style: dashed;
+	background: #f6f7f7;
+}
+
+.veloxa-solar-source-card--pro:hover {
+	border-color: #c3c4c7;
+	box-shadow: none;
+	color: #1d2327;
+}
+
+.veloxa-solar-pro-label {
+	display: inline-block;
+	margin-left: 4px;
+	padding: 0 6px;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	color: #50575e;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.veloxa-solar-source-card--pro a {
+	margin-top: auto;
+}

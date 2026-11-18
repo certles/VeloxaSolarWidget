@@ -1,0 +1,251 @@
+/* Veloxa Solar Widget — Design System v1. Component-scoped, no theme reset. */
+.veloxa-solar {
+	--veloxa-solar-surface: #ffffff;
+	--veloxa-solar-surface-raised: #f8fafc;
+	--veloxa-solar-text: #17212b;
+	--veloxa-solar-muted: #536273;
+	--veloxa-solar-accent: #d9822b;
+	--veloxa-solar-warning: #8b5a00;
+	--veloxa-solar-accent-strong: #a45b12;
+	--veloxa-solar-danger: #ad343e;
+	--veloxa-solar-hairline: #d9e1e8;
+	--veloxa-solar-radius: 12px;
+	--veloxa-solar-space-sm: 0.5em;
+	--veloxa-solar-space-md: 0.75em;
+	--veloxa-solar-space-lg: 1.25em;
+	--veloxa-solar-shadow: 0 2px 7px rgb(15 30 45 / 5%);
+	box-sizing: border-box;
+	container-type: inline-size;
+	width: 100%;
+	min-width: 0;
+	max-width: 100%;
+	margin: 0 0 1.5em;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-variant-numeric: tabular-nums;
+	color: var(--veloxa-solar-text);
+	line-height: 1.5;
+	overflow-wrap: anywhere;
+}
+
+.veloxa-solar *,
+.veloxa-solar *::before,
+.veloxa-solar *::after {
+	box-sizing: inherit;
+}
+
+.veloxa-solar--card {
+	padding: var(--veloxa-solar-space-lg);
+	border: 1px solid var(--veloxa-solar-hairline);
+	border-radius: var(--veloxa-solar-radius);
+	background: var(--veloxa-solar-surface);
+	border-top: 3px solid var(--veloxa-solar-accent);
+	box-shadow: var(--veloxa-solar-shadow);
+}
+
+.veloxa-solar__label {
+	margin: 0 0 0.25em;
+	font-size: 0.875em;
+	color: var(--veloxa-solar-muted);
+}
+
+.veloxa-solar__value {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.25em;
+	font-weight: 650;
+	line-height: 1.15;
+}
+
+.veloxa-solar__number {
+	font-size: 2.65em;
+	font-size: clamp(2.4em, 14cqi, 2.65em);
+	letter-spacing: -0.01em;
+}
+
+.veloxa-solar__unit {
+	font-size: 1em;
+	font-weight: 500;
+	color: var(--veloxa-solar-muted);
+}
+
+.veloxa-solar__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25em 0.75em;
+	align-items: center;
+	margin-top: var(--veloxa-solar-space-md);
+	padding-top: var(--veloxa-solar-space-md);
+	border-top: 1px solid var(--veloxa-solar-hairline);
+	font-size: 0.8125em;
+	color: var(--veloxa-solar-muted);
+}
+
+/* Stan "dane nieaktualne" — ikona + tekst, nigdy sam kolor. */
+.veloxa-solar__badge {
+	display: inline-flex;
+	gap: 0.3em;
+	align-items: center;
+	color: var(--veloxa-solar-warning);
+	font-weight: 600;
+}
+
+.veloxa-solar__badge::before {
+	content: "";
+	width: 0.7em;
+	height: 0.7em;
+	border-radius: 50%;
+	background: var(--veloxa-solar-warning);
+}
+
+.veloxa-solar--stale .veloxa-solar__value {
+	opacity: 1;
+}
+
+.veloxa-solar__empty {
+	margin: 0.25em 0 0;
+	color: var(--veloxa-solar-muted);
+}
+
+.veloxa-solar__private {
+	margin: 0 0 0.75em;
+	padding: 0.5em 0.75em;
+	border-left: 3px solid var(--veloxa-solar-warning);
+	font-size: 0.8125em;
+	background: var(--veloxa-solar-surface-raised);
+	color: var(--veloxa-solar-muted);
+	border-radius: 4px;
+}
+
+.veloxa-solar-notice {
+	margin: 0 0 1.5em;
+	padding: 0.75em 1em;
+	border-left: 4px solid #d63638;
+	background: color-mix(in srgb, #d63638 8%, transparent);
+	font-size: 0.9em;
+}
+
+/* Podsumowanie — trzy wartości obok siebie, na wąskim ekranie jedna pod drugą. */
+.veloxa-solar__summary {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 8em), 1fr));
+	gap: 1em 1.5em;
+	margin: 0;
+}
+
+.veloxa-solar__summary dd {
+	margin: 0;
+}
+
+.veloxa-solar__summary .veloxa-solar__number {
+	font-size: 1.8em;
+}
+
+.veloxa-solar .screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+/* Bateria — pasek naładowania i stan (ikona + tekst, nigdy sam kolor). */
+.veloxa-solar__meter {
+	height: 0.5em;
+	margin-top: 0.5em;
+	overflow: hidden;
+	border-radius: 999px;
+	background: var(--veloxa-solar-hairline);
+}
+
+.veloxa-solar__meter span {
+	display: block;
+	height: 100%;
+	border-radius: inherit;
+	background: var(--veloxa-solar-accent-strong);
+}
+
+.veloxa-solar__battery-state {
+	display: flex;
+	gap: 0.4em;
+	align-items: center;
+	margin: 0.5em 0 0;
+	font-size: 0.9em;
+}
+
+.veloxa-solar__battery-icon {
+	flex: none;
+	width: 0.9em;
+	height: 0.9em;
+	border-radius: 50%;
+	border: 2px solid currentColor;
+	position: relative;
+}
+
+/* Strzałka w górę = ładowanie, w dół = rozładowanie, kreska = bezczynna. */
+.veloxa-solar__battery-state--charging .veloxa-solar__battery-icon::after,
+.veloxa-solar__battery-state--discharging .veloxa-solar__battery-icon::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: 0.22em solid transparent;
+	transform: translate(-50%, -75%);
+	border-bottom-color: currentColor;
+}
+
+.veloxa-solar__battery-state--discharging .veloxa-solar__battery-icon::after {
+	transform: translate(-50%, -25%);
+	border-bottom-color: transparent;
+	border-top-color: currentColor;
+}
+
+.veloxa-solar__battery-state--idle .veloxa-solar__battery-icon::after {
+	content: "";
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: calc(50% - 1px);
+	height: 2px;
+	background: currentColor;
+}
+
+/* Uniknięta emisja CO₂: dziś i współczynnik (szacunek — zawsze widoczny). */
+.veloxa-solar__co2-today {
+	margin: 0.5em 0 0;
+	font-size: 0.9em;
+}
+
+.veloxa-solar__co2-note {
+	margin: 0.4em 0 0;
+	font-size: 0.8125em;
+	color: var(--veloxa-solar-muted);
+}
+
+/* Minimal embeds keep their host text color; card surfaces remain self contained. */
+.veloxa-solar--minimal { color: inherit; --veloxa-solar-muted: currentColor; }
+.veloxa-solar__item { min-width: 0; }
+.veloxa-solar__label { font-weight: 550; line-height: 1.45; }
+.veloxa-solar__meter { height: 0.625em; margin-top: 0.75em; }
+.veloxa-solar__battery-state { flex-wrap: wrap; }
+.veloxa-solar :focus-visible { outline: 2px solid var(--veloxa-solar-text); outline-offset: 3px; }
+
+.veloxa-solar--error .veloxa-solar__empty { color: var(--veloxa-solar-danger); }
+.veloxa-solar--error .veloxa-solar__empty + .veloxa-solar__private { border-color: var(--veloxa-solar-danger); }
+
+/* Keep measurements first visually; the complete privacy notice stays available. */
+.veloxa-solar--card { display: flex; flex-direction: column; }
+.veloxa-solar--card > .veloxa-solar__private:first-child {
+	order: 1;
+	margin: 1em 0 0;
+	border-left-color: var(--veloxa-solar-hairline);
+	font-size: 0.8em;
+}
+
+/* Native disclosure keeps the full explanation available without JavaScript. */
+.veloxa-solar--card { min-block-size: 10em; }
+.veloxa-solar__privacy { order: 1; margin-top: 0.75em; padding-top: 0.5em; border-top: 1px solid var(--veloxa-solar-hairline); font-size: 0.8125em; color: var(--veloxa-solar-muted); }
+.veloxa-solar__privacy summary { cursor: pointer; width: fit-content; padding: 0.15em 0; font-weight: 550; }
+.veloxa-solar__privacy .veloxa-solar__private { margin: 0.5em 0 0; font-size: 1em; border-left: 0; }

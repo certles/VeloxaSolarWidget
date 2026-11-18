@@ -1,0 +1,30 @@
+{
+	"name": "wpveloxa/veloxa-solar-widget",
+	"description": "Displays current solar production data on your WordPress site via shortcode and Gutenberg block.",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=8.1",
+		"freemius/wordpress-sdk": "^2.13"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.9",
+		"wp-coding-standards/wpcs": "^3.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"yoast/phpunit-polyfills": "^3.0",
+		"phpunit/phpunit": "^9.6"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.1"
+		}
+	},
+	"scripts": {
+		"lint": "phpcs --standard=phpcs.xml.dist",
+		"lint:fix": "phpcbf --standard=phpcs.xml.dist",
+		"test": "WORDPRESS_TABLE_PREFIX=wptests_ phpunit"
+	}
+}
