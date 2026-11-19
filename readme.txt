@@ -1,6 +1,6 @@
 === Veloxa Solar Widget – Solar Production Display ===
 Contributors: wpveloxa
-Tags: solar, photovoltaic, solar energy, home assistant, energy
+Tags: solar, photovoltaic, solar energy, home assistant, solar panel
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 8.1
@@ -8,7 +8,7 @@ Stable tag: 0.7.12
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Show the current production of your solar installation on your site: power, energy today and total energy, as blocks or shortcodes.
+Show solar panel production from Home Assistant, an inverter cloud API or a push source: power, energy today and total, as blocks or shortcodes.
 
 == Description ==
 
